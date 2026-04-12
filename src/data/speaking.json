@@ -1,0 +1,3083 @@
+[
+  {
+    "level": 1,
+    "skill": "speaking",
+    "cefr": "A1",
+    "theme": "Repetir palavras",
+    "exercises": [
+      {
+        "id": "s01-01",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita a palavra. O app vai verificar sua pronúncia.",
+        "target_text": "Hello",
+        "audio_script": "Hello",
+        "phonetic_hint": "/həˈloʊ/",
+        "tip_pt": "Diga 'rê-LÔU' — o 'H' em inglês é aspirado, como um sopro leve.",
+        "accepted_variations": [
+          "hello",
+          "helo"
+        ]
+      },
+      {
+        "id": "s01-02",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Thank you",
+        "audio_script": "Thank you",
+        "phonetic_hint": "/θæŋk juː/",
+        "tip_pt": "O 'TH' é o som mais difícil para brasileiros. Coloque a língua entre os dentes e sopre. Diga 'fênk iú' (aproximado).",
+        "accepted_variations": [
+          "thank you",
+          "thankyou",
+          "thank"
+        ]
+      },
+      {
+        "id": "s01-03",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Good morning",
+        "audio_script": "Good morning",
+        "phonetic_hint": "/ɡʊd ˈmɔːrnɪŋ/",
+        "tip_pt": "'Good' rima com 'pud' (não 'gude'). 'Morning' — o 'R' é diferente do português.",
+        "accepted_variations": [
+          "good morning",
+          "good mornin"
+        ]
+      },
+      {
+        "id": "s01-04",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Excuse me",
+        "audio_script": "Excuse me",
+        "phonetic_hint": "/ɪkˈskjuːz miː/",
+        "tip_pt": "Diga 'iks-QUIÚZ-mi'. O 'X' tem som de 'KS'.",
+        "accepted_variations": [
+          "excuse me",
+          "excuseme"
+        ]
+      },
+      {
+        "id": "s01-05",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "I understand",
+        "audio_script": "I understand",
+        "phonetic_hint": "/aɪ ˌʌndərˈstænd/",
+        "tip_pt": "'Understand' = ân-der-STÊND. Não adicione vogal depois do 'D' final — NÃO diga 'understandi'.",
+        "accepted_variations": [
+          "i understand",
+          "i understant"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "skill": "speaking",
+    "cefr": "A1",
+    "theme": "Repetir frases curtas",
+    "exercises": [
+      {
+        "id": "s02-01",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita a frase completa:",
+        "target_text": "My name is Maria",
+        "audio_script": "My name is Maria",
+        "phonetic_hint": "/maɪ neɪm ɪz məˈriːə/",
+        "tip_pt": "'My' rima com 'ai'. 'Name' rima com 'heim'. Ligação: 'name-iz' (o 'is' gruda no 'name').",
+        "accepted_variations": [
+          "my name is maria",
+          "my name is"
+        ]
+      },
+      {
+        "id": "s02-02",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "I am from Brazil",
+        "audio_script": "I am from Brazil",
+        "phonetic_hint": "/aɪ æm frɒm brəˈzɪl/",
+        "tip_pt": "'Brazil' em inglês: brê-ZIL (o 'a' some e o 'Z' é forte). Não diga 'Brasiu'.",
+        "accepted_variations": [
+          "i am from brazil",
+          "i'm from brazil"
+        ]
+      },
+      {
+        "id": "s02-03",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Nice to meet you",
+        "audio_script": "Nice to meet you",
+        "phonetic_hint": "/naɪs tə miːt juː/",
+        "tip_pt": "'Nice' = NAISS. 'Meet' = MIIT (vogal longa). NÃO diga 'naice tu mitch iu'.",
+        "accepted_variations": [
+          "nice to meet you",
+          "nice to meet"
+        ]
+      },
+      {
+        "id": "s02-04",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "I don't understand",
+        "audio_script": "I don't understand",
+        "phonetic_hint": "/aɪ doʊnt ˌʌndərˈstænd/",
+        "tip_pt": "'Don't' = DÔUNT (não 'dont'). Importante: frase essencial quando não entender algo!",
+        "accepted_variations": [
+          "i don't understand",
+          "i dont understand"
+        ]
+      },
+      {
+        "id": "s02-05",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Can you speak slowly, please?",
+        "audio_script": "Can you speak slowly, please?",
+        "phonetic_hint": "/kæn juː spiːk ˈsloʊli pliːz/",
+        "tip_pt": "'Slowly' = SLÔU-li. Use essa frase sempre que alguém falar rápido demais!",
+        "accepted_variations": [
+          "can you speak slowly please",
+          "can you speak slowly"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "skill": "speaking",
+    "cefr": "A1",
+    "theme": "Repetir frases completas",
+    "exercises": [
+      {
+        "id": "s03-01",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita a frase completa:",
+        "target_text": "I live in São Paulo and I study medicine",
+        "audio_script": "I live in São Paulo and I study medicine",
+        "phonetic_hint": "/aɪ lɪv ɪn saʊ ˈpaʊloʊ ænd aɪ ˈstʌdi ˈmɛdəsən/",
+        "tip_pt": "'Medicine' = MÉ-dê-cen (3 sílabas, não 4). 'Study' = STÂ-di.",
+        "accepted_variations": [
+          "i live in sao paulo and i study medicine",
+          "i live in são paulo and i study medicine"
+        ]
+      },
+      {
+        "id": "s03-02",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "I want to study abroad next year",
+        "audio_script": "I want to study abroad next year",
+        "phonetic_hint": "/aɪ wɒnt tə ˈstʌdi əˈbrɔːd nɛkst jɪr/",
+        "tip_pt": "'Abroad' = ê-BRÓD (no exterior). 'Next year' = nékstiír (ligação natural).",
+        "accepted_variations": [
+          "i want to study abroad next year"
+        ]
+      },
+      {
+        "id": "s03-03",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "I need to practice my English every day",
+        "audio_script": "I need to practice my English every day",
+        "phonetic_hint": "/aɪ niːd tə ˈpræktɪs maɪ ˈɪŋɡlɪʃ ˈɛvri deɪ/",
+        "tip_pt": "'Practice' = PRÉK-tis. 'English' = ÍN-glish (não 'inglêsh').",
+        "accepted_variations": [
+          "i need to practice my english every day"
+        ]
+      },
+      {
+        "id": "s03-04",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "The weather is beautiful today, isn't it?",
+        "audio_script": "The weather is beautiful today, isn't it?",
+        "phonetic_hint": "/ðə ˈwɛðər ɪz ˈbjuːtɪfəl təˈdeɪ ˈɪzənt ɪt/",
+        "tip_pt": "'Weather' = UÉ-der (TH + som de Z). 'Beautiful' = BIÚU-ti-fol.",
+        "accepted_variations": [
+          "the weather is beautiful today isn't it",
+          "the weather is beautiful today"
+        ]
+      },
+      {
+        "id": "s03-05",
+        "type": "repeat",
+        "instruction_pt": "Ouça e repita:",
+        "target_text": "Could you tell me where the nearest hospital is?",
+        "audio_script": "Could you tell me where the nearest hospital is?",
+        "phonetic_hint": "/kʊd juː tɛl miː wɛr ðə ˈnɪrəst ˈhɒspɪtəl ɪz/",
+        "tip_pt": "'Could you' na fala rápida vira 'cud-ju'. 'Nearest' = NIIR-est (mais perto).",
+        "accepted_variations": [
+          "could you tell me where the nearest hospital is"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "skill": "speaking",
+    "cefr": "A1",
+    "theme": "Responder perguntas simples",
+    "exercises": [
+      {
+        "id": "s04-01",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda em voz alta. Siga o modelo sugerido.",
+        "question_audio": "What is your name?",
+        "target_text": "My name is [name]",
+        "hint_pt": "Diga: 'My name is' + seu nome",
+        "phonetic_hint": "/maɪ neɪm ɪz/",
+        "accepted_variations": [
+          "my name is"
+        ]
+      },
+      {
+        "id": "s04-02",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "Where are you from?",
+        "target_text": "I am from Brazil",
+        "hint_pt": "Diga: 'I am from Brazil' ou 'I'm from [sua cidade]'",
+        "phonetic_hint": "/aɪ æm frɒm/",
+        "accepted_variations": [
+          "i am from brazil",
+          "i'm from brazil",
+          "i am from"
+        ]
+      },
+      {
+        "id": "s04-03",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "What do you do?",
+        "target_text": "I am a student",
+        "hint_pt": "Diga: 'I am a student' ou 'I study medicine'",
+        "phonetic_hint": "/aɪ æm ə ˈstjuːdənt/",
+        "accepted_variations": [
+          "i am a student",
+          "i'm a student",
+          "i study"
+        ]
+      },
+      {
+        "id": "s04-04",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "How old are you?",
+        "target_text": "I am twenty-five years old",
+        "hint_pt": "Diga: 'I am [número] years old'",
+        "phonetic_hint": "/aɪ æm ... jɪrz oʊld/",
+        "accepted_variations": [
+          "i am",
+          "years old"
+        ]
+      },
+      {
+        "id": "s04-05",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "What time do you wake up?",
+        "target_text": "I wake up at seven o'clock",
+        "hint_pt": "Diga: 'I wake up at [hora] o'clock'",
+        "phonetic_hint": "/aɪ weɪk ʌp æt/",
+        "accepted_variations": [
+          "i wake up at",
+          "i wake up"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Descrever cenas simples",
+    "exercises": [
+      {
+        "id": "s05-01",
+        "type": "describe",
+        "instruction_pt": "Descreva o que você vê usando as palavras sugeridas. Fale em voz alta.",
+        "scene_description_pt": "Uma família sentada à mesa jantando.",
+        "suggested_words": [
+          "family",
+          "table",
+          "dinner",
+          "eating",
+          "happy"
+        ],
+        "target_text": "There is a family sitting at the table. They are eating dinner. They look happy.",
+        "hint_pt": "Use: 'There is a family...' 'They are eating...' 'They look...'",
+        "accepted_variations": [
+          "there is a family",
+          "they are eating"
+        ]
+      },
+      {
+        "id": "s05-02",
+        "type": "describe",
+        "instruction_pt": "Descreva a cena:",
+        "scene_description_pt": "Um homem correndo no parque de manhã cedo.",
+        "suggested_words": [
+          "man",
+          "running",
+          "park",
+          "morning",
+          "exercise"
+        ],
+        "target_text": "There is a man running in the park. It is early in the morning. He is exercising.",
+        "hint_pt": "Use: 'There is a man...' 'It is early...' 'He is...'",
+        "accepted_variations": [
+          "there is a man",
+          "running in the park"
+        ]
+      },
+      {
+        "id": "s05-03",
+        "type": "describe",
+        "instruction_pt": "Descreva a cena:",
+        "scene_description_pt": "Estudantes numa sala de aula, o professor escrevendo no quadro.",
+        "suggested_words": [
+          "students",
+          "classroom",
+          "teacher",
+          "writing",
+          "board"
+        ],
+        "target_text": "There are students in a classroom. The teacher is writing on the board.",
+        "hint_pt": "Use: 'There are students...' 'The teacher is...'",
+        "accepted_variations": [
+          "there are students",
+          "the teacher is writing"
+        ]
+      },
+      {
+        "id": "s05-04",
+        "type": "describe",
+        "instruction_pt": "Descreva a cena:",
+        "scene_description_pt": "Uma mulher comprando frutas no mercado.",
+        "suggested_words": [
+          "woman",
+          "buying",
+          "fruits",
+          "market",
+          "fresh"
+        ],
+        "target_text": "There is a woman at the market. She is buying fresh fruits.",
+        "hint_pt": "Use: 'There is a woman...' 'She is buying...'",
+        "accepted_variations": [
+          "there is a woman",
+          "she is buying"
+        ]
+      },
+      {
+        "id": "s05-05",
+        "type": "describe",
+        "instruction_pt": "Descreva a cena:",
+        "scene_description_pt": "Chuva forte, pessoas com guarda-chuvas na rua.",
+        "suggested_words": [
+          "raining",
+          "people",
+          "umbrellas",
+          "street",
+          "wet"
+        ],
+        "target_text": "It is raining heavily. People are walking on the street with umbrellas. The street is wet.",
+        "hint_pt": "Use: 'It is raining...' 'People are...' 'The street is...'",
+        "accepted_variations": [
+          "it is raining",
+          "people are walking"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Responder sobre rotina diária",
+    "exercises": [
+      {
+        "id": "s06-01",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda em voz alta. Fale pelo menos 2 frases.",
+        "question_audio": "What time do you usually wake up?",
+        "target_text": "I usually wake up at six thirty in the morning",
+        "hint_pt": "Diga: 'I usually wake up at...' + adicione um detalhe (ex: 'I set two alarms')",
+        "accepted_variations": [
+          "i usually wake up",
+          "i wake up at"
+        ]
+      },
+      {
+        "id": "s06-02",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "How do you get to school or work?",
+        "target_text": "I take the bus to university",
+        "hint_pt": "Diga: 'I take the bus/car/train to...' + quanto tempo demora",
+        "accepted_variations": [
+          "i take the bus",
+          "i drive",
+          "i walk"
+        ]
+      },
+      {
+        "id": "s06-03",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "What do you usually have for lunch?",
+        "target_text": "I usually have rice beans and some kind of meat for lunch",
+        "hint_pt": "Diga: 'I usually have...' + onde você almoça",
+        "accepted_variations": [
+          "i usually have",
+          "i eat",
+          "for lunch"
+        ]
+      },
+      {
+        "id": "s06-04",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "What do you do after school or work?",
+        "target_text": "After university I usually go to the library and study",
+        "hint_pt": "Diga: 'After [school/work], I usually...' + atividade",
+        "accepted_variations": [
+          "after university",
+          "after school",
+          "after work",
+          "i usually"
+        ]
+      },
+      {
+        "id": "s06-05",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e responda:",
+        "question_audio": "What time do you usually go to bed?",
+        "target_text": "I usually go to bed around eleven PM",
+        "hint_pt": "Diga: 'I usually go to bed around...' + o que faz antes de dormir",
+        "accepted_variations": [
+          "i usually go to bed",
+          "i go to bed",
+          "around"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Dar opiniões simples",
+    "exercises": [
+      {
+        "id": "s07-01",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a pergunta e dê sua opinião. Use 'I think... because...'",
+        "question_audio": "Do you prefer studying alone or in a group?",
+        "target_text": "I prefer studying alone because I can concentrate better",
+        "hint_pt": "Diga: 'I prefer... because...' + dê um exemplo",
+        "accepted_variations": [
+          "i prefer",
+          "because",
+          "i think"
+        ]
+      },
+      {
+        "id": "s07-02",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião:",
+        "question_audio": "Do you think social media is good or bad for students?",
+        "target_text": "I think social media can be both good and bad",
+        "hint_pt": "Diga: 'I think... because...' + dê um lado positivo e um negativo",
+        "accepted_variations": [
+          "i think",
+          "social media",
+          "good",
+          "bad"
+        ]
+      },
+      {
+        "id": "s07-03",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião:",
+        "question_audio": "Would you prefer to live in a big city or a small town?",
+        "target_text": "I would prefer to live in a big city because there are more opportunities",
+        "hint_pt": "Diga: 'I would prefer... because...'",
+        "accepted_variations": [
+          "i would prefer",
+          "i prefer",
+          "big city",
+          "small town",
+          "because"
+        ]
+      },
+      {
+        "id": "s07-04",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião:",
+        "question_audio": "Do you think learning English online is effective?",
+        "target_text": "Yes I think learning English online can be very effective",
+        "hint_pt": "Diga: 'Yes/No, I think... because...'",
+        "accepted_variations": [
+          "i think",
+          "effective",
+          "online",
+          "because"
+        ]
+      },
+      {
+        "id": "s07-05",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião:",
+        "question_audio": "What is more important money or free time?",
+        "target_text": "I think free time is more important than money",
+        "hint_pt": "Diga: 'I think [X] is more important because...'",
+        "accepted_variations": [
+          "i think",
+          "more important",
+          "money",
+          "free time"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Descrever processos em ordem",
+    "exercises": [
+      {
+        "id": "s08-01",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o processo passo a passo. Use: First... Then... After that... Finally...",
+        "question_audio": "How do you make coffee?",
+        "target_text": "First I boil some water then I put coffee in the filter after that I pour the water finally I add sugar",
+        "hint_pt": "Use conectores: First → Then → After that → Finally",
+        "accepted_variations": [
+          "first",
+          "then",
+          "after that",
+          "finally",
+          "coffee"
+        ]
+      },
+      {
+        "id": "s08-02",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o processo:",
+        "question_audio": "How do you prepare for an exam?",
+        "target_text": "First I organize my notes then I review the important topics after that I do practice questions finally I get a good night sleep",
+        "hint_pt": "Use: First → Then → After that → Finally",
+        "accepted_variations": [
+          "first",
+          "then",
+          "after",
+          "finally",
+          "study",
+          "review",
+          "notes"
+        ]
+      },
+      {
+        "id": "s08-03",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o processo:",
+        "question_audio": "Describe the process of registering for classes at your university.",
+        "target_text": "First you log into the student portal then you search for the courses after that you add each course finally you click submit",
+        "hint_pt": "Use: First → Then → After that → Finally",
+        "accepted_variations": [
+          "first",
+          "then",
+          "after",
+          "finally",
+          "log",
+          "portal",
+          "courses"
+        ]
+      },
+      {
+        "id": "s08-04",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o processo:",
+        "question_audio": "How do you get from your home to your university?",
+        "target_text": "First I walk to the bus stop then I take the bus after I get off I walk to my building",
+        "hint_pt": "Descreva cada etapa do trajeto",
+        "accepted_variations": [
+          "first",
+          "then",
+          "walk",
+          "bus",
+          "take"
+        ]
+      },
+      {
+        "id": "s08-05",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o processo:",
+        "question_audio": "Describe what you do when you arrive at the university.",
+        "target_text": "When I arrive I first go to the cafeteria then I check my schedule after that I head to class",
+        "hint_pt": "Descreva sua rotina ao chegar",
+        "accepted_variations": [
+          "when i arrive",
+          "first",
+          "then",
+          "class",
+          "cafeteria"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Fazer comparações",
+    "exercises": [
+      {
+        "id": "s09-01",
+        "type": "guided_response",
+        "instruction_pt": "Compare as duas opções. Use: 'X is more/less... than Y', 'On the other hand...'",
+        "question_audio": "Compare living in a big city and living in a small town.",
+        "target_text": "Living in a big city is more convenient because there are more stores and restaurants on the other hand small towns are quieter",
+        "hint_pt": "Use: '...is more [adj] than...' + 'On the other hand...' + 'However...'",
+        "accepted_variations": [
+          "big city",
+          "small town",
+          "more",
+          "on the other hand",
+          "however"
+        ]
+      },
+      {
+        "id": "s09-02",
+        "type": "guided_response",
+        "instruction_pt": "Compare:",
+        "question_audio": "Compare studying at a university and studying online.",
+        "target_text": "Studying at a university gives you face-to-face interaction however online studying is more flexible",
+        "hint_pt": "Dê uma vantagem de cada um",
+        "accepted_variations": [
+          "university",
+          "online",
+          "more",
+          "however",
+          "flexible",
+          "interaction"
+        ]
+      },
+      {
+        "id": "s09-03",
+        "type": "guided_response",
+        "instruction_pt": "Compare:",
+        "question_audio": "Compare traveling by plane and traveling by car.",
+        "target_text": "Traveling by plane is much faster however traveling by car gives you more freedom",
+        "hint_pt": "Use: '...is faster/cheaper/more comfortable than...'",
+        "accepted_variations": [
+          "plane",
+          "car",
+          "faster",
+          "more",
+          "freedom",
+          "however"
+        ]
+      },
+      {
+        "id": "s09-04",
+        "type": "guided_response",
+        "instruction_pt": "Compare:",
+        "question_audio": "Compare reading a book and watching a movie.",
+        "target_text": "Reading a book allows you to use your imagination more movies are more visual and entertaining",
+        "hint_pt": "Dê uma vantagem de cada opção",
+        "accepted_variations": [
+          "reading",
+          "book",
+          "movie",
+          "watching",
+          "more",
+          "imagination"
+        ]
+      },
+      {
+        "id": "s09-05",
+        "type": "guided_response",
+        "instruction_pt": "Compare:",
+        "question_audio": "Compare working in an office and working from home.",
+        "target_text": "Working in an office allows for better collaboration working from home saves commuting time",
+        "hint_pt": "Mencione vantagens e desvantagens de cada um",
+        "accepted_variations": [
+          "office",
+          "home",
+          "working",
+          "more",
+          "collaboration",
+          "commuting"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "skill": "speaking",
+    "cefr": "A2",
+    "theme": "Falar sobre experiências passadas",
+    "exercises": [
+      {
+        "id": "s10-01",
+        "type": "guided_response",
+        "instruction_pt": "Conte uma experiência passada. Use passado simples (I went, I saw, I ate).",
+        "question_audio": "Tell me about a trip you took recently.",
+        "target_text": "Last year I took a trip to the south of Brazil I went with my family we visited many beautiful places",
+        "hint_pt": "Use: 'Last [month/year] I went to...' + o que você fez + como foi",
+        "accepted_variations": [
+          "last",
+          "went",
+          "trip",
+          "visited",
+          "took"
+        ]
+      },
+      {
+        "id": "s10-02",
+        "type": "guided_response",
+        "instruction_pt": "Conte sobre um desafio:",
+        "question_audio": "Describe a challenge you faced and how you overcame it.",
+        "target_text": "One of the biggest challenges I faced was when I failed my first exam I changed my study method and got a better grade",
+        "hint_pt": "Use: 'One challenge I faced was...' + 'I overcame it by...'",
+        "accepted_variations": [
+          "challenge",
+          "faced",
+          "overcame",
+          "changed",
+          "better"
+        ]
+      },
+      {
+        "id": "s10-03",
+        "type": "guided_response",
+        "instruction_pt": "Conte sobre ajudar alguém:",
+        "question_audio": "Tell me about a time you helped someone.",
+        "target_text": "Last month I helped an elderly woman who was lost I walked with her to the bus stop",
+        "hint_pt": "Use: 'Last [time], I helped...' + o que aconteceu + como você ajudou",
+        "accepted_variations": [
+          "helped",
+          "last",
+          "walked",
+          "someone"
+        ]
+      },
+      {
+        "id": "s10-04",
+        "type": "guided_response",
+        "instruction_pt": "Conte sobre seu melhor dia:",
+        "question_audio": "Describe your best day at university.",
+        "target_text": "My best day at university was when I presented my research project my professor complimented my work",
+        "hint_pt": "Use: 'My best day was when...' + o que aconteceu + por que foi especial",
+        "accepted_variations": [
+          "best day",
+          "university",
+          "presented",
+          "professor",
+          "when"
+        ]
+      },
+      {
+        "id": "s10-05",
+        "type": "guided_response",
+        "instruction_pt": "Conte algo que aprendeu recentemente:",
+        "question_audio": "Tell me about something new you learned recently.",
+        "target_text": "Recently I learned how to use Python for data analysis at first it was confusing but after practice I got better",
+        "hint_pt": "Use: 'Recently I learned...' + como foi no começo + como melhorou",
+        "accepted_variations": [
+          "recently",
+          "learned",
+          "first",
+          "confusing",
+          "better",
+          "practice"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 11,
+    "skill": "speaking",
+    "cefr": "B1",
+    "theme": "Explicar razões e consequências",
+    "exercises": [
+      {
+        "id": "s11-01",
+        "type": "guided_response",
+        "instruction_pt": "Responda explicando razões. Use 'because', 'since', 'as a result'.",
+        "question_audio": "Why is learning English important for your career?",
+        "target_text": "Learning English is important for my career because most scientific research is published in English and international companies require English proficiency",
+        "hint_pt": "Use: 'Learning English is important because...' + dê 2-3 razões",
+        "accepted_variations": [
+          "important",
+          "because",
+          "career",
+          "english",
+          "research"
+        ]
+      },
+      {
+        "id": "s11-02",
+        "type": "guided_response",
+        "instruction_pt": "Explique causas e consequências:",
+        "question_audio": "What happens when students don't get enough sleep?",
+        "target_text": "When students don't get enough sleep they have difficulty concentrating in class as a result their grades may decrease",
+        "hint_pt": "Use: 'When students don't get enough sleep...' + 'as a result...'",
+        "accepted_variations": [
+          "when students",
+          "sleep",
+          "concentrating",
+          "grades",
+          "as a result"
+        ]
+      },
+      {
+        "id": "s11-03",
+        "type": "guided_response",
+        "instruction_pt": "Explique razões:",
+        "question_audio": "Why do many young Brazilians want to study abroad?",
+        "target_text": "Many young Brazilians want to study abroad because they can get better education improve their language skills and have international experience",
+        "hint_pt": "Use: '...because...' + liste razões com 'and'",
+        "accepted_variations": [
+          "because",
+          "study abroad",
+          "education",
+          "language",
+          "experience"
+        ]
+      },
+      {
+        "id": "s11-04",
+        "type": "guided_response",
+        "instruction_pt": "Explique consequências:",
+        "question_audio": "What are the effects of climate change?",
+        "target_text": "Climate change causes rising sea levels more extreme weather events and loss of biodiversity these changes affect millions of people worldwide",
+        "hint_pt": "Use: 'Climate change causes...' + liste efeitos",
+        "accepted_variations": [
+          "climate change",
+          "causes",
+          "sea levels",
+          "weather",
+          "biodiversity"
+        ]
+      },
+      {
+        "id": "s11-05",
+        "type": "guided_response",
+        "instruction_pt": "Explique razões:",
+        "question_audio": "Why is exercise important for mental health?",
+        "target_text": "Exercise is important for mental health because it releases endorphins which reduce stress and anxiety regular physical activity also improves sleep quality and self-esteem",
+        "hint_pt": "Use: '...because...' + 'also...'",
+        "accepted_variations": [
+          "exercise",
+          "mental health",
+          "because",
+          "stress",
+          "endorphins",
+          "sleep"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 12,
+    "skill": "speaking",
+    "cefr": "B1",
+    "theme": "Dar conselhos e recomendações",
+    "exercises": [
+      {
+        "id": "s12-01",
+        "type": "guided_response",
+        "instruction_pt": "Dê conselhos. Use: 'I would recommend', 'You should', 'It's a good idea to'.",
+        "question_audio": "A friend wants to improve their English. What advice would you give?",
+        "target_text": "I would recommend practicing English every day even if it is just for thirty minutes you should watch movies in English with subtitles and try to read articles online",
+        "hint_pt": "Use: 'I would recommend...' + 'You should...' + 'It's also a good idea to...'",
+        "accepted_variations": [
+          "recommend",
+          "should",
+          "practice",
+          "every day",
+          "movies",
+          "english"
+        ]
+      },
+      {
+        "id": "s12-02",
+        "type": "guided_response",
+        "instruction_pt": "Dê conselhos:",
+        "question_audio": "What should a student do to prepare for the TOEFL?",
+        "target_text": "First you should take a practice test to know your current level then focus on your weakest skills I would also recommend doing timed practice to get used to the test format",
+        "hint_pt": "Use: 'First you should...' + 'Then...' + 'I would also recommend...'",
+        "accepted_variations": [
+          "should",
+          "first",
+          "practice",
+          "test",
+          "recommend",
+          "weakest"
+        ]
+      },
+      {
+        "id": "s12-03",
+        "type": "guided_response",
+        "instruction_pt": "Dê conselhos:",
+        "question_audio": "A colleague is feeling very stressed at work. What would you suggest?",
+        "target_text": "I would suggest taking short breaks during the day you should also try to exercise regularly and make sure you get enough sleep it is important to maintain a work-life balance",
+        "hint_pt": "Use: 'I would suggest...' + 'You should also...' + 'It is important to...'",
+        "accepted_variations": [
+          "suggest",
+          "breaks",
+          "exercise",
+          "sleep",
+          "balance",
+          "should"
+        ]
+      },
+      {
+        "id": "s12-04",
+        "type": "guided_response",
+        "instruction_pt": "Dê conselhos:",
+        "question_audio": "What advice would you give to someone moving to a new country?",
+        "target_text": "I would advise learning some basic phrases in the local language before you arrive you should also research the culture and customs to avoid misunderstandings try to make local friends as soon as possible",
+        "hint_pt": "Use: 'I would advise...' + 'You should also...' + 'Try to...'",
+        "accepted_variations": [
+          "advise",
+          "language",
+          "culture",
+          "friends",
+          "research",
+          "learn"
+        ]
+      },
+      {
+        "id": "s12-05",
+        "type": "guided_response",
+        "instruction_pt": "Dê conselhos:",
+        "question_audio": "How can someone save money while studying at university?",
+        "target_text": "To save money at university you should cook at home instead of eating out you can also buy used textbooks and look for student discounts sharing an apartment with roommates is another good way to reduce costs",
+        "hint_pt": "Use: 'You should...' + 'You can also...' + '...is another good way to...'",
+        "accepted_variations": [
+          "save money",
+          "should",
+          "cook",
+          "textbooks",
+          "discounts",
+          "sharing"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "skill": "speaking",
+    "cefr": "B1",
+    "theme": "Narrar eventos no passado com detalhes",
+    "exercises": [
+      {
+        "id": "s13-01",
+        "type": "guided_response",
+        "instruction_pt": "Conte um evento passado com detalhes. Use past tense + descrições.",
+        "question_audio": "Describe a memorable class you had at school or university.",
+        "target_text": "One of my most memorable classes was a biology lecture about the human brain the professor brought a real brain to class and let us examine it I was fascinated by how complex the brain is",
+        "hint_pt": "Use: 'One of my most memorable... was...' + descreva o que aconteceu + como você se sentiu",
+        "accepted_variations": [
+          "memorable",
+          "class",
+          "professor",
+          "brain",
+          "fascinated",
+          "was"
+        ]
+      },
+      {
+        "id": "s13-02",
+        "type": "guided_response",
+        "instruction_pt": "Conte uma experiência:",
+        "question_audio": "Tell me about a time you had to speak English in a real situation.",
+        "target_text": "Last year I had to speak English when I met a tourist who was lost near my university he asked me for directions to the bus station I was nervous at first but I managed to help him and he thanked me",
+        "hint_pt": "Use: 'Last [time]...' + o que aconteceu + como você se sentiu + resultado",
+        "accepted_variations": [
+          "last",
+          "english",
+          "tourist",
+          "directions",
+          "nervous",
+          "managed",
+          "helped"
+        ]
+      },
+      {
+        "id": "s13-03",
+        "type": "guided_response",
+        "instruction_pt": "Conte uma experiência:",
+        "question_audio": "Describe a time you worked on a group project. How did it go?",
+        "target_text": "In my third semester we had to do a group project about public health there were four people in my group at first it was difficult because we had different ideas but we learned to compromise and in the end we got a good grade",
+        "hint_pt": "Descreva: o projeto + as dificuldades + como resolveram + resultado",
+        "accepted_variations": [
+          "group project",
+          "difficult",
+          "different",
+          "compromise",
+          "grade",
+          "learned"
+        ]
+      },
+      {
+        "id": "s13-04",
+        "type": "guided_response",
+        "instruction_pt": "Conte uma experiência:",
+        "question_audio": "Describe a time you failed at something and what you learned from it.",
+        "target_text": "When I was in high school I failed my first math exam I had not studied enough and I was overconfident after that experience I learned to take my studies more seriously I started creating a study schedule and my grades improved significantly",
+        "hint_pt": "Use: 'When I was...' + o que aconteceu + o que aprendeu + como mudou",
+        "accepted_variations": [
+          "failed",
+          "exam",
+          "studied",
+          "learned",
+          "schedule",
+          "improved"
+        ]
+      },
+      {
+        "id": "s13-05",
+        "type": "guided_response",
+        "instruction_pt": "Conte uma experiência:",
+        "question_audio": "Describe your first day at university.",
+        "target_text": "My first day at university was both exciting and overwhelming I remember feeling nervous as I walked into the campus for the first time the buildings were much bigger than my school I got lost trying to find my classroom but a senior student helped me eventually I found my class and met some of my classmates who I am still friends with today",
+        "hint_pt": "Descreva: como se sentiu + o que viu + o que aconteceu + resultado",
+        "accepted_variations": [
+          "first day",
+          "university",
+          "nervous",
+          "exciting",
+          "lost",
+          "classroom",
+          "friends"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 14,
+    "skill": "speaking",
+    "cefr": "B1",
+    "theme": "Argumentar a favor ou contra",
+    "exercises": [
+      {
+        "id": "s14-01",
+        "type": "guided_response",
+        "instruction_pt": "Argumente a favor OU contra. Use: 'I believe...', 'One argument is...', 'However...', 'In conclusion...'.",
+        "question_audio": "Do you think university education should be free for everyone?",
+        "target_text": "I believe university education should be free because many talented students cannot afford tuition and education is a fundamental right however I understand that funding would need to come from taxes in conclusion I think the benefits outweigh the costs",
+        "hint_pt": "Estrutura: opinião → razão 1 → contra-argumento com 'however' → conclusão",
+        "accepted_variations": [
+          "believe",
+          "free",
+          "because",
+          "however",
+          "conclusion",
+          "education"
+        ]
+      },
+      {
+        "id": "s14-02",
+        "type": "guided_response",
+        "instruction_pt": "Argumente:",
+        "question_audio": "Should animals be used for scientific research?",
+        "target_text": "This is a difficult question on one hand animal research has led to important medical breakthroughs that save human lives on the other hand animals suffer during experiments and we should respect their welfare I think we should invest more in alternative methods while gradually reducing animal testing",
+        "hint_pt": "Use: 'On one hand...' + 'On the other hand...' + conclusão equilibrada",
+        "accepted_variations": [
+          "difficult",
+          "research",
+          "one hand",
+          "other hand",
+          "animals",
+          "alternative",
+          "testing"
+        ]
+      },
+      {
+        "id": "s14-03",
+        "type": "guided_response",
+        "instruction_pt": "Argumente:",
+        "question_audio": "Is social media doing more harm than good to society?",
+        "target_text": "In my opinion social media is doing more harm than good firstly it contributes to mental health problems especially among young people secondly it spreads misinformation rapidly although social media helps people stay connected I believe the negative effects are greater",
+        "hint_pt": "Use: 'In my opinion...' + 'Firstly...' + 'Secondly...' + 'Although...' + conclusão",
+        "accepted_variations": [
+          "opinion",
+          "harm",
+          "good",
+          "mental health",
+          "misinformation",
+          "although",
+          "negative"
+        ]
+      },
+      {
+        "id": "s14-04",
+        "type": "guided_response",
+        "instruction_pt": "Argumente:",
+        "question_audio": "Should all students learn to code?",
+        "target_text": "I think all students should learn basic coding skills because technology is part of every career today understanding how software works helps people think logically and solve problems even if they don't become programmers these skills are valuable in any profession",
+        "hint_pt": "Opinião + razões + contra-argumento + conclusão",
+        "accepted_variations": [
+          "coding",
+          "skills",
+          "technology",
+          "career",
+          "logically",
+          "problems",
+          "profession"
+        ]
+      },
+      {
+        "id": "s14-05",
+        "type": "guided_response",
+        "instruction_pt": "Argumente:",
+        "question_audio": "Is it better to specialize in one field or to have knowledge in many areas?",
+        "target_text": "I believe it is better to have deep knowledge in one field while also having some understanding of other areas specialization allows you to become an expert but having broad knowledge helps you see connections between different disciplines the best professionals combine both depth and breadth",
+        "hint_pt": "Use: 'I believe...' + vantagens de cada lado + conclusão equilibrada",
+        "accepted_variations": [
+          "believe",
+          "specialization",
+          "knowledge",
+          "expert",
+          "disciplines",
+          "both",
+          "depth"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "skill": "speaking",
+    "cefr": "B1",
+    "theme": "Resumir informações (estilo TOEFL Task 2-3)",
+    "exercises": [
+      {
+        "id": "s15-01",
+        "type": "guided_response",
+        "instruction_pt": "Leia o texto curto, depois resuma em voz alta em 45 segundos. Use: 'According to the text...', 'The main point is...'.",
+        "question_audio": "Summarize this: Studies show that students who eat breakfast perform better academically than those who skip it. Breakfast provides the brain with glucose, which is essential for concentration and memory. Schools that offer free breakfast programs have seen improvements in attendance and test scores.",
+        "target_text": "According to the text eating breakfast helps students perform better academically breakfast provides glucose which the brain needs for concentration schools with free breakfast programs have seen better attendance and test scores",
+        "hint_pt": "Use: 'According to the text...' + resuma os 2-3 pontos principais",
+        "accepted_variations": [
+          "according",
+          "breakfast",
+          "students",
+          "perform",
+          "glucose",
+          "concentration",
+          "schools"
+        ]
+      },
+      {
+        "id": "s15-02",
+        "type": "guided_response",
+        "instruction_pt": "Resuma em 45 segundos:",
+        "question_audio": "Summarize this: The number of people working remotely has tripled since 2020. Companies have found that remote workers are often more productive, save money on office space, and report higher job satisfaction. However, some managers worry about communication challenges and maintaining team culture.",
+        "target_text": "The text says that remote work has tripled since 2020 companies found that remote workers are more productive and happier however there are concerns about communication and team culture",
+        "hint_pt": "Use: 'The text says that...' + pontos principais + 'however...'",
+        "accepted_variations": [
+          "remote work",
+          "tripled",
+          "productive",
+          "happier",
+          "however",
+          "communication",
+          "culture"
+        ]
+      },
+      {
+        "id": "s15-03",
+        "type": "guided_response",
+        "instruction_pt": "Resuma em 45 segundos:",
+        "question_audio": "Summarize this: Deforestation in the Amazon decreased by 30% in 2023 compared to the previous year, according to Brazil's space agency INPE. Experts attribute this decline to stronger enforcement of environmental laws and increased satellite monitoring. However, illegal logging remains a significant challenge, particularly in remote areas.",
+        "target_text": "According to the passage Amazon deforestation decreased by thirty percent in 2023 this was due to stronger law enforcement and better satellite monitoring however illegal logging is still a problem especially in remote areas",
+        "hint_pt": "Use: 'According to the passage...' + causa + 'however...'",
+        "accepted_variations": [
+          "deforestation",
+          "decreased",
+          "thirty percent",
+          "enforcement",
+          "monitoring",
+          "however",
+          "illegal",
+          "logging"
+        ]
+      },
+      {
+        "id": "s15-04",
+        "type": "guided_response",
+        "instruction_pt": "Resuma em 45 segundos:",
+        "question_audio": "Summarize this: A new study published in Nature Medicine found that a Mediterranean diet supplemented with extra virgin olive oil reduced the risk of cardiovascular disease by 30% compared to a control diet. The study followed 7,447 participants over five years. Researchers concluded that dietary changes can be as effective as medication for preventing heart disease.",
+        "target_text": "The study found that a Mediterranean diet with olive oil reduced heart disease risk by thirty percent over five years with more than seven thousand participants researchers concluded that diet can be as effective as medication for preventing heart disease",
+        "hint_pt": "Use: dados + conclusão principal",
+        "accepted_variations": [
+          "study",
+          "mediterranean",
+          "diet",
+          "olive oil",
+          "reduced",
+          "thirty percent",
+          "medication",
+          "heart disease"
+        ]
+      },
+      {
+        "id": "s15-05",
+        "type": "guided_response",
+        "instruction_pt": "Resuma em 45 segundos:",
+        "question_audio": "Summarize this: The World Health Organization reports that depression is the leading cause of disability worldwide, affecting more than 280 million people. Despite effective treatments being available, more than 75% of people in low and middle-income countries receive no treatment. Barriers include lack of resources, shortage of trained healthcare providers, and social stigma associated with mental illness.",
+        "target_text": "According to the WHO depression affects over 280 million people worldwide and is the leading cause of disability however more than 75 percent of people in developing countries don't receive treatment because of lack of resources few trained providers and social stigma",
+        "hint_pt": "Use: 'According to the WHO...' + dados + barreiras",
+        "accepted_variations": [
+          "depression",
+          "280 million",
+          "leading cause",
+          "75 percent",
+          "treatment",
+          "resources",
+          "stigma"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "skill": "speaking",
+    "cefr": "B2",
+    "theme": "TOEFL Speaking Task 1 — Opinião pessoal (45 segundos)",
+    "exercises": [
+      {
+        "id": "s16-01",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião em 45 segundos. Estrutura: Opinião → Razão 1 + exemplo → Razão 2 + exemplo → Conclusão.",
+        "question_audio": "Some people prefer to live in a big city. Others prefer to live in a small town. Which do you prefer and why?",
+        "target_text": "I prefer living in a big city for two main reasons first big cities offer more career opportunities especially in fields like medicine and technology for example São Paulo has hundreds of hospitals and research centers second cities have better infrastructure including public transportation museums and universities although cities are more expensive and stressful I believe the opportunities they provide are worth it",
+        "hint_pt": "45 seg: Opinião (5s) → Razão 1 + exemplo (15s) → Razão 2 + exemplo (15s) → Conclusão (10s)",
+        "accepted_variations": [
+          "prefer",
+          "city",
+          "opportunities",
+          "because",
+          "first",
+          "second",
+          "although"
+        ]
+      },
+      {
+        "id": "s16-02",
+        "type": "guided_response",
+        "instruction_pt": "Opinião em 45 segundos:",
+        "question_audio": "Do you agree or disagree with the following statement? Students should be required to take physical education classes in university.",
+        "target_text": "I agree that university students should take physical education classes first regular exercise has been proven to reduce stress and improve academic performance which is especially important during exam periods second many students develop sedentary habits in university that can lead to health problems later in life requiring PE classes would help establish healthy routines early",
+        "hint_pt": "Agree/Disagree → Razão 1 + evidência → Razão 2 + evidência → Conclusão",
+        "accepted_variations": [
+          "agree",
+          "physical education",
+          "exercise",
+          "stress",
+          "health",
+          "students"
+        ]
+      },
+      {
+        "id": "s16-03",
+        "type": "guided_response",
+        "instruction_pt": "Opinião em 45 segundos:",
+        "question_audio": "Some people believe that it is better to study alone. Others prefer studying in groups. Which do you think is more effective?",
+        "target_text": "I believe studying alone is generally more effective for two reasons first when you study alone you can focus completely without distractions and move at your own pace second you develop stronger self discipline and independent thinking skills however I think group study can be useful for reviewing before exams because explaining concepts to others helps you understand them better",
+        "hint_pt": "Opinião → 2 razões → Concessão com 'however'",
+        "accepted_variations": [
+          "alone",
+          "effective",
+          "focus",
+          "pace",
+          "discipline",
+          "however",
+          "group"
+        ]
+      },
+      {
+        "id": "s16-04",
+        "type": "guided_response",
+        "instruction_pt": "Opinião em 45 segundos:",
+        "question_audio": "Do you think it is important for young people to learn a second language? Why or why not?",
+        "target_text": "I strongly believe that learning a second language is essential for young people first it opens doors to international career opportunities and higher salaries research shows that bilingual professionals earn up to 20 percent more second learning another language improves cognitive abilities like memory problem solving and multitasking in my own experience studying English has allowed me to access scientific research that is not available in Portuguese",
+        "hint_pt": "Opinião forte → Razão 1 + dados → Razão 2 + benefícios cognitivos → Exemplo pessoal",
+        "accepted_variations": [
+          "believe",
+          "language",
+          "essential",
+          "opportunities",
+          "cognitive",
+          "english",
+          "experience"
+        ]
+      },
+      {
+        "id": "s16-05",
+        "type": "guided_response",
+        "instruction_pt": "Opinião em 45 segundos:",
+        "question_audio": "Some people think that technology has made our lives easier. Others believe it has made life more complicated. What is your opinion?",
+        "target_text": "In my opinion technology has made our lives easier overall first it has revolutionized communication allowing us to connect with anyone anywhere in the world instantly second technology has made information more accessible through the internet we can learn almost anything for free however I acknowledge that technology has also created new problems like addiction to social media and cybersecurity threats on balance though I believe the benefits far outweigh the drawbacks",
+        "hint_pt": "Opinião → 2 benefícios → Concessão → Conclusão balanceada",
+        "accepted_variations": [
+          "opinion",
+          "technology",
+          "easier",
+          "communication",
+          "information",
+          "however",
+          "benefits"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 17,
+    "skill": "speaking",
+    "cefr": "B2",
+    "theme": "TOEFL Speaking Task 2 — Leitura + Opinião",
+    "exercises": [
+      {
+        "id": "s17-01",
+        "type": "guided_response",
+        "instruction_pt": "Leia o anúncio, depois explique a mudança e dê sua opinião em 60 segundos.",
+        "question_audio": "University announcement: Starting next semester, the library will close at 10 PM instead of midnight. The administration says this will reduce operating costs and improve campus safety. Do you agree with this change?",
+        "target_text": "The university has decided to close the library at 10 PM instead of midnight to reduce costs and improve safety I disagree with this decision for two reasons first many students especially those preparing for exams rely on the library for late night studying closing earlier will force them to find alternative places which may be less suitable second the argument about safety is weak because the library is one of the safest places on campus I think the university should find other ways to cut costs without affecting students study habits",
+        "hint_pt": "Resuma a mudança (15s) → Sua opinião + 2 razões (45s)",
+        "accepted_variations": [
+          "library",
+          "disagree",
+          "students",
+          "studying",
+          "safety",
+          "costs",
+          "alternative"
+        ]
+      },
+      {
+        "id": "s17-02",
+        "type": "guided_response",
+        "instruction_pt": "Leia e responda em 60 segundos:",
+        "question_audio": "University policy: All first-year students must live in campus dormitories. The university says this helps students adjust to college life and build a sense of community. Do you think this is a good policy?",
+        "target_text": "The university requires all first year students to live on campus to help them adjust and build community I think this is a good policy for the most part first living on campus makes it easier for new students to make friends and participate in university activities second it eliminates the stress of finding housing in an unfamiliar city however I think exceptions should be made for students who live with their families nearby or who have financial constraints that make dorm life unaffordable",
+        "hint_pt": "Resuma a política → Opinião + razões → Exceções/nuance",
+        "accepted_variations": [
+          "dormitories",
+          "campus",
+          "good policy",
+          "friends",
+          "community",
+          "however",
+          "exceptions"
+        ]
+      },
+      {
+        "id": "s17-03",
+        "type": "guided_response",
+        "instruction_pt": "Leia e responda em 60 segundos:",
+        "question_audio": "Professor's email: Dear students, I have decided to replace the final exam with a group research project. Each group of 4 students will choose a topic, conduct research, and present their findings to the class. What do you think of this change?",
+        "target_text": "The professor has replaced the final exam with a group research project I have mixed feelings about this change on one hand research projects develop important skills like teamwork critical thinking and presentation abilities that exams don't test on the other hand group projects can be problematic because some members may not contribute equally which is unfair to hardworking students I would prefer if the professor offered a choice between the exam and the project so that students could select the format that best suits their learning style",
+        "hint_pt": "Resuma a mudança → Prós → Contras → Sugestão alternativa",
+        "accepted_variations": [
+          "project",
+          "mixed feelings",
+          "one hand",
+          "other hand",
+          "teamwork",
+          "unfair",
+          "choice"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 18,
+    "skill": "speaking",
+    "cefr": "B2",
+    "theme": "TOEFL Speaking Task 3 — Leitura + Áudio + Resumo",
+    "exercises": [
+      {
+        "id": "s18-01",
+        "type": "guided_response",
+        "instruction_pt": "Leia o conceito acadêmico, depois explique usando o exemplo em 60 segundos.",
+        "question_audio": "Academic concept: 'Confirmation bias' is the tendency to search for, interpret, and remember information that confirms our pre-existing beliefs while ignoring contradictory evidence. Example: A student who believes that studying with music helps concentration might only notice the times they study well with music, while ignoring the many times they were distracted by it.",
+        "target_text": "Confirmation bias is when people tend to favor information that supports what they already believe the reading explains that we search for and remember evidence that confirms our beliefs while ignoring evidence that contradicts them the professor gives a clear example of a student who thinks music helps them study this student remembers the times music helped but forgets the times it was distracting this shows how confirmation bias can lead us to make inaccurate conclusions about what actually works",
+        "hint_pt": "Defina o conceito (15s) → Explique com o exemplo (30s) → Conclusão (15s)",
+        "accepted_variations": [
+          "confirmation bias",
+          "believes",
+          "evidence",
+          "example",
+          "student",
+          "music",
+          "ignoring"
+        ]
+      },
+      {
+        "id": "s18-02",
+        "type": "guided_response",
+        "instruction_pt": "Explique o conceito com o exemplo em 60 segundos:",
+        "question_audio": "Academic concept: 'The bystander effect' occurs when individuals are less likely to offer help to a victim when other people are present. The more bystanders there are, the less likely anyone is to help, because each person assumes someone else will take action. Example: In 1964, Kitty Genovese was attacked in New York while reportedly 38 witnesses watched from their apartments without calling the police.",
+        "target_text": "The bystander effect is a psychological phenomenon where people are less likely to help someone in need when others are present each person assumes that someone else will take action the reading describes the famous case of Kitty Genovese in 1964 who was attacked in New York while many witnesses reportedly watched without helping this tragic example illustrates how the presence of other bystanders reduces individual feelings of responsibility the more people present the less likely any single person is to act",
+        "hint_pt": "Defina (15s) → Exemplo (30s) → Por que acontece (15s)",
+        "accepted_variations": [
+          "bystander effect",
+          "help",
+          "present",
+          "assumes",
+          "Genovese",
+          "witnesses",
+          "responsibility"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 19,
+    "skill": "speaking",
+    "cefr": "B2",
+    "theme": "TOEFL Speaking Task 4 — Resumir lecture acadêmica",
+    "exercises": [
+      {
+        "id": "s19-01",
+        "type": "guided_response",
+        "instruction_pt": "Ouça a mini-lecture e resuma os pontos principais em 60 segundos.",
+        "question_audio": "Lecture summary: The professor discusses two strategies companies use to compete in the market. The first is cost leadership, where a company offers the lowest prices by reducing production costs — like Walmart, which uses its massive buying power to negotiate lower prices from suppliers. The second is differentiation, where a company makes its product unique — like Apple, which charges premium prices because its products are perceived as innovative and high-quality. The professor notes that trying to do both simultaneously usually fails.",
+        "target_text": "The professor discusses two competitive strategies first is cost leadership where companies compete by offering the lowest prices the example is Walmart which uses its buying power to get lower prices from suppliers second is differentiation where companies make their products unique and charge premium prices the example is Apple which is perceived as innovative the professor emphasizes that companies should choose one strategy because trying to do both at the same time usually leads to failure",
+        "hint_pt": "Estratégia 1 + exemplo (20s) → Estratégia 2 + exemplo (20s) → Ponto principal (20s)",
+        "accepted_variations": [
+          "cost leadership",
+          "differentiation",
+          "Walmart",
+          "Apple",
+          "strategy",
+          "premium",
+          "failure"
+        ]
+      },
+      {
+        "id": "s19-02",
+        "type": "guided_response",
+        "instruction_pt": "Resuma a lecture em 60 segundos:",
+        "question_audio": "Lecture summary: The professor explains two types of memory. Short-term memory, also called working memory, holds information for about 15-30 seconds and has a capacity of about 7 items. This is why phone numbers have 7 digits. Long-term memory has virtually unlimited capacity and can store information for a lifetime. The process of transferring information from short-term to long-term memory is called 'encoding,' and it is enhanced by repetition, emotional connections, and relating new information to things you already know.",
+        "target_text": "The professor explains two types of memory short term memory holds information for about 15 to 30 seconds and can store about 7 items which is why phone numbers have 7 digits long term memory has unlimited capacity and can last a lifetime the process of moving information from short term to long term is called encoding the professor says encoding is improved through repetition emotional connections and relating new information to existing knowledge",
+        "hint_pt": "Memória curta prazo (20s) → Memória longa prazo (15s) → Encoding e como melhorar (25s)",
+        "accepted_variations": [
+          "short term",
+          "long term",
+          "memory",
+          "encoding",
+          "repetition",
+          "emotional",
+          "knowledge"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 20,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — 4 tasks completas",
+    "exercises": [
+      {
+        "id": "s20-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO — Task 1 (45 segundos): Dê sua opinião.",
+        "question_audio": "Do you agree or disagree? It is more important for students to understand ideas and concepts than to learn facts.",
+        "target_text": "I agree that understanding concepts is more important than memorizing facts for two reasons first concepts provide a framework for understanding new information while facts without context are quickly forgotten for example understanding how the immune system works is more valuable than memorizing the names of every white blood cell second in today's world facts are easily accessible online but the ability to analyze evaluate and apply concepts requires deep understanding in conclusion education should prioritize conceptual understanding over rote memorization",
+        "hint_pt": "Opinião → Razão 1 + exemplo → Razão 2 → Conclusão",
+        "accepted_variations": [
+          "agree",
+          "concepts",
+          "facts",
+          "understanding",
+          "memorizing",
+          "analyze",
+          "education"
+        ]
+      },
+      {
+        "id": "s20-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO — Task 2 (60 segundos): Leia o anúncio e dê sua opinião.",
+        "question_audio": "University announcement: The cafeteria will now offer only healthy food options. Fried foods, sugary drinks, and processed snacks have been removed from the menu. The university says this will improve student health and reduce healthcare costs. A student disagrees, saying that adults should have the freedom to choose what they eat.",
+        "target_text": "The university has decided to remove unhealthy food from the cafeteria menu I partially agree with the student who disagrees while I understand the university's goal of improving health I believe adults should have the freedom to make their own choices a better approach would be to offer both healthy and unhealthy options but make the healthy choices more visible affordable and attractive this way the university promotes health without restricting personal freedom research shows that making healthy options the default choice is more effective than banning unhealthy ones",
+        "hint_pt": "Resuma → Posição nuançada → Solução alternativa → Evidência",
+        "accepted_variations": [
+          "cafeteria",
+          "healthy",
+          "freedom",
+          "choices",
+          "approach",
+          "options",
+          "effective"
+        ]
+      },
+      {
+        "id": "s20-03",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO — Task 3 (60 segundos): Explique o conceito acadêmico.",
+        "question_audio": "Concept: 'Anchoring bias' is when people rely too heavily on the first piece of information they receive when making decisions. Example: In a salary negotiation, whoever states a number first sets the 'anchor.' If a company offers $50,000 first, the negotiation tends to stay near that figure, even if the candidate deserves $70,000. Studies show that even random numbers can influence decisions — judges who rolled dice before sentencing gave longer sentences when the dice showed higher numbers.",
+        "target_text": "Anchoring bias is a cognitive bias where the first piece of information we receive heavily influences our decisions the professor gives two examples first in salary negotiations whoever states a number first sets an anchor if a company offers 50000 the discussion stays near that number even if the candidate deserves much more second even random numbers affect decisions judges who rolled dice before sentencing gave longer sentences when dice showed higher numbers this demonstrates that anchoring works subconsciously and can lead to irrational decisions",
+        "hint_pt": "Defina (10s) → Exemplo 1 (20s) → Exemplo 2 (20s) → Conclusão (10s)",
+        "accepted_variations": [
+          "anchoring",
+          "bias",
+          "first",
+          "information",
+          "salary",
+          "judges",
+          "decisions",
+          "subconsciously"
+        ]
+      },
+      {
+        "id": "s20-04",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO — Task 4 (60 segundos): Resuma os pontos da lecture.",
+        "question_audio": "Lecture: The professor discusses two theories of language acquisition. Noam Chomsky's nativist theory proposes that humans are born with an innate language acquisition device (LAD) — a biological capacity for learning language. Evidence includes the fact that all children follow similar stages of language development regardless of culture. The behaviorist theory, associated with B.F. Skinner, argues that language is learned through imitation, reinforcement, and practice. Evidence includes the fact that children raised in language-rich environments develop larger vocabularies. The professor concludes that modern linguists believe both nature and nurture play important roles.",
+        "target_text": "The professor discusses two theories of language acquisition first Chomsky's nativist theory says humans are born with an innate capacity for language called the language acquisition device evidence for this is that all children develop language in similar stages regardless of their culture second Skinner's behaviorist theory argues that language is learned through imitation and reinforcement children in language rich environments develop larger vocabularies which supports this view the professor concludes that modern linguists believe both theories are partially correct language acquisition involves both innate biological capacity and environmental input",
+        "hint_pt": "Teoria 1 + evidência (20s) → Teoria 2 + evidência (20s) → Conclusão do professor (20s)",
+        "accepted_variations": [
+          "Chomsky",
+          "nativist",
+          "innate",
+          "Skinner",
+          "behaviorist",
+          "imitation",
+          "both",
+          "nature",
+          "nurture"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 21,
+    "skill": "speaking",
+    "cefr": "B2",
+    "theme": "TOEFL Speaking — Explicar conceitos acadêmicos",
+    "exercises": [
+      {
+        "id": "s21-01",
+        "type": "guided_response",
+        "instruction_pt": "Explique o conceito acadêmico em 60 segundos como se estivesse ensinando a um colega.",
+        "question_audio": "Explain the concept of 'supply and demand' and give an example.",
+        "target_text": "Supply and demand is a fundamental economic concept the law of demand says that when the price of a product goes up fewer people buy it and when the price goes down more people buy it supply works the opposite way producers are willing to make more of something when the price is high for example during a heat wave the demand for air conditioners increases but if the supply stays the same prices go up",
+        "hint_pt": "Defina (15s) → Explique demanda (15s) → Explique oferta (15s) → Dê exemplo (15s)",
+        "accepted_variations": [
+          "supply",
+          "demand",
+          "price",
+          "increases",
+          "decreases",
+          "example"
+        ]
+      },
+      {
+        "id": "s21-02",
+        "type": "guided_response",
+        "instruction_pt": "Explique o conceito em 60 segundos:",
+        "question_audio": "Explain what 'natural selection' means and how it works.",
+        "target_text": "Natural selection is the process by which organisms that are better adapted to their environment are more likely to survive and reproduce this idea was proposed by Charles Darwin for example imagine a population of beetles some are green and some are brown birds eat the green beetles more easily because they stand out against brown soil over time there are more brown beetles because they survive and pass on their genes this is natural selection in action",
+        "hint_pt": "Defina → Quem propôs → Dê exemplo concreto → Conclusão",
+        "accepted_variations": [
+          "natural selection",
+          "Darwin",
+          "adapted",
+          "survive",
+          "reproduce",
+          "environment",
+          "example"
+        ]
+      },
+      {
+        "id": "s21-03",
+        "type": "guided_response",
+        "instruction_pt": "Explique em 60 segundos:",
+        "question_audio": "What is inflation and how does it affect people's lives?",
+        "target_text": "Inflation is when the general price level of goods and services increases over time which means your money buys less than it used to for example if inflation is 10 percent something that cost 100 reais last year now costs 110 reais inflation affects everyone especially people on fixed incomes like retirees because their income stays the same while prices go up central banks try to control inflation by adjusting interest rates",
+        "hint_pt": "Defina → Dê exemplo com números → Quem é mais afetado → Como é controlado",
+        "accepted_variations": [
+          "inflation",
+          "prices",
+          "increases",
+          "money",
+          "buys less",
+          "interest rates",
+          "example"
+        ]
+      },
+      {
+        "id": "s21-04",
+        "type": "guided_response",
+        "instruction_pt": "Explique em 60 segundos:",
+        "question_audio": "What is the greenhouse effect and why is it important?",
+        "target_text": "The greenhouse effect is a natural process where certain gases in the atmosphere trap heat from the sun keeping the earth warm enough to support life without it the earth would be about 33 degrees colder the problem is that human activities like burning fossil fuels are increasing the concentration of these greenhouse gases especially carbon dioxide this is causing the earth to warm more than normal leading to climate change rising sea levels and extreme weather events",
+        "hint_pt": "Defina → Por que é importante naturalmente → Qual é o problema → Consequências",
+        "accepted_variations": [
+          "greenhouse",
+          "effect",
+          "gases",
+          "atmosphere",
+          "heat",
+          "carbon dioxide",
+          "climate change"
+        ]
+      },
+      {
+        "id": "s21-05",
+        "type": "guided_response",
+        "instruction_pt": "Explique em 60 segundos:",
+        "question_audio": "Explain what 'cognitive dissonance' means and give an example.",
+        "target_text": "Cognitive dissonance is the mental discomfort you feel when you hold two contradictory beliefs or when your actions contradict your beliefs for example a person who knows that smoking is unhealthy but continues to smoke experiences cognitive dissonance to reduce this discomfort people often change their beliefs rather than their behavior the smoker might tell themselves that the health risks are exaggerated this concept was developed by psychologist Leon Festinger in 1957",
+        "hint_pt": "Defina → Dê exemplo → Explique como pessoas resolvem → Quem criou o conceito",
+        "accepted_variations": [
+          "cognitive dissonance",
+          "contradictory",
+          "beliefs",
+          "discomfort",
+          "example",
+          "smoking",
+          "Festinger"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 22,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Sintetizar informações de duas fontes",
+    "exercises": [
+      {
+        "id": "s22-01",
+        "type": "guided_response",
+        "instruction_pt": "Leia o texto e a opinião do professor. Explique como a lecture complementa ou contradiz o texto em 60 segundos.",
+        "question_audio": "Text: Homework reinforces learning and improves test scores. Lecture: The professor says excessive homework causes stress and that Finland achieves top education results with minimal homework. Explain how the lecture relates to the reading.",
+        "target_text": "The reading argues that homework reinforces learning and improves test scores however the professor presents a different perspective she points out that excessive homework can cause stress and negatively affect student well-being she uses Finland as an example a country that assigns very little homework yet consistently achieves top scores in international education rankings this contradicts the reading's assumption that more homework leads to better academic outcomes the professor suggests that the quality of classroom instruction matters more than the quantity of homework assigned",
+        "hint_pt": "Resuma o texto (15s) → O que o professor diz (20s) → Como se relacionam (15s) → Conclusão (10s)",
+        "accepted_variations": [
+          "reading",
+          "argues",
+          "however",
+          "professor",
+          "Finland",
+          "homework",
+          "contradicts",
+          "quality"
+        ]
+      },
+      {
+        "id": "s22-02",
+        "type": "guided_response",
+        "instruction_pt": "Sintetize as duas fontes em 60 segundos:",
+        "question_audio": "Text: Standardized testing is the fairest way to evaluate students because everyone takes the same test. Lecture: The professor argues that standardized tests are biased against students from low-income backgrounds because they can't afford test prep courses, and that the tests measure test-taking ability rather than actual knowledge.",
+        "target_text": "The reading claims that standardized testing is fair because all students take the same exam under the same conditions however the professor challenges this view by arguing that standardized tests are actually biased against students from low-income backgrounds wealthy students can afford expensive preparation courses which gives them an unfair advantage furthermore the professor argues that these tests measure test-taking skills rather than genuine understanding of the material this suggests that while the tests appear equal on the surface they actually reinforce existing inequalities",
+        "hint_pt": "O texto diz X → O professor argumenta Y → Evidência → O que isso sugere",
+        "accepted_variations": [
+          "reading",
+          "claims",
+          "fair",
+          "however",
+          "professor",
+          "biased",
+          "low-income",
+          "test-taking",
+          "inequalities"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 23,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Apresentar soluções para problemas",
+    "exercises": [
+      {
+        "id": "s23-01",
+        "type": "guided_response",
+        "instruction_pt": "Descreva o problema e proponha 2 soluções com justificativa em 60 segundos.",
+        "question_audio": "Many university students experience high levels of stress and anxiety. What solutions would you propose?",
+        "target_text": "Student stress and anxiety have become serious problems at universities I would propose two solutions first universities should provide free counseling services and mental health support accessible to all students many students don't seek help because they can't afford private therapy or don't know where to find resources on campus second universities should consider reducing course loads and creating more flexible deadlines the pressure to take many courses simultaneously combined with strict deadlines creates an environment where stress becomes unavoidable these changes would not lower academic standards but would create a healthier learning environment",
+        "hint_pt": "Problema (10s) → Solução 1 + justificativa (20s) → Solução 2 + justificativa (20s) → Conclusão (10s)",
+        "accepted_variations": [
+          "stress",
+          "anxiety",
+          "solutions",
+          "counseling",
+          "mental health",
+          "flexible",
+          "deadlines",
+          "environment"
+        ]
+      },
+      {
+        "id": "s23-02",
+        "type": "guided_response",
+        "instruction_pt": "Proponha soluções em 60 segundos:",
+        "question_audio": "Air pollution in big cities is a growing health crisis. What two measures would you recommend to address this problem?",
+        "target_text": "Air pollution in major cities is causing serious health problems including respiratory diseases and premature deaths I would recommend two key measures first governments should invest heavily in public transportation systems including subways buses and bike lanes to reduce the number of private cars on the road cities like Copenhagen and Amsterdam have shown that good cycling infrastructure can dramatically reduce car usage second factories and power plants should be required to meet strict emission standards with heavy fines for violations transitioning to renewable energy sources like solar and wind would address the root cause of industrial pollution",
+        "hint_pt": "Problema + impacto (10s) → Medida 1 + exemplo (20s) → Medida 2 + como implementar (20s) → Conclusão (10s)",
+        "accepted_variations": [
+          "pollution",
+          "health",
+          "transportation",
+          "emissions",
+          "renewable",
+          "energy",
+          "reduce",
+          "cities"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 24,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Discussão acadêmica (debate estruturado)",
+    "exercises": [
+      {
+        "id": "s24-01",
+        "type": "guided_response",
+        "instruction_pt": "O professor pergunta sua opinião sobre um debate acadêmico. Apresente AMBOS os lados antes de dar sua posição em 60 segundos.",
+        "question_audio": "Some researchers argue that intelligence is primarily genetic, while others believe environment plays a bigger role. What is your position?",
+        "target_text": "This is one of the most debated topics in psychology on one side researchers point to twin studies which show that identical twins raised apart still have remarkably similar IQ scores suggesting a strong genetic component on the other side environmental factors like quality of education nutrition and early childhood stimulation have been shown to significantly affect cognitive development I believe the answer lies somewhere in the middle genetics may set a range of potential but environment determines where within that range a person actually falls this is sometimes called the nature versus nurture interaction",
+        "hint_pt": "Lado 1 + evidência (15s) → Lado 2 + evidência (15s) → Sua posição nuançada (20s) → Conclusão (10s)",
+        "accepted_variations": [
+          "genetic",
+          "environment",
+          "twin studies",
+          "education",
+          "nature",
+          "nurture",
+          "interaction",
+          "both"
+        ]
+      },
+      {
+        "id": "s24-02",
+        "type": "guided_response",
+        "instruction_pt": "Apresente ambos os lados e sua posição em 60 segundos:",
+        "question_audio": "Should developing countries prioritize economic growth or environmental protection?",
+        "target_text": "This is a challenging dilemma for developing countries on one hand economic growth is essential for reducing poverty improving healthcare and building infrastructure millions of people in developing nations lack basic necessities and economic development can provide these on the other hand environmental degradation caused by unchecked industrialization can have devastating long-term consequences including pollution deforestation and climate change which disproportionately affects the poorest populations in my view these goals are not mutually exclusive developing countries can pursue sustainable development that balances economic growth with environmental protection examples like Costa Rica show that it is possible to grow economically while protecting natural resources",
+        "hint_pt": "Lado 1 (crescimento) + razões → Lado 2 (meio ambiente) + razões → Sua posição → Exemplo",
+        "accepted_variations": [
+          "economic",
+          "growth",
+          "environmental",
+          "protection",
+          "poverty",
+          "sustainable",
+          "development",
+          "balance",
+          "Costa Rica"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 25,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — Tasks completas cronometradas",
+    "exercises": [
+      {
+        "id": "s25-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 1 (45 seg): Opinião pessoal.",
+        "question_audio": "Do you agree or disagree with the following statement? 'Success is primarily the result of hard work rather than talent.'",
+        "target_text": "I agree that hard work is more important than talent for achieving success while natural talent gives people a head start it is ultimately effort and persistence that determine long term outcomes for example many talented musicians never succeed because they don't practice consistently while many average musicians become professionals through years of dedicated practice research by psychologist Angela Duckworth supports this showing that grit defined as passion and perseverance is a stronger predictor of success than IQ or talent in conclusion talent may open doors but only hard work keeps them open",
+        "hint_pt": "45 seg. Opinião → Razão + exemplo → Evidência acadêmica → Conclusão forte",
+        "accepted_variations": [
+          "agree",
+          "hard work",
+          "talent",
+          "practice",
+          "Duckworth",
+          "grit",
+          "perseverance",
+          "success"
+        ]
+      },
+      {
+        "id": "s25-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 4 (60 seg): Resuma a lecture acadêmica.",
+        "question_audio": "Lecture summary: The professor discusses two types of extinction. Background extinction is the normal, ongoing loss of species due to natural causes like disease, competition, and environmental change — typically 1-5 species per year. Mass extinction is a dramatic, rapid event where 75%+ of species disappear in a geologically short period. There have been five mass extinctions in Earth's history. The most famous, 66 million years ago, killed the dinosaurs. Many scientists argue we are now in a sixth mass extinction, driven not by asteroids but by human activities — habitat destruction, pollution, climate change, and overexploitation. Current extinction rates are estimated to be 100-1,000 times higher than background rates.",
+        "target_text": "The professor explains two types of extinction background extinction is the normal ongoing loss of about one to five species per year due to natural causes like disease and competition mass extinction is a catastrophic event where more than 75 percent of species disappear rapidly there have been five mass extinctions in earth history the most famous killed the dinosaurs 66 million years ago the professor argues that we are now experiencing a sixth mass extinction but this one is caused by human activities including habitat destruction pollution and climate change current extinction rates are estimated at 100 to 1000 times higher than normal this suggests that human impact on biodiversity is unprecedented in earth history",
+        "hint_pt": "60 seg. Background extinction (15s) → Mass extinction (15s) → Sixth extinction (20s) → Conclusão (10s)",
+        "accepted_variations": [
+          "extinction",
+          "background",
+          "mass",
+          "species",
+          "dinosaurs",
+          "sixth",
+          "human",
+          "habitat",
+          "climate",
+          "unprecedented"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 26,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Analisar causas e consequências complexas",
+    "exercises": [
+      {
+        "id": "s26-01",
+        "type": "guided_response",
+        "instruction_pt": "Analise causas e consequências em 60 segundos. Use linguagem acadêmica.",
+        "question_audio": "What are the main causes and consequences of the global decline in biodiversity?",
+        "target_text": "The decline in biodiversity is driven by several interconnected factors the primary cause is habitat destruction through deforestation and urbanization which eliminates the ecosystems that species depend on climate change compounds this by altering temperature and precipitation patterns faster than many species can adapt additionally pollution overexploitation of resources and invasive species further reduce populations the consequences are far reaching loss of biodiversity weakens ecosystem services such as pollination water purification and carbon sequestration which humans depend on ultimately biodiversity loss threatens food security medicine and the stability of ecosystems that support all life on earth",
+        "hint_pt": "Causas (habitat, clima, poluição) → Consequências (ecossistemas, comida, medicina) → Conclusão",
+        "accepted_variations": [
+          "biodiversity",
+          "habitat",
+          "climate",
+          "pollution",
+          "consequences",
+          "ecosystem",
+          "food security"
+        ]
+      },
+      {
+        "id": "s26-02",
+        "type": "guided_response",
+        "instruction_pt": "Analise em 60 segundos:",
+        "question_audio": "Why is income inequality increasing in many countries, and what are its effects on society?",
+        "target_text": "Income inequality has been rising due to several factors including globalization which benefits skilled workers while displacing low-skilled jobs technological automation replacing routine tasks tax policies that favor the wealthy and declining labor union membership the effects on society are significant high inequality correlates with worse health outcomes lower social mobility higher crime rates and political polarization research by economists like Thomas Piketty shows that when wealth concentrates at the top economic growth actually slows because lower income people have less purchasing power governments can address this through progressive taxation investment in education and strengthening social safety nets",
+        "hint_pt": "Causas (globalização, automação, políticas) → Efeitos (saúde, mobilidade, crime) → Soluções",
+        "accepted_variations": [
+          "inequality",
+          "globalization",
+          "automation",
+          "health",
+          "mobility",
+          "Piketty",
+          "taxation"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 27,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Avaliar argumentos e evidências",
+    "exercises": [
+      {
+        "id": "s27-01",
+        "type": "guided_response",
+        "instruction_pt": "Avalie a força do argumento em 60 segundos. O argumento é forte ou fraco? Por quê?",
+        "question_audio": "Evaluate this argument: 'My grandfather smoked for 60 years and lived to 95, so smoking must not be that dangerous.'",
+        "target_text": "This is a very weak argument because it relies on a single anecdotal example to contradict extensive scientific evidence the fact that one person smoked and lived long does not disprove the overwhelming statistical data showing that smoking causes cancer heart disease and premature death this is a logical fallacy known as the anecdotal fallacy where personal experience is used to dismiss systematic evidence it is similar to saying seatbelts are unnecessary because someone survived a car crash without one individual exceptions do not invalidate population level trends scientific conclusions are based on studies of millions of people not individual cases",
+        "hint_pt": "Identifique a falácia → Explique por que é fraco → Dê analogia → Conclusão sobre evidência científica",
+        "accepted_variations": [
+          "weak",
+          "anecdotal",
+          "fallacy",
+          "scientific",
+          "evidence",
+          "statistical",
+          "individual",
+          "population"
+        ]
+      },
+      {
+        "id": "s27-02",
+        "type": "guided_response",
+        "instruction_pt": "Avalie em 60 segundos:",
+        "question_audio": "A study found that countries with more ice cream sales have higher crime rates. Does this mean ice cream causes crime?",
+        "target_text": "No this does not mean ice cream causes crime this is a classic example of the correlation versus causation fallacy just because two things are correlated does not mean one causes the other in this case there is a confounding variable temperature during hot summer months both ice cream sales and crime rates increase independently hot weather drives people to buy ice cream and also leads to more outdoor activity which creates more opportunities for crime the hidden variable temperature explains both trends this is why scientists always say correlation does not imply causation and why controlled experiments are necessary to establish causal relationships",
+        "hint_pt": "Correlação ≠ Causação → Variável confundidora (temperatura) → Lição sobre método científico",
+        "accepted_variations": [
+          "correlation",
+          "causation",
+          "confounding",
+          "temperature",
+          "variable",
+          "controlled",
+          "experiments"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 28,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Apresentações acadêmicas estruturadas",
+    "exercises": [
+      {
+        "id": "s28-01",
+        "type": "guided_response",
+        "instruction_pt": "Faça uma mini-apresentação acadêmica de 90 segundos sobre o tema. Estrutura: Introdução → 2-3 pontos → Conclusão.",
+        "question_audio": "Give a brief academic presentation on the advantages and disadvantages of telemedicine.",
+        "target_text": "Good morning today I would like to discuss the advantages and disadvantages of telemedicine which has grown dramatically since the COVID-19 pandemic first let me address the benefits telemedicine increases access to healthcare especially for patients in rural or underserved areas who may live hours from the nearest specialist it also reduces costs for both patients and providers by eliminating travel time and reducing overhead additionally patients with chronic conditions can receive more frequent monitoring without leaving their homes however telemedicine has important limitations physical examinations are impossible through a screen which means certain diagnoses may be missed elderly patients and those in areas with poor internet connectivity may be excluded from these services there are also concerns about data privacy and the quality of the doctor patient relationship in a virtual setting in conclusion telemedicine is a valuable complement to traditional healthcare but it cannot fully replace in person medical care the ideal approach combines both modalities based on the specific needs of each patient",
+        "hint_pt": "90 seg: Intro (10s) → Vantagens com detalhes (30s) → Desvantagens com detalhes (30s) → Conclusão (20s)",
+        "accepted_variations": [
+          "telemedicine",
+          "advantages",
+          "disadvantages",
+          "access",
+          "rural",
+          "limitations",
+          "physical",
+          "complement"
+        ]
+      },
+      {
+        "id": "s28-02",
+        "type": "guided_response",
+        "instruction_pt": "Mini-apresentação de 90 segundos:",
+        "question_audio": "Present the arguments for and against nuclear energy as a solution to climate change.",
+        "target_text": "Today I will examine whether nuclear energy should be considered a solution to climate change there are strong arguments on both sides proponents argue that nuclear power produces virtually zero greenhouse gas emissions during operation making it one of the cleanest energy sources available a single nuclear plant can generate enormous amounts of electricity reliably regardless of weather conditions unlike solar and wind which are intermittent france for example generates about 70 percent of its electricity from nuclear power and has one of the lowest carbon footprints in Europe however opponents raise valid concerns nuclear accidents like Chernobyl and Fukushima demonstrated the catastrophic potential of nuclear disasters the problem of radioactive waste storage remains unsolved as waste remains dangerous for thousands of years additionally nuclear plants are extremely expensive and time consuming to build often taking over a decade in my assessment nuclear energy should be part of a diverse energy portfolio but not the sole solution combining nuclear with renewable sources and energy efficiency measures offers the most realistic path to decarbonization",
+        "hint_pt": "Intro → Argumentos a favor + exemplo (France) → Argumentos contra + exemplos → Avaliação pessoal",
+        "accepted_variations": [
+          "nuclear",
+          "climate",
+          "emissions",
+          "clean",
+          "Chernobyl",
+          "Fukushima",
+          "waste",
+          "renewable",
+          "portfolio"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 29,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Responder a perguntas inesperadas",
+    "exercises": [
+      {
+        "id": "s29-01",
+        "type": "guided_response",
+        "instruction_pt": "Responda a esta pergunta inesperada com organização clara em 45 segundos. Não se perca — use a estrutura: posição → razão → exemplo → conclusão.",
+        "question_audio": "If you could change one thing about the education system in your country, what would it be?",
+        "target_text": "If I could change one thing about education in Brazil it would be to start teaching English from the first grade currently most public schools only begin English instruction in middle school by which time students have already passed the critical period for language acquisition countries like the Netherlands and Sweden start English education at age six and achieve near native proficiency by adulthood implementing early English education would require training more qualified teachers and developing appropriate curricula but the long term benefits for Brazilian students competitiveness in the global job market would far outweigh the investment",
+        "hint_pt": "Escolha UMA coisa → Por que é importante → Exemplo/comparação → Desafio + benefício",
+        "accepted_variations": [
+          "education",
+          "Brazil",
+          "English",
+          "first grade",
+          "critical period",
+          "Netherlands",
+          "Sweden",
+          "teachers"
+        ]
+      },
+      {
+        "id": "s29-02",
+        "type": "guided_response",
+        "instruction_pt": "Responda em 45 segundos:",
+        "question_audio": "What is the most important scientific discovery of the last 100 years and why?",
+        "target_text": "I believe the most important scientific discovery of the last century is antibiotics specifically the discovery of penicillin by Alexander Fleming in 1928 before antibiotics simple infections like pneumonia and infected wounds were often fatal average life expectancy was around 47 years antibiotics have saved an estimated 200 million lives and enabled modern surgery organ transplants and cancer treatment which would be impossible without the ability to prevent bacterial infections however we now face the crisis of antibiotic resistance which threatens to undo these gains this makes it not only the most important discovery but also one of the most urgent ongoing challenges in medicine",
+        "hint_pt": "Escolha → Por que → Impacto com dados → Desafio atual → Por que é o mais importante",
+        "accepted_variations": [
+          "antibiotics",
+          "penicillin",
+          "Fleming",
+          "infections",
+          "life expectancy",
+          "resistance",
+          "surgery",
+          "medicine"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 30,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — Prova completa cronometrada",
+    "exercises": [
+      {
+        "id": "s30-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 1 (45 seg): Opinião.",
+        "question_audio": "Some universities now offer entire degree programs online. Do you think online degrees are as valuable as traditional degrees? Why or why not?",
+        "target_text": "I believe online degrees are becoming increasingly valuable but are not yet fully equivalent to traditional degrees in most fields online programs offer flexibility affordability and access to world class education regardless of location for fields like computer science business and education online degrees have gained significant acceptance among employers however for fields requiring hands-on training such as medicine engineering and laboratory sciences traditional programs remain essential because they provide practical experience that cannot be replicated online additionally the networking opportunities and social development that come from campus life are difficult to reproduce virtually as technology improves and more prestigious universities offer online options the gap between online and traditional degrees will likely continue to narrow",
+        "hint_pt": "45 seg. Posição nuançada → Campo onde funciona → Campo onde não funciona → Tendência futura",
+        "accepted_variations": [
+          "online",
+          "degrees",
+          "valuable",
+          "flexibility",
+          "hands-on",
+          "networking",
+          "technology",
+          "narrow"
+        ]
+      },
+      {
+        "id": "s30-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 2 (60 seg): Resumir e opinar.",
+        "question_audio": "University policy: The university will replace all paper textbooks with digital versions to reduce costs and environmental impact. Student opinion: A student argues that digital textbooks cause eye strain, are harder to annotate, and that many students prefer physical books for deep reading. What is your opinion?",
+        "target_text": "The university plans to switch to digital textbooks to save money and reduce environmental impact while I understand the student's concerns about eye strain and reading preferences I think the switch is ultimately a positive change digital textbooks are significantly cheaper saving students hundreds of dollars per semester and they reduce paper consumption however the university should address the student's valid concerns by providing digital annotation tools training sessions on effective e-reading strategies and ensuring all digital materials are compatible with e-ink readers which reduce eye strain a gradual transition rather than an immediate switch would also help students adapt I believe that with proper implementation digital textbooks can provide the same learning outcomes at lower cost and environmental impact",
+        "hint_pt": "Resuma política → Reconheça preocupações → Sua posição → Soluções práticas → Conclusão",
+        "accepted_variations": [
+          "digital",
+          "textbooks",
+          "eye strain",
+          "cheaper",
+          "environment",
+          "annotation",
+          "transition",
+          "implementation"
+        ]
+      },
+      {
+        "id": "s30-03",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 3 (60 seg): Conceito + exemplo.",
+        "question_audio": "Academic concept: 'Moral hazard' occurs when a party takes greater risks because they know someone else will bear the cost of those risks. Example: After the 2008 financial crisis, critics argued that bailing out large banks created moral hazard — if banks know the government will rescue them when they fail, they have less incentive to manage risk responsibly. This is sometimes called 'too big to fail.' Explain this concept using the example.",
+        "target_text": "Moral hazard is an economic concept that occurs when someone takes greater risks because they won't bear the full consequences of those risks the professor uses the 2008 financial crisis as an example when large banks made extremely risky investments and nearly collapsed the government bailed them out using taxpayer money critics argue this created moral hazard because if banks know the government will rescue them they have little incentive to be responsible with risk in the future this is called too big to fail the banks benefit from the profits of risky behavior but the public bears the losses when things go wrong this concept extends beyond banking it applies whenever insurance or guarantees reduce the incentive to act carefully for example people with comprehensive car insurance might drive less carefully because they know the insurance company will cover damages",
+        "hint_pt": "Defina (10s) → Exemplo bancário (25s) → Extensão do conceito (15s) → Exemplo adicional (10s)",
+        "accepted_variations": [
+          "moral hazard",
+          "risks",
+          "consequences",
+          "banks",
+          "bailout",
+          "too big to fail",
+          "incentive",
+          "insurance"
+        ]
+      },
+      {
+        "id": "s30-04",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 4 (60 seg): Resumir lecture.",
+        "question_audio": "Lecture: The professor discusses the 'tragedy of the commons' using two examples. First, international fishing: because oceans belong to no single nation, fishing fleets from many countries overfish, depleting stocks — over one-third of global fish are now overfished. Second, antibiotic resistance: when individual patients demand antibiotics for viral infections and doctors prescribe them unnecessarily, each interaction seems harmless, but collectively it creates antibiotic-resistant superbugs that threaten everyone. The professor concludes that both examples show how individually rational behavior leads to collectively harmful outcomes when shared resources are involved.",
+        "target_text": "The professor explains the tragedy of the commons using two powerful examples first she discusses international fishing since oceans are shared resources that no single country owns fishing fleets from many nations compete to catch as much as possible this has led to severe overfishing with over one third of global fish stocks now depleted second she examines antibiotic resistance when individual patients demand antibiotics for viral infections and doctors prescribe them each case seems harmless but collectively this creates resistant superbugs that threaten public health worldwide the professor's main point is that both examples demonstrate the same fundamental problem individually rational behavior leads to collectively harmful outcomes when shared resources are involved this happens because each person benefits from exploiting the resource while the costs are distributed across everyone",
+        "hint_pt": "Exemplo 1 pesca (20s) → Exemplo 2 antibióticos (20s) → Ponto principal + conexão (20s)",
+        "accepted_variations": [
+          "tragedy",
+          "commons",
+          "fishing",
+          "overfished",
+          "antibiotics",
+          "resistance",
+          "rational",
+          "collectively",
+          "shared"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 31,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Analisar pesquisas e estudos",
+    "exercises": [
+      {
+        "id": "s31-01",
+        "type": "guided_response",
+        "instruction_pt": "Analise o estudo em 60 segundos: descreva a metodologia, resultados e limitações.",
+        "question_audio": "A study of 500 university students found that those who exercised at least 3 times per week had GPAs 0.4 points higher than those who didn't exercise. Analyze this study.",
+        "target_text": "This study found a positive correlation between exercise and academic performance among 500 university students those who exercised three or more times weekly had GPAs 0.4 points higher however there are important limitations to consider first correlation does not imply causation it's possible that students with better time management skills both exercise more and study more effectively second the sample of 500 from a single university may not be representative of all students third the study doesn't mention whether it controlled for factors like socioeconomic status sleep habits or course difficulty despite these limitations the findings are consistent with broader research linking physical activity to improved cognitive function",
+        "hint_pt": "Resultados (15s) → Limitação 1: correlação ≠ causação (15s) → Limitação 2-3 (15s) → Contextualização (15s)",
+        "accepted_variations": [
+          "correlation",
+          "causation",
+          "limitations",
+          "sample",
+          "controlled",
+          "cognitive",
+          "consistent"
+        ]
+      },
+      {
+        "id": "s31-02",
+        "type": "guided_response",
+        "instruction_pt": "Analise em 60 segundos:",
+        "question_audio": "A survey found that 78% of employers say they value communication skills more than technical skills when hiring. Discuss the implications of this finding.",
+        "target_text": "This survey reveals that the vast majority of employers prioritize communication over technical skills which has several important implications for education and career preparation first it suggests that universities should place greater emphasis on developing students presentation writing and interpersonal skills rather than focusing exclusively on technical knowledge second it implies that students who invest time in activities like debate clubs public speaking and collaborative projects may have a competitive advantage in the job market however we should interpret this data cautiously the survey measures what employers say they value which may differ from what they actually reward in hiring decisions also communication and technical skills are not mutually exclusive the ideal candidate possesses both",
+        "hint_pt": "Resultado principal → Implicação 1 (educação) → Implicação 2 (carreira) → Cautela na interpretação",
+        "accepted_variations": [
+          "communication",
+          "technical",
+          "employers",
+          "education",
+          "universities",
+          "competitive",
+          "cautiously",
+          "mutually exclusive"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 32,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Integrar múltiplas fontes de informação",
+    "exercises": [
+      {
+        "id": "s32-01",
+        "type": "guided_response",
+        "instruction_pt": "Integre informação de 3 fontes em 90 segundos: texto, dados e opinião.",
+        "question_audio": "Text: 'Universal healthcare reduces inequality and improves population health.' Data: Countries with universal healthcare spend 10-12% of GDP on health, vs 17% in the US. The US has lower life expectancy than all other developed nations despite spending more. Expert opinion: Some economists argue that universal healthcare reduces innovation because pharmaceutical companies have less incentive to develop new drugs. Synthesize these three sources.",
+        "target_text": "The text argues that universal healthcare reduces inequality and improves health outcomes the data strongly supports this claim countries with universal systems spend significantly less as a percentage of GDP between 10 and 12 percent compared to 17 percent in the United States yet achieve better health outcomes the US has lower life expectancy than all other developed nations despite being the highest spender this suggests that the US system is both more expensive and less effective however the expert opinion introduces a valid counterpoint some economists warn that universal healthcare could reduce pharmaceutical innovation because companies would have less profit incentive to develop new drugs this is a legitimate concern as the US does lead the world in new drug development nevertheless the data suggests that this innovation premium comes at a very high cost in both money and lives a balanced approach might combine universal coverage with targeted incentives for pharmaceutical research",
+        "hint_pt": "Fonte 1 (texto) → Fonte 2 (dados que apoiam) → Fonte 3 (contra-argumento) → Síntese/conclusão",
+        "accepted_variations": [
+          "universal healthcare",
+          "data",
+          "GDP",
+          "life expectancy",
+          "innovation",
+          "pharmaceutical",
+          "however",
+          "balanced"
+        ]
+      },
+      {
+        "id": "s32-02",
+        "type": "guided_response",
+        "instruction_pt": "Integre 3 fontes em 90 segundos:",
+        "question_audio": "Text: 'Online education democratizes access to learning.' Data: Completion rates for MOOCs (massive open online courses) average 5-15%, compared to 80-90% for traditional courses. Students from wealthy countries are 10x more likely to complete MOOCs than those from developing countries. Expert: A professor argues that online education works best as a supplement to, not replacement for, traditional instruction. Synthesize.",
+        "target_text": "The text presents an optimistic view that online education democratizes learning by making it accessible to anyone with an internet connection however the data complicates this narrative significantly MOOC completion rates of only 5 to 15 percent compared to 80 to 90 percent for traditional courses suggest that access alone does not ensure learning more troublingly students from wealthy countries are ten times more likely to complete online courses than those from developing countries this means that rather than reducing educational inequality online education may actually be reinforcing it the expert opinion offers a more nuanced perspective suggesting that online education works best as a supplement to traditional instruction rather than a replacement this hybrid approach could potentially combine the accessibility of online learning with the structure and support that traditional education provides addressing the completion rate problem while maintaining the democratizing potential of digital education",
+        "hint_pt": "Texto (otimista) → Dados (complicam) → Opinião especialista (nuance) → Sua síntese",
+        "accepted_variations": [
+          "democratizes",
+          "completion rates",
+          "MOOC",
+          "wealthy",
+          "developing",
+          "supplement",
+          "replacement",
+          "hybrid",
+          "nuanced"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 33,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Responder a situações éticas",
+    "exercises": [
+      {
+        "id": "s33-01",
+        "type": "guided_response",
+        "instruction_pt": "Discuta a questão ética em 60 segundos com argumentos dos dois lados:",
+        "question_audio": "Is it ethical for pharmaceutical companies to charge high prices for life-saving medications?",
+        "target_text": "This is a complex ethical question on one hand pharmaceutical companies argue that high prices are necessary to fund research and development new drugs can cost billions of dollars and take over a decade to develop without the possibility of profit companies would have less incentive to invest in creating new treatments on the other hand charging unaffordable prices for life saving medications means that people die from treatable conditions simply because they cannot pay this seems fundamentally unjust especially when taxpayer funded research often contributes to drug development I believe a balanced solution is needed perhaps through government negotiation of drug prices combined with patent reforms that maintain innovation incentives while ensuring access",
+        "hint_pt": "Lado 1 (empresas: R&D caro) → Lado 2 (vidas em jogo) → Solução equilibrada",
+        "accepted_variations": [
+          "pharmaceutical",
+          "ethical",
+          "research",
+          "development",
+          "profit",
+          "incentive",
+          "unjust",
+          "access",
+          "balanced"
+        ]
+      },
+      {
+        "id": "s33-02",
+        "type": "guided_response",
+        "instruction_pt": "Discuta em 60 segundos:",
+        "question_audio": "Should genetic testing of embryos be allowed for selecting desired traits like intelligence or physical appearance?",
+        "target_text": "Genetic testing of embryos raises profound ethical concerns while screening for serious genetic diseases like cystic fibrosis or sickle cell anemia is widely accepted selecting for traits like intelligence height or eye color crosses into ethically dangerous territory this practice called designer babies could create a genetic divide between those who can afford enhancement and those who cannot potentially creating a new form of inequality furthermore our understanding of genetics is still limited and selecting for one trait could have unpredictable consequences on others I believe genetic testing should be permitted for preventing serious diseases but regulated to prevent selection of non medical traits this draws a clear line between therapy and enhancement",
+        "hint_pt": "Doenças (aceitável) vs traços estéticos (problemático) → Riscos → Onde traçar a linha",
+        "accepted_variations": [
+          "genetic",
+          "embryos",
+          "ethical",
+          "diseases",
+          "designer",
+          "inequality",
+          "regulated",
+          "therapy",
+          "enhancement"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 34,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Comparar teorias acadêmicas",
+    "exercises": [
+      {
+        "id": "s34-01",
+        "type": "guided_response",
+        "instruction_pt": "Compare duas teorias em 60 segundos explicando semelhanças, diferenças e qual você acha mais convincente:",
+        "question_audio": "Compare Chomsky's nativist theory of language acquisition with Skinner's behaviorist theory. Which do you find more convincing?",
+        "target_text": "Chomsky and Skinner proposed fundamentally different explanations for how children learn language Chomsky's nativist theory argues that humans are born with an innate language acquisition device a biological capacity for learning language evidence includes the fact that all children follow similar developmental stages regardless of culture and that children produce sentences they have never heard before suggesting internal rules rather than mere imitation Skinner's behaviorist theory in contrast argues that language is learned through environmental reinforcement children imitate adults and are rewarded for correct usage evidence includes the fact that children in language rich environments develop larger vocabularies I find Chomsky's theory more convincing because it better explains how children master complex grammar so quickly and why they produce creative errors like goed instead of went which imitation alone cannot explain however I believe both nature and nurture contribute the truth likely lies in an interaction between innate capacity and environmental input",
+        "hint_pt": "Teoria 1 + evidência → Teoria 2 + evidência → Qual é mais convincente + por quê → Nuance",
+        "accepted_variations": [
+          "Chomsky",
+          "Skinner",
+          "nativist",
+          "behaviorist",
+          "innate",
+          "imitation",
+          "evidence",
+          "convincing",
+          "interaction"
+        ]
+      },
+      {
+        "id": "s34-02",
+        "type": "guided_response",
+        "instruction_pt": "Compare em 60 segundos:",
+        "question_audio": "Compare the 'disease model' and the 'choice model' of addiction. What are the implications of each?",
+        "target_text": "The disease model views addiction as a chronic brain disorder supported by brain imaging showing that addiction physically alters neural reward circuits this model reduces stigma encourages people to seek treatment and is endorsed by most medical organizations the choice model argues that addiction involves voluntary behavior and that framing it as a disease removes personal responsibility proponents point to people who quit addictions through willpower alone as evidence the practical implications differ significantly the disease model supports medical treatment insurance coverage and compassionate policies while the choice model tends to favor punishment and personal accountability I believe the disease model is more scientifically supported but acknowledge that the choice model captures something important about human agency the best approach likely combines medical treatment with strategies that empower individuals to make better choices",
+        "hint_pt": "Modelo 1 + evidência + implicações → Modelo 2 + evidência + implicações → Sua posição nuançada",
+        "accepted_variations": [
+          "disease",
+          "choice",
+          "addiction",
+          "brain",
+          "stigma",
+          "treatment",
+          "responsibility",
+          "agency",
+          "empower"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 35,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — Prova cronometrada",
+    "exercises": [
+      {
+        "id": "s35-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 1 (45 seg):",
+        "question_audio": "Do you agree or disagree: The most important factor in choosing a career is the salary it offers.",
+        "target_text": "I disagree that salary is the most important factor in choosing a career while financial security is certainly important research consistently shows that job satisfaction depends more on factors like meaningful work good relationships with colleagues autonomy and opportunities for growth a study by the Harvard Business Review found that employees who find their work meaningful are three times more likely to stay at their jobs than those motivated primarily by salary furthermore careers that offer high salaries but poor work life balance often lead to burnout and health problems which ultimately diminishes the value of the income in my experience the happiest professionals I know chose careers aligned with their passions and values not just the highest paying option",
+        "hint_pt": "45 seg: Disagree → Razão + estudo → Consequência de focar só em salário → Experiência pessoal",
+        "accepted_variations": [
+          "disagree",
+          "salary",
+          "meaningful",
+          "satisfaction",
+          "burnout",
+          "passions",
+          "values"
+        ]
+      },
+      {
+        "id": "s35-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 3 (60 seg): Conceito + exemplo.",
+        "question_audio": "Concept: 'Opportunity cost' is the value of the next best alternative that you give up when making a decision. Example: A student who spends 4 years in medical school gives up the salary they could have earned working during those years. The professor also gives the example of a government that spends $10 billion on defense — the opportunity cost is the schools and hospitals that could have been built. Explain the concept using the examples.",
+        "target_text": "Opportunity cost is an economic concept that represents the value of what you sacrifice when you choose one option over another the professor illustrates this with two examples first at the individual level a student who attends medical school for four years gives up the income they could have earned by working during that time the degree may be worth it but the forgone salary is a real cost that should be considered second at the government level when a country spends ten billion dollars on military defense the opportunity cost includes the schools hospitals and infrastructure that could have been built with that money this concept is important because it reminds us that every choice has a hidden cost resources spent on one thing cannot be spent on another understanding opportunity cost helps individuals and governments make more informed decisions by considering not just what they gain but what they give up",
+        "hint_pt": "Defina (10s) → Exemplo 1 individual (15s) → Exemplo 2 governo (15s) → Por que importa (20s)",
+        "accepted_variations": [
+          "opportunity cost",
+          "sacrifice",
+          "alternative",
+          "medical school",
+          "salary",
+          "defense",
+          "schools",
+          "hospitals",
+          "informed"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 36,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Defender posição controversa",
+    "exercises": [
+      {
+        "id": "s36-01",
+        "type": "guided_response",
+        "instruction_pt": "Defenda a posição designada em 60 segundos, mesmo que discorde pessoalmente:",
+        "question_audio": "Defend this position: 'Standardized testing should be completely eliminated from the education system.'",
+        "target_text": "I will argue that standardized testing should be eliminated from education first standardized tests create enormous stress and anxiety that actually impair learning rather than measuring it studies show that test anxiety affects up to 40 percent of students reducing their scores by an average of 12 points second these tests measure a narrow range of skills primarily memorization and test-taking strategies while ignoring creativity critical thinking collaboration and emotional intelligence which are arguably more important for success in the real world third standardized tests perpetuate inequality students from wealthy families can afford expensive prep courses giving them unfair advantages alternative assessment methods such as portfolios project-based evaluation and teacher assessments provide a more comprehensive and equitable measure of student learning",
+        "hint_pt": "Defenda com 3 argumentos + evidência + conclusão — mesmo que discorde pessoalmente",
+        "accepted_variations": [
+          "eliminated",
+          "stress",
+          "anxiety",
+          "narrow",
+          "creativity",
+          "inequality",
+          "alternative",
+          "portfolios"
+        ]
+      },
+      {
+        "id": "s36-02",
+        "type": "guided_response",
+        "instruction_pt": "Defenda a posição oposta em 60 segundos:",
+        "question_audio": "Now defend the opposite: 'Standardized testing is essential and should be maintained.'",
+        "target_text": "I will argue that standardized testing is essential for maintaining educational quality and accountability first without standardized benchmarks there is no objective way to compare student performance across schools districts and states this data is crucial for identifying underperforming schools and allocating resources where they are most needed second countries that use rigorous standardized exams like Singapore South Korea and Finland consistently produce the highest performing students internationally third alternative assessments like portfolios and teacher evaluations are inherently subjective and difficult to compare across institutions standardized tests while imperfect provide the most reliable and scalable method of ensuring that all students meet minimum competency standards the solution is not to eliminate testing but to improve it by reducing frequency and broadening the skills assessed",
+        "hint_pt": "Defenda com 3 argumentos + exemplos de países + solução construtiva",
+        "accepted_variations": [
+          "essential",
+          "accountability",
+          "benchmarks",
+          "objective",
+          "compare",
+          "Singapore",
+          "subjective",
+          "reliable",
+          "improve"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 37,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Explicar processos complexos",
+    "exercises": [
+      {
+        "id": "s37-01",
+        "type": "guided_response",
+        "instruction_pt": "Explique o processo em 60 segundos usando linguagem acadêmica:",
+        "question_audio": "Explain how vaccines work to protect against disease.",
+        "target_text": "Vaccines work by training the immune system to recognize and fight specific pathogens without causing the disease itself when you receive a vaccine it introduces either a weakened or inactivated form of the pathogen or a piece of its genetic material into your body your immune system responds by producing antibodies and memory cells that specifically target this pathogen the key benefit is that if you are later exposed to the actual pathogen your immune system already has the memory cells ready to mount a rapid and powerful response preventing the disease from developing this is why vaccination not only protects the individual but also contributes to herd immunity when enough people are vaccinated the pathogen cannot spread effectively protecting even those who cannot be vaccinated such as newborns or immunocompromised individuals",
+        "hint_pt": "Defina → Como funciona (passo a passo) → Por que é eficaz → Benefício coletivo (herd immunity)",
+        "accepted_variations": [
+          "vaccines",
+          "immune system",
+          "antibodies",
+          "memory cells",
+          "pathogen",
+          "herd immunity",
+          "protection"
+        ]
+      },
+      {
+        "id": "s37-02",
+        "type": "guided_response",
+        "instruction_pt": "Explique em 60 segundos:",
+        "question_audio": "Explain how the peer review process works in academic publishing.",
+        "target_text": "The peer review process is the quality control mechanism for academic research when a researcher submits a paper to a journal the editor first evaluates whether it fits the journal's scope if it does the editor sends it to two or three independent experts in the same field these reviewers who remain anonymous to the authors evaluate the paper's methodology data analysis and conclusions they then recommend one of four outcomes accept as is accept with minor revisions require major revisions or reject if revisions are required the author must address each reviewer's concern and resubmit the revised paper this process typically takes several months and ensures that published research meets minimum standards of quality and rigor however peer review is not perfect it can be slow biased and may fail to catch errors or fraud despite these limitations it remains the best system we have for validating scientific knowledge",
+        "hint_pt": "Defina → Etapas (submissão → avaliação → decisão → revisão) → Limitações → Conclusão",
+        "accepted_variations": [
+          "peer review",
+          "quality",
+          "journal",
+          "editor",
+          "reviewers",
+          "anonymous",
+          "methodology",
+          "revisions",
+          "rigor",
+          "limitations"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 38,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Análise de política pública",
+    "exercises": [
+      {
+        "id": "s38-01",
+        "type": "guided_response",
+        "instruction_pt": "Analise a política proposta em 60 segundos — prós, contras e sua recomendação:",
+        "question_audio": "Some cities have implemented congestion pricing — charging drivers a fee to enter the city center during peak hours. Analyze this policy.",
+        "target_text": "Congestion pricing is a policy that charges drivers to enter city centers during peak hours it has been implemented successfully in London Singapore and Stockholm the benefits are clear London's congestion charge reduced traffic by 30 percent improved air quality and generated revenue that was reinvested in public transportation however there are legitimate concerns critics argue that congestion pricing is regressive it disproportionately affects low income workers who must commute by car because public transit doesn't serve their neighborhoods wealthy drivers can easily afford the fee while working class drivers face a significant financial burden to address this cities should use the revenue specifically to improve public transportation in underserved areas and provide exemptions or discounts for low income residents on balance I support congestion pricing but only if accompanied by substantial investment in equitable public transit alternatives",
+        "hint_pt": "O que é → Exemplos de sucesso + dados → Contra-argumentos → Como resolver → Posição final",
+        "accepted_variations": [
+          "congestion",
+          "pricing",
+          "traffic",
+          "London",
+          "regressive",
+          "low income",
+          "public transit",
+          "revenue",
+          "equitable"
+        ]
+      },
+      {
+        "id": "s38-02",
+        "type": "guided_response",
+        "instruction_pt": "Analise em 60 segundos:",
+        "question_audio": "Some countries have implemented a sugar tax on sweetened beverages. Is this good policy?",
+        "target_text": "Sugar taxes on sweetened beverages have been implemented in over 40 countries including Mexico the UK and several US cities the evidence from Mexico is promising after implementing a one peso per liter tax in 2014 purchases of sugary drinks decreased by 12 percent in the first year with the largest decreases among low income consumers who are most at risk for obesity and diabetes the UK's sugar levy also led several manufacturers to reformulate their products reducing sugar content before the tax even took effect however opponents argue that sugar taxes are paternalistic telling adults what they should eat and that they disproportionately burden the poor since low income people spend a larger share of their income on food on balance the evidence suggests that sugar taxes are effective public health interventions especially when the revenue is used to subsidize healthy food options and fund nutrition education in underserved communities",
+        "hint_pt": "Dados de México e UK → Contra-argumentos (paternalismo, regressividade) → Equilíbrio com solução",
+        "accepted_variations": [
+          "sugar tax",
+          "Mexico",
+          "UK",
+          "decrease",
+          "reformulate",
+          "paternalistic",
+          "burden",
+          "effective",
+          "subsidize",
+          "nutrition"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 39,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Improviso acadêmico",
+    "exercises": [
+      {
+        "id": "s39-01",
+        "type": "guided_response",
+        "instruction_pt": "Responda a esta pergunta acadêmica inesperada em 45 segundos. Organize rapidamente: posição → evidência → conclusão.",
+        "question_audio": "A classmate says: 'I don't see why we need to learn history. It's just memorizing dates and names that have no relevance to our lives today.' How would you respond?",
+        "target_text": "I would respectfully disagree history is far more than memorizing dates it's about understanding patterns of human behavior that repeat across centuries for example studying the economic conditions that led to the rise of fascism in the 1930s helps us recognize similar warning signs today understanding how pandemics like the Black Death transformed European society helps us make sense of COVID's long term impacts the philosopher George Santayana said those who cannot remember the past are condemned to repeat it without historical context we lack the framework to evaluate current events critically or make informed decisions about the future history isn't about the past it's about understanding the present and preparing for the future",
+        "hint_pt": "Discorde educadamente → Por que história importa (com exemplos) → Citação → Conclusão",
+        "accepted_variations": [
+          "disagree",
+          "patterns",
+          "behavior",
+          "fascism",
+          "pandemic",
+          "Santayana",
+          "context",
+          "present",
+          "future"
+        ]
+      },
+      {
+        "id": "s39-02",
+        "type": "guided_response",
+        "instruction_pt": "Responda em 45 segundos:",
+        "question_audio": "Someone argues: 'Learning English is pointless because translation apps will soon make language learning obsolete.' Respond.",
+        "target_text": "While translation technology has improved dramatically I strongly disagree that it makes language learning obsolete first language is not just about exchanging information it's about building relationships and understanding culture you cannot form genuine connections with people through a translation app second professional contexts require nuance tone and cultural awareness that apps cannot capture a doctor explaining a diagnosis or a lawyer negotiating a contract cannot rely on machine translation for such high-stakes communication third learning a language develops cognitive abilities including memory multitasking and problem solving these benefits exist independent of whether machines can translate translation apps are useful tools but they complement language learning they don't replace it just as calculators didn't make math education obsolete",
+        "hint_pt": "Discorde → 3 razões (relações, profissional, cognitivo) → Analogia com calculadora",
+        "accepted_variations": [
+          "disagree",
+          "obsolete",
+          "relationships",
+          "culture",
+          "professional",
+          "nuance",
+          "cognitive",
+          "complement",
+          "calculators"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 40,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — Prova final completa (4 tasks)",
+    "exercises": [
+      {
+        "id": "s40-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 1 (45 seg): Opinião pessoal.",
+        "question_audio": "Do you agree or disagree? 'Universities should require all students to complete community service hours before graduation.'",
+        "target_text": "I agree that universities should require community service before graduation for two compelling reasons first community service develops empathy social awareness and leadership skills that cannot be taught in a classroom medical students who volunteer at free clinics engineering students who work on clean water projects and education students who tutor underprivileged children all gain invaluable real world experience that makes them better professionals second requiring service ensures that the benefits of university education extend beyond the individual to the broader community universities receive public funding and tax benefits so it is reasonable to expect something in return critics argue that mandatory service diminishes its value but research shows that students who are initially reluctant often discover a passion for service that continues long after graduation",
+        "hint_pt": "45 seg. Agree + 2 razões com exemplos → Contra-argumento + refutação",
+        "accepted_variations": [
+          "agree",
+          "community service",
+          "empathy",
+          "leadership",
+          "real world",
+          "critics",
+          "mandatory",
+          "passion"
+        ]
+      },
+      {
+        "id": "s40-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 2 (60 seg): Anúncio + opinião.",
+        "question_audio": "University announcement: The campus cafeteria will increase prices by 20% next semester to fund organic and locally-sourced ingredients. A student opposes this, saying many students already struggle to afford meals and the increase will force them to eat less healthy fast food off campus. State your opinion.",
+        "target_text": "While I support the goal of providing healthier food options I believe the 20 percent price increase is excessive and counterproductive the student raises a valid point many university students are on tight budgets and a significant price increase may actually worsen nutrition if it pushes them toward cheaper fast food alternatives instead of a blanket price increase I would propose a tiered pricing system where organic options are available at higher prices alongside affordable standard options this gives health-conscious students the choice they want while ensuring that cost-sensitive students can still eat nutritious meals on campus additionally the university could seek partnerships with local farms for direct purchasing which would support local agriculture while keeping costs lower than retail organic prices the key principle is that healthy food should be accessible to all students not just those who can afford premium prices",
+        "hint_pt": "Reconheça objetivo → Concorde com o aluno → Proponha alternativa (preço escalonado) → Princípio final",
+        "accepted_variations": [
+          "support",
+          "excessive",
+          "counterproductive",
+          "budget",
+          "tiered",
+          "organic",
+          "affordable",
+          "partnerships",
+          "accessible"
+        ]
+      },
+      {
+        "id": "s40-03",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 3 (60 seg): Conceito acadêmico.",
+        "question_audio": "Concept: 'Survivorship bias' is the logical error of focusing on entities that passed a selection process while ignoring those that did not. Examples: 1) We study successful entrepreneurs and try to copy their habits, but ignore thousands who had the same habits and failed. 2) During WWII, the military wanted to add armor to the areas of returning planes that showed the most bullet damage. Statistician Abraham Wald realized they should armor the areas with NO damage — because planes hit in those areas didn't return. Explain the concept.",
+        "target_text": "Survivorship bias is a logical error where we focus only on things that survived a selection process while ignoring those that didn't the professor gives two powerful examples first in business we study successful entrepreneurs like Steve Jobs and try to replicate their habits but we ignore the thousands of entrepreneurs who had identical habits and failed the survivors are visible the failures are invisible so we draw false conclusions about what causes success second during World War Two military engineers wanted to reinforce the areas of planes that showed the most bullet damage but statistician Abraham Wald realized this was backwards the planes they were examining had survived precisely because they were hit in non-critical areas planes hit in the areas showing no damage never returned so those were the areas that needed armor this is a brilliant illustration of survivorship bias the data we see is biased because it only includes survivors not the full population",
+        "hint_pt": "Defina (10s) → Exemplo 1 empresários (15s) → Exemplo 2 aviões WWII (20s) → Lição geral (15s)",
+        "accepted_variations": [
+          "survivorship bias",
+          "focus",
+          "survived",
+          "ignore",
+          "failed",
+          "entrepreneurs",
+          "planes",
+          "damage",
+          "Wald",
+          "armor",
+          "invisible"
+        ]
+      },
+      {
+        "id": "s40-04",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 4 (60 seg): Resumir lecture.",
+        "question_audio": "Lecture summary: The professor discusses 'loss aversion' — the finding that losing something feels approximately twice as painful as gaining the equivalent feels pleasurable. She gives three examples: 1) Investors hold losing stocks too long, hoping to avoid realizing the loss. 2) People won't switch insurance providers even when cheaper options exist, because the potential loss of familiar service feels more threatening than the savings. 3) Negotiations: starting with a high offer and reducing it is more effective than starting low and increasing, because each reduction feels like a loss to the other party. The professor concludes that understanding loss aversion can improve decision-making in finance, business, and personal life.",
+        "target_text": "The professor explains loss aversion a concept from behavioral economics showing that the pain of losing is roughly twice as intense as the pleasure of gaining she illustrates this with three practical examples first in investing loss aversion causes people to hold losing stocks too long because selling would mean accepting the loss as real even though keeping the stock often leads to greater losses second in consumer behavior people resist switching insurance providers even when better deals exist because losing familiar service feels more threatening than saving money third in negotiations starting with a high offer and making concessions is more effective than starting low and raising because each reduction feels like a loss to the other party making them more likely to accept the professor concludes that understanding loss aversion can help us make more rational decisions by recognizing when this bias is influencing our choices in finance business and daily life",
+        "hint_pt": "Conceito (10s) → Exemplo 1 investimentos (15s) → Exemplo 2 seguros (15s) → Exemplo 3 negociações (10s) → Conclusão (10s)",
+        "accepted_variations": [
+          "loss aversion",
+          "pain",
+          "twice",
+          "stocks",
+          "insurance",
+          "switch",
+          "negotiations",
+          "concessions",
+          "rational",
+          "bias"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 41,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Sintetizar perspectivas opostas",
+    "exercises": [
+      {
+        "id": "s41-01",
+        "type": "guided_response",
+        "instruction_pt": "Apresente os dois lados de um debate acadêmico e proponha uma síntese em 90 segundos:",
+        "question_audio": "Some researchers argue that intelligence is primarily determined by genetics (nature). Others argue that environment and education (nurture) play a bigger role. Based on current evidence, present both perspectives and your synthesis.",
+        "target_text": "The nature versus nurture debate regarding intelligence has been one of psychology's most enduring controversies on the nature side twin studies provide compelling evidence identical twins raised apart still show remarkably similar IQ scores suggesting a significant genetic component researchers estimate that genetics accounts for approximately 50 to 80 percent of the variation in intelligence on the nurture side environmental factors demonstrably affect cognitive development children raised in enriched environments with access to quality education nutrition and intellectual stimulation score significantly higher on IQ tests than those raised in deprived conditions the Flynn effect the steady rise in IQ scores over the 20th century in every country studied cannot be explained by genetics since human DNA has not changed in such a short period my synthesis is that the question is poorly framed nature and nurture are not opposing forces but interact dynamically genes influence how individuals respond to their environment and environments activate or suppress genetic potential the most accurate model is one of gene environment interaction where both factors are necessary and neither is sufficient alone",
+        "hint_pt": "90 seg: Nature + evidência (25s) → Nurture + evidência (25s) → Síntese: interação (30s) → Conclusão (10s)",
+        "accepted_variations": [
+          "nature",
+          "nurture",
+          "genetics",
+          "environment",
+          "twin studies",
+          "IQ",
+          "Flynn effect",
+          "interaction",
+          "both"
+        ]
+      },
+      {
+        "id": "s41-02",
+        "type": "guided_response",
+        "instruction_pt": "Sintetize em 90 segundos:",
+        "question_audio": "There is a debate about whether economic growth is compatible with environmental sustainability. Some argue they are fundamentally incompatible. Others argue green growth is possible. Present both views and your synthesis.",
+        "target_text": "This is perhaps the defining debate of our century on one side degrowth proponents argue that infinite economic growth on a finite planet is mathematically impossible they point out that despite decades of efficiency improvements total global resource consumption and emissions continue to rise because efficiency gains are offset by increased production and consumption a phenomenon called the Jevons paradox on the other side green growth advocates argue that decoupling economic growth from environmental impact is both possible and already happening they cite examples like the UK which grew its economy by 75 percent while cutting emissions by 40 percent between 1990 and 2019 through renewable energy and service sector expansion my synthesis acknowledges truth in both positions complete decoupling at the global scale has not yet been achieved but significant progress in specific sectors shows it is not impossible the path forward likely requires a redefinition of growth itself measuring prosperity by well being health and sustainability rather than GDP alone",
+        "hint_pt": "Degrowth + evidência (30s) → Green growth + evidência (30s) → Síntese: redefinir crescimento (30s)",
+        "accepted_variations": [
+          "growth",
+          "sustainability",
+          "incompatible",
+          "degrowth",
+          "decoupling",
+          "Jevons",
+          "UK",
+          "emissions",
+          "GDP",
+          "well-being"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 42,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Simulado avançado Tasks 1-4",
+    "exercises": [
+      {
+        "id": "s42-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 1 (45 seg):",
+        "question_audio": "Do you agree or disagree? 'The most effective way to learn is through making mistakes.'",
+        "target_text": "I strongly agree that making mistakes is the most effective way to learn and there is substantial scientific evidence supporting this first neuroscience research shows that the brain learns more from errors than from successes when we make a mistake a specific neural signal called an error related negativity fires triggering heightened attention and deeper processing of what went wrong this is why students who struggle with a problem before being shown the solution retain the information longer than those who are simply given the answer second the most successful individuals in virtually every field from science to business have histories marked by significant failures Thomas Edison famously said I have not failed I've found 10000 ways that won't work the key is not avoiding mistakes but creating environments where mistakes are safe to make and where reflection on errors is encouraged in conclusion education systems that punish mistakes through harsh grading may actually impair learning by creating fear that prevents students from taking the intellectual risks necessary for deep understanding",
+        "hint_pt": "45 seg. Agree + neuroscience evidence + famous example + implication for education",
+        "accepted_variations": [
+          "agree",
+          "mistakes",
+          "brain",
+          "error",
+          "Edison",
+          "fear",
+          "learning",
+          "reflection"
+        ]
+      },
+      {
+        "id": "s42-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 4 (60 seg): Resumir lecture.",
+        "question_audio": "Lecture: The professor discusses two models of innovation. The 'linear model' assumes innovation follows a straight path: basic research → applied research → development → commercialization. Example: penicillin was discovered in a lab, then developed into a drug, then manufactured and sold. The 'innovation ecosystem' model argues innovation is messier — it involves constant feedback loops between researchers, companies, governments, and users. Example: the iPhone wasn't invented by basic research. It combined existing technologies (touchscreens, internet, GPS) in a novel way, driven by market demand. The professor concludes that most modern innovation follows the ecosystem model and that government funding should support both basic research AND innovation ecosystems.",
+        "target_text": "The professor compares two models of innovation the linear model assumes a straightforward progression from basic research through applied research to development and finally commercialization the example given is penicillin which followed this path from laboratory discovery to commercial drug production the innovation ecosystem model in contrast views innovation as a complex interactive process involving constant feedback between researchers companies governments and users the iPhone illustrates this model it did not emerge from basic research but instead combined existing technologies like touchscreens internet and GPS in a novel way driven by consumer demand the professor concludes that while the linear model explains some historical innovations most modern innovation follows the ecosystem model therefore she recommends that government funding support both basic research which produces the building blocks of innovation and innovation ecosystems which combine those building blocks into practical applications",
+        "hint_pt": "Modelo 1 + exemplo (20s) → Modelo 2 + exemplo (20s) → Conclusão + recomendação (20s)",
+        "accepted_variations": [
+          "linear",
+          "ecosystem",
+          "penicillin",
+          "iPhone",
+          "basic research",
+          "feedback",
+          "government",
+          "funding",
+          "building blocks"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 43,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Explicar fenômenos complexos",
+    "exercises": [
+      {
+        "id": "s43-01",
+        "type": "guided_response",
+        "instruction_pt": "Explique o fenômeno em 60 segundos usando linguagem acadêmica precisa:",
+        "question_audio": "Explain the concept of 'herd immunity' and why it is important for public health.",
+        "target_text": "Herd immunity is a form of indirect protection from infectious disease that occurs when a large percentage of a population becomes immune either through vaccination or prior infection when enough people are immune the disease cannot spread effectively protecting even those who cannot be vaccinated such as newborns or immunocompromised individuals the threshold varies by disease for measles about 95 percent of the population needs to be immune because it is extremely contagious for COVID-19 estimates ranged from 60 to 90 percent herd immunity is crucial because it protects the most vulnerable members of society who rely on the immunity of those around them this is why vaccination is often described as both a personal health choice and a social responsibility when vaccination rates drop below the herd immunity threshold outbreaks can occur as we saw with measles resurgences in communities with low vaccination rates",
+        "hint_pt": "Defina → Como funciona → Exemplos com números → Por que é importante → Consequência quando falha",
+        "accepted_variations": [
+          "herd immunity",
+          "vaccination",
+          "immune",
+          "threshold",
+          "measles",
+          "vulnerable",
+          "social responsibility",
+          "outbreaks"
+        ]
+      },
+      {
+        "id": "s43-02",
+        "type": "guided_response",
+        "instruction_pt": "Explique em 60 segundos:",
+        "question_audio": "What is the 'butterfly effect' and what does it tell us about complex systems?",
+        "target_text": "The butterfly effect is a concept from chaos theory that illustrates how small changes in initial conditions can lead to vastly different outcomes in complex systems the term was coined by meteorologist Edward Lorenz who discovered that tiny rounding differences in weather simulation data produced completely different weather forecasts the popular metaphor is that a butterfly flapping its wings in Brazil could theoretically set off a chain of atmospheric events that ultimately causes a tornado in Texas this doesn't mean butterflies literally cause tornadoes rather it illustrates that complex systems like weather economies and ecosystems are so interconnected that small perturbations can cascade into large unpredictable consequences this has profound implications for prediction and policy making it means that long term precise prediction of complex systems is fundamentally impossible not due to lack of data but due to the inherent sensitivity of these systems to initial conditions",
+        "hint_pt": "Defina → Quem cunhou → Metáfora → O que realmente significa → Implicações",
+        "accepted_variations": [
+          "butterfly effect",
+          "chaos",
+          "Lorenz",
+          "small changes",
+          "complex systems",
+          "unpredictable",
+          "prediction",
+          "sensitivity"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 44,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Avaliar e recomendar",
+    "exercises": [
+      {
+        "id": "s44-01",
+        "type": "guided_response",
+        "instruction_pt": "Avalie o argumento e faça uma recomendação em 60 segundos:",
+        "question_audio": "A university is considering eliminating its philosophy department because philosophy graduates have lower starting salaries than STEM graduates. Evaluate this reasoning and make a recommendation.",
+        "target_text": "This reasoning is fundamentally flawed for several reasons first it uses starting salary as the sole measure of a degree's value ignoring long term career trajectories leadership development and contributions to critical thinking that philosophy graduates bring to every field in fact philosophy majors consistently rank among the highest scorers on graduate admissions tests like the GRE LSAT and GMAT second the argument assumes that the purpose of education is exclusively job training but universities have a broader mission to develop well rounded citizens capable of ethical reasoning and informed democratic participation third eliminating philosophy would undermine interdisciplinary programs across the university as philosophy provides foundational courses in logic ethics and critical analysis that benefit students in every major I would recommend that instead of eliminating philosophy the university integrate philosophical thinking across the curriculum and develop joint degree programs that combine philosophy with practical fields like philosophy and computer science or philosophy and medicine",
+        "hint_pt": "Por que está errado (3 razões) → Recomendação construtiva",
+        "accepted_variations": [
+          "flawed",
+          "starting salary",
+          "critical thinking",
+          "ethical reasoning",
+          "interdisciplinary",
+          "integrate",
+          "joint degree"
+        ]
+      },
+      {
+        "id": "s44-02",
+        "type": "guided_response",
+        "instruction_pt": "Avalie e recomende em 60 segundos:",
+        "question_audio": "Some people argue that the best way to reduce carbon emissions is through individual behavior change — recycling, using public transport, eating less meat. Evaluate this approach.",
+        "target_text": "While individual behavior change is valuable it is insufficient as the primary strategy for reducing carbon emissions the data shows that just 100 companies are responsible for 71 percent of global greenhouse gas emissions individual choices like recycling and reducing meat consumption are important symbolically and incrementally but they cannot offset industrial scale emissions from fossil fuel extraction manufacturing and transportation however this doesn't mean individual action is pointless it serves two critical functions first it builds the political will necessary for systemic change voters who have changed their own behavior are more likely to demand that governments regulate corporate emissions second individual choices create market demand for sustainable products which incentivizes companies to invest in cleaner alternatives my recommendation is a dual approach governments must implement carbon pricing and strict emission regulations for major polluters while simultaneously encouraging individual behavior change through education and infrastructure investment like better public transportation and cycling networks",
+        "hint_pt": "Reconheça valor → Dados que mostram limitação → Mas não é inútil (2 funções) → Recomendação dual",
+        "accepted_variations": [
+          "insufficient",
+          "100 companies",
+          "71 percent",
+          "individual",
+          "systemic",
+          "political will",
+          "carbon pricing",
+          "dual approach"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 45,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "Simulado TOEFL Speaking — Prova final nível máximo",
+    "exercises": [
+      {
+        "id": "s45-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 1 (45 seg):",
+        "question_audio": "Do you agree or disagree? 'A university education is wasted on people who don't know what career they want to pursue.'",
+        "target_text": "I strongly disagree with this statement in fact I would argue that university is precisely the right place for people who haven't yet decided on a career for two reasons first the purpose of university education extends far beyond career preparation it develops critical thinking communication skills and intellectual curiosity that serve students regardless of their eventual career path many of the most successful professionals including Steve Jobs and Mark Zuckerberg changed direction multiple times before finding their path second exploration is itself valuable research shows that students who explore different fields before committing to a major often make more informed choices and report higher career satisfaction than those who specialize too early the pressure to know your career path at 18 is both unrealistic and counterproductive university should be a space for intellectual exploration not just vocational training",
+        "hint_pt": "45 seg: Disagree forte → Razão 1 (propósito da universidade) → Razão 2 (exploração é valiosa) → Conclusão",
+        "accepted_variations": [
+          "disagree",
+          "exploration",
+          "critical thinking",
+          "career",
+          "curiosity",
+          "vocational",
+          "informed choices"
+        ]
+      },
+      {
+        "id": "s45-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO Task 4 (60 seg): Resumir lecture acadêmica.",
+        "question_audio": "Lecture: The professor discusses two types of knowledge: 'explicit knowledge' and 'tacit knowledge.' Explicit knowledge can be written down, taught, and transferred — like facts, formulas, and procedures. Example: a recipe for bread. Tacit knowledge is experiential and intuitive — it's learned through practice and difficult to articulate. Example: a master baker knows by touch when dough has been kneaded enough, but can't fully explain how they know. The professor argues that education systems focus almost exclusively on explicit knowledge (tests measure what students can write or say) while ignoring tacit knowledge (skills developed through practice and mentorship). She concludes that this imbalance is problematic because many of the most important professional skills — clinical judgment in medicine, courtroom instinct in law, creative intuition in art — are forms of tacit knowledge that can only be developed through extensive supervised practice.",
+        "target_text": "The professor distinguishes between two types of knowledge explicit knowledge which can be documented and taught such as facts formulas and procedures and tacit knowledge which is experiential and intuitive learned through practice but difficult to put into words she uses the example of baking explicit knowledge is the recipe that anyone can follow while tacit knowledge is the master baker's ability to judge dough texture by touch something that cannot be fully communicated in words the professor's central argument is that education systems are imbalanced they focus almost exclusively on explicit knowledge because it is easy to test and measure while neglecting tacit knowledge she considers this problematic because many critical professional skills are tacit clinical judgment in medicine courtroom instinct in law and creative intuition in art are all developed through practice and mentorship not through studying textbooks she concludes that education needs more apprenticeship style learning where students develop tacit knowledge under expert guidance",
+        "hint_pt": "Explicit + exemplo (15s) → Tacit + exemplo (15s) → Problema: desequilíbrio (15s) → Conclusão: mais aprendizagem prática (15s)",
+        "accepted_variations": [
+          "explicit",
+          "tacit",
+          "knowledge",
+          "recipe",
+          "baker",
+          "intuitive",
+          "practice",
+          "imbalanced",
+          "clinical judgment",
+          "apprenticeship"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 46,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Analisar políticas com dados",
+    "exercises": [
+      {
+        "id": "s46-01",
+        "type": "guided_response",
+        "instruction_pt": "Analise a política usando dados em 60 segundos:",
+        "question_audio": "Universal basic income: Finland tested giving 2,000 unemployed people 560 euros per month with no conditions. Recipients reported greater happiness and well-being, but employment rates did not increase significantly. Should countries implement UBI? Analyze.",
+        "target_text": "Finland's UBI experiment provides valuable but limited evidence on one hand recipients reported significantly higher levels of happiness and well-being which suggests that financial security reduces stress and improves quality of life on the other hand employment rates did not increase significantly which weakens the argument that UBI helps people find work however we should interpret these results cautiously first the sample of 2000 people is relatively small second the experiment lasted only two years which may not be enough time to see employment effects third the participants knew the program was temporary which may have affected their behavior I believe UBI warrants further investigation with larger and longer studies before countries make policy decisions based on a single limited experiment",
+        "hint_pt": "Resultados positivos → Resultados negativos → Limitações do estudo (3) → Conclusão cautelosa",
+        "accepted_variations": [
+          "Finland",
+          "UBI",
+          "happiness",
+          "employment",
+          "limited",
+          "cautiously",
+          "sample",
+          "temporary",
+          "warrants"
+        ]
+      },
+      {
+        "id": "s46-02",
+        "type": "guided_response",
+        "instruction_pt": "Analise em 60 segundos:",
+        "question_audio": "Some countries have implemented a four-day work week. Iceland tested it with 2,500 workers and found that productivity remained the same or improved while worker well-being increased dramatically. Should this become standard? Analyze.",
+        "target_text": "Iceland's four day work week trial produced remarkably positive results productivity was maintained or improved while workers reported significantly better work life balance reduced stress and more time for family and personal development these findings challenge the assumption that longer hours equal more output however several important considerations remain first Iceland is a small homogeneous country with a strong social safety net results may not transfer to larger more diverse economies second certain industries like healthcare emergency services and manufacturing may not be able to reduce hours without hiring additional staff which increases costs third the trial involved primarily government workers and may not reflect private sector dynamics despite these limitations I believe the evidence is strong enough to justify wider pilot programs particularly in knowledge based industries where output is measured by results not hours",
+        "hint_pt": "Resultados positivos + dados → Limitações (3 pontos) → Conclusão com recomendação específica",
+        "accepted_variations": [
+          "Iceland",
+          "productivity",
+          "well-being",
+          "four day",
+          "limitations",
+          "homogeneous",
+          "industries",
+          "pilot programs",
+          "knowledge based"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 47,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Apresentações acadêmicas de nível máximo",
+    "exercises": [
+      {
+        "id": "s47-01",
+        "type": "guided_response",
+        "instruction_pt": "Faça uma mini-apresentação acadêmica de 90 segundos:",
+        "question_audio": "Present the concept of 'epistemic injustice' and explain why it matters for medicine and education.",
+        "target_text": "Epistemic injustice a concept developed by philosopher Miranda Fricker describes situations where someone is wronged specifically in their capacity as a knower there are two forms testimonial injustice occurs when a speaker receives less credibility due to prejudice a female scientist whose research is dismissed more readily than identical work by a male colleague or a patient whose pain reports are discounted because of their race hermeneutical injustice occurs when a group lacks the concepts to understand their own experience before the term sexual harassment was coined in the 1970s women experienced unwanted advances but lacked vocabulary to name and resist them this concept matters profoundly for medicine studies show black patients receive less pain medication than white patients with identical conditions because their reports are given less credibility this is testimonial injustice with life threatening consequences in education when certain groups knowledge systems are systematically excluded from curricula entire ways of understanding the world are silenced addressing epistemic injustice requires not just individual awareness but structural changes diversifying who produces and validates knowledge in our institutions",
+        "hint_pt": "90 seg: Defina (15s) → 2 formas com exemplos (30s) → Importância em medicina (20s) → Importância em educação (15s) → Solução (10s)",
+        "accepted_variations": [
+          "epistemic injustice",
+          "Fricker",
+          "testimonial",
+          "hermeneutical",
+          "credibility",
+          "prejudice",
+          "medicine",
+          "education",
+          "structural"
+        ]
+      },
+      {
+        "id": "s47-02",
+        "type": "guided_response",
+        "instruction_pt": "Apresentação de 90 segundos:",
+        "question_audio": "Present the concept of the 'attention economy' and discuss its implications for democracy.",
+        "target_text": "The attention economy describes a marketplace where human attention is the scarce resource that companies compete for in a world of infinite content but limited attention the businesses that capture the most eyeball hours win social media platforms streaming services and news websites all compete for the same pool of human attention the business model is simple capture attention and sell it to advertisers this creates dangerous incentives for democracy because content that triggers outrage fear and tribal conflict generates more engagement than nuanced balanced reporting algorithms optimized for engagement not truth naturally promote the most emotionally provocative content this means citizens are increasingly exposed to extreme viewpoints and misinformation former Google ethicist Tristan Harris described this as a race to the bottom of the brain stem platforms competing to trigger our most primitive emotional responses the implications for democracy are severe an informed citizenry requires access to reliable information and space for thoughtful deliberation the attention economy provides neither instead it incentivizes the kind of emotional manipulation that undermines rational democratic discourse solutions include algorithmic transparency regulation digital literacy education and business models that align platform incentives with public interest rather than engagement metrics",
+        "hint_pt": "90 seg: Defina (15s) → Como funciona (15s) → Por que é perigoso para democracia (25s) → Citação (10s) → Soluções (15s) → Conclusão (10s)",
+        "accepted_variations": [
+          "attention economy",
+          "engagement",
+          "algorithms",
+          "outrage",
+          "democracy",
+          "Tristan Harris",
+          "manipulation",
+          "transparency",
+          "digital literacy"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 48,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Responder perguntas inesperadas nível máximo",
+    "exercises": [
+      {
+        "id": "s48-01",
+        "type": "guided_response",
+        "instruction_pt": "Responda a esta pergunta inesperada em 45 segundos com posição clara + evidência:",
+        "question_audio": "What is the single most important invention in human history and why?",
+        "target_text": "I would argue that the printing press invented by Gutenberg around 1440 is the most important invention in human history because it democratized knowledge before the printing press books were copied by hand making them extremely expensive and accessible only to the elite the printing press reduced the cost of books by over 80 percent enabling widespread literacy and education this directly enabled the Protestant Reformation scientific revolution and Enlightenment Martin Luther's 95 Theses spread across Europe in weeks because of printing and scientific knowledge could be shared verified and built upon for the first time essentially the printing press created the infrastructure for every subsequent revolution in human thought without it the scientific method democracy and modern education as we know them would not exist the internet is often compared to the printing press and for good reason both democratized access to information transforming society fundamentally",
+        "hint_pt": "Escolha + dato (Gutenberg 1440) → Por que (democratizou conhecimento) → Consequências (Reforma, ciência, Iluminismo) → Conexão com presente (internet)",
+        "accepted_variations": [
+          "printing press",
+          "Gutenberg",
+          "democratized",
+          "knowledge",
+          "literacy",
+          "Reformation",
+          "scientific",
+          "Enlightenment",
+          "internet"
+        ]
+      },
+      {
+        "id": "s48-02",
+        "type": "guided_response",
+        "instruction_pt": "Responda em 45 segundos:",
+        "question_audio": "If you could solve one global problem, which would you choose and why?",
+        "target_text": "If I could solve one global problem it would be access to quality education because education is the master key that unlocks solutions to virtually every other challenge we face countries with higher education levels have lower poverty rates better health outcomes stronger democracies and more innovation education reduces birth rates which addresses overpopulation it increases economic productivity which reduces poverty it develops critical thinking which strengthens democracy and it produces the scientists and engineers needed to solve problems like climate change the data supports this a World Bank study found that each additional year of schooling increases individual earnings by approximately 10 percent and that educating girls is the single most effective investment for developing countries unlike problems like climate change which require coordinated global action education can be improved country by country school by school making it both impactful and achievable",
+        "hint_pt": "Escolha + por que é a 'master key' → 4 consequências → Dados (World Bank) → Por que é alcançável",
+        "accepted_variations": [
+          "education",
+          "master key",
+          "poverty",
+          "democracy",
+          "climate",
+          "critical thinking",
+          "World Bank",
+          "10 percent",
+          "achievable"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 49,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "TOEFL Speaking — Sintetizar e avaliar argumentos complexos",
+    "exercises": [
+      {
+        "id": "s49-01",
+        "type": "guided_response",
+        "instruction_pt": "Sintetize os 3 argumentos em 90 segundos e avalie qual é mais forte:",
+        "question_audio": "Three arguments about AI in education: (1) AI will personalize learning perfectly, making teachers obsolete. (2) AI will never replace the human connection essential for learning. (3) AI and teachers should work together, each doing what they do best. Evaluate which argument is strongest.",
+        "target_text": "Let me evaluate these three positions on AI in education the first argument that AI will make teachers obsolete overstates current capabilities while AI excels at personalized content delivery and instant feedback it cannot replicate the mentorship empathy and social modeling that human teachers provide a Raj Chetty study found that teacher quality predicted students life outcomes decades later effects that emerge from human relationship not information transfer the second argument that AI can never replace human connection is too dismissive of AI's genuine strengths adaptive learning platforms already outperform traditional instruction for certain tasks like vocabulary acquisition and mathematical practice dismissing AI entirely means losing these benefits the third argument that AI and teachers should collaborate is the most compelling because it leverages the strengths of both AI handles routine tasks like grading content delivery and basic tutoring freeing teachers to focus on what humans do best mentoring inspiring critical discussion and emotional support this hybrid model is already showing results in schools that have implemented it with improved outcomes for both students and teacher satisfaction I believe the third argument is strongest because it avoids the false dichotomy of the other two and aligns with the evidence",
+        "hint_pt": "90 seg: Argumento 1 + por que é fraco (20s) → Argumento 2 + por que é fraco (20s) → Argumento 3 + por que é forte (30s) → Conclusão (20s)",
+        "accepted_variations": [
+          "AI",
+          "teachers",
+          "obsolete",
+          "human connection",
+          "hybrid",
+          "collaborate",
+          "strengths",
+          "Chetty",
+          "false dichotomy"
+        ]
+      },
+      {
+        "id": "s49-02",
+        "type": "guided_response",
+        "instruction_pt": "Sintetize em 90 segundos:",
+        "question_audio": "Three perspectives on immigration: (1) Open borders would maximize global prosperity. (2) Strict immigration controls are necessary to protect national culture and security. (3) A balanced system with both pathways for legal immigration and reasonable border enforcement serves everyone's interests. Evaluate.",
+        "target_text": "These three perspectives represent a spectrum from maximally open to maximally restrictive with a pragmatic middle ground the open borders argument has strong economic support research by economist Michael Clemens estimates that open borders could double world GDP by allowing workers to move to where they are most productive however this argument ignores legitimate concerns about the pace of cultural change capacity of public services and security risks that unrestricted migration would create the strict controls argument addresses these real concerns but overestimates the risks studies consistently show that immigrants commit crimes at lower rates than native born citizens contribute more in taxes than they receive in benefits and enrich rather than diminish cultural life the third perspective is most realistic because it acknowledges that immigration policy involves genuine tradeoffs a well designed immigration system would provide clear legal pathways for workers students and refugees while maintaining border security and investing in integration programs countries like Canada and Australia demonstrate that high immigration combined with strong integration policies produces positive outcomes for both immigrants and host societies in conclusion the balanced approach is strongest because it is grounded in evidence addresses legitimate concerns from both sides and has been demonstrated to work in practice",
+        "hint_pt": "90 seg: Argumento 1 + força + fraqueza (25s) → Argumento 2 + força + fraqueza (25s) → Argumento 3 + por que é melhor + exemplos (30s) → Conclusão (10s)",
+        "accepted_variations": [
+          "immigration",
+          "open borders",
+          "strict",
+          "balanced",
+          "Clemens",
+          "GDP",
+          "crime",
+          "integration",
+          "Canada",
+          "Australia",
+          "tradeoffs"
+        ]
+      }
+    ]
+  },
+  {
+    "level": 50,
+    "skill": "speaking",
+    "cefr": "C1",
+    "theme": "SIMULADO FINAL — TOEFL Speaking nível máximo (todas as 4 tasks)",
+    "exercises": [
+      {
+        "id": "s50-01",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 1 (45 seg): Opinião.",
+        "question_audio": "Do you agree or disagree with the following statement: 'The ability to adapt to change is more important than specialized knowledge in today's world.'",
+        "target_text": "I strongly agree that adaptability is more important than specialized knowledge in today's rapidly changing world for two compelling reasons first the World Economic Forum estimates that 65 percent of children entering primary school today will work in jobs that don't yet exist specialized knowledge that is relevant today may be obsolete within a decade but the ability to learn adapt and reinvent oneself remains valuable regardless of what changes second history shows that the most impactful innovators were adapters not specialists Steve Jobs combined calligraphy design and computing Darwin synthesized geology biology and economics the breakthroughs came from connecting different fields not from deeper specialization this doesn't mean knowledge doesn't matter it means the most valuable knowledge is the meta skill of learning how to learn a specialized expert who cannot adapt is like a perfectly tuned instrument that can only play one song in a world that keeps changing the melody",
+        "hint_pt": "45 seg. Agree → Razão 1 com dados (WEF 65%) → Razão 2 com exemplos (Jobs, Darwin) → Metáfora final memorável",
+        "accepted_variations": [
+          "agree",
+          "adaptability",
+          "specialized",
+          "65 percent",
+          "obsolete",
+          "Jobs",
+          "Darwin",
+          "meta skill",
+          "learning"
+        ]
+      },
+      {
+        "id": "s50-02",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 2 (60 seg): Anúncio + opinião.",
+        "question_audio": "University announcement: Starting next year, all undergraduate students will be required to complete a course in data literacy and statistics, regardless of their major. A humanities student argues this is unfair because she chose to study literature precisely to avoid math. What is your opinion?",
+        "target_text": "The university's decision to require data literacy for all students is sound policy and I respectfully disagree with the student's objection while I understand her preference for literature over mathematics the modern world requires basic data literacy across all fields literary scholars now use computational text analysis to study patterns across thousands of texts historians use statistical methods to analyze demographic trends even journalists must interpret data to report accurately on polls health statistics and economic indicators the student's assumption that data literacy equals math misunderstands the requirement data literacy is not advanced calculus it is the ability to read a graph evaluate a statistical claim and distinguish correlation from causation these are citizenship skills as fundamental as reading and writing in an era when data drives decisions from healthcare to criminal justice citizens who cannot evaluate data claims are vulnerable to manipulation I would suggest the university design the course specifically for non STEM students using examples from humanities and social sciences to make the content relevant and accessible this addresses the student's legitimate concern about relevance while maintaining the essential requirement",
+        "hint_pt": "60 seg. Concorde com universidade → Discorde educadamente da aluna → Por que data literacy importa em humanidades (3 exemplos) → O que data literacy NÃO é → Proposta para atender a preocupação → Conclusão",
+        "accepted_variations": [
+          "data literacy",
+          "disagree",
+          "literature",
+          "computational",
+          "statistics",
+          "citizenship",
+          "manipulation",
+          "relevant",
+          "accessible"
+        ]
+      },
+      {
+        "id": "s50-03",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 3 (60 seg): Conceito acadêmico.",
+        "question_audio": "Concept: 'The Tragedy of the Commons' — when a shared resource is overexploited because individuals act in self-interest. Example 1: International fishing — no country owns the oceans, so fleets overfish, depleting stocks. Example 2: Antibiotic resistance — individual patients demand antibiotics for viruses, each case seems harmless, but collectively it creates resistant superbugs. Explain the concept using both examples.",
+        "target_text": "The tragedy of the commons describes what happens when individuals acting rationally in their own self interest collectively destroy a shared resource the professor illustrates this with two powerful examples first international fishing since no single country owns the oceans fishing fleets from many nations compete to catch as much as possible each fleet rationally maximizes its own catch but collectively this has led to severe overfishing with over one third of global fish stocks now depleted the shared resource the ocean's fish is destroyed by rational individual behavior second antibiotic resistance when a patient demands antibiotics for a viral infection and a doctor prescribes them each individual interaction seems harmless but when millions of people do this it creates antibiotic resistant superbugs that threaten everyone the shared resource effective antibiotics is destroyed by millions of individually rational decisions the key insight connecting both examples is the same individually rational behavior leads to collectively catastrophic outcomes when shared resources are involved the solution requires collective action whether through international fishing agreements or public health campaigns to reduce antibiotic misuse because individual self restraint alone cannot solve the problem",
+        "hint_pt": "60 seg: Defina (10s) → Exemplo 1 pesca (15s) → Exemplo 2 antibióticos (15s) → Insight que conecta (10s) → Solução (10s)",
+        "accepted_variations": [
+          "tragedy",
+          "commons",
+          "self interest",
+          "fishing",
+          "overfished",
+          "antibiotics",
+          "resistance",
+          "rational",
+          "collective",
+          "solution"
+        ]
+      },
+      {
+        "id": "s50-04",
+        "type": "guided_response",
+        "instruction_pt": "SIMULADO FINAL — Task 4 (60 seg): Resumir lecture.",
+        "question_audio": "Lecture: The professor discusses the concept of 'superforecasters' from Philip Tetlock's research. Most experts predict the future no better than chance. But a small group — superforecasters — consistently outperform even intelligence analysts. What distinguishes them is not intelligence but cognitive style: they actively seek contradictory evidence, update beliefs frequently, think in probabilities not certainties, and treat being wrong as learning. The professor concludes that education should train these skills — intellectual humility and evidence-based thinking — rather than just teaching content.",
+        "target_text": "The professor presents Philip Tetlock's research on forecasting and its implications for education Tetlock studied expert predictions over 20 years and found a striking result most experts predicted future events no better than random chance however a small group called superforecasters consistently outperformed even intelligence analysts with access to classified information what made superforecasters exceptional was not their intelligence or education but their cognitive style they actively sought information that contradicted their existing beliefs they updated their views frequently and incrementally based on new evidence they thought in terms of probabilities rather than certainties and most importantly they treated being wrong not as failure but as an opportunity to learn the professor draws an important conclusion for education if the most valuable cognitive skill is the ability to revise beliefs based on evidence then education should prioritize training intellectual humility and evidence based reasoning over simply transmitting content this represents a fundamental shift from teaching students what to think to teaching them how to think and more importantly how to change their thinking when evidence demands it",
+        "hint_pt": "60 seg: Achado principal de Tetlock (10s) → O que torna superforecasters especiais (4 características, 20s) → Conclusão para educação (20s) → Frase final memorável (10s)",
+        "accepted_variations": [
+          "Tetlock",
+          "superforecasters",
+          "chance",
+          "cognitive style",
+          "contradictory",
+          "probabilities",
+          "wrong",
+          "learning",
+          "intellectual humility",
+          "evidence"
+        ]
+      }
+    ]
+  }
+]
