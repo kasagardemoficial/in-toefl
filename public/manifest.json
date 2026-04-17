@@ -4,8 +4,8 @@
   "description": "Do Zero ao TOEFL — O app para universitários brasileiros",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#3b82f6",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8CB369",
   "orientation": "portrait",
   "icons": [
     {

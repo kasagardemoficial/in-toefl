@@ -1,30 +1,35 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
   title: "In-TOEFL — Do Zero ao TOEFL",
-  description: "O app que leva do zero absoluto em inglês até passar no TOEFL. Para universitários brasileiros.",
+  description: "O app que leva do zero absoluto em inglês até passar no TOEFL. Para universitários brasileiros. 100% gratuito.",
   manifest: "/manifest.json",
+  openGraph: {
+    title: "In-TOEFL — Do Zero ao TOEFL",
+    description: "1.843 exercícios + 963 questões TOEFL reais. Método Kumon. Em português. De graça.",
+    type: "website",
+    siteName: "In-TOEFL",
+  },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black-translucent",
+    statusBarStyle: "default",
     title: "In-TOEFL",
+  },
+  icons: {
+    apple: "/apple-touch-icon.png",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0f172a",
+  themeColor: "#8CB369",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
@@ -38,9 +43,9 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${nunito.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#0f172a] text-[#f8fafc]">
+      <body className="min-h-screen bg-white text-[#1A1A1A]" style={{ fontFamily: 'var(--font-nunito), Nunito, sans-serif' }}>
         {children}
       </body>
     </html>

@@ -65,6 +65,7 @@ export function markPlacementDone(levels: Record<string, number>): void {
   progress.speaking_level = levels.speaking || 1
   progress.writing_level = levels.writing || 1
   progress.vocabulary_level = levels.vocabulary || 1
+  progress.grammar_level = levels.grammar || levels.reading || 1
   saveProgress(progress)
 }
 

@@ -1,0 +1,176 @@
+[
+  {
+    "source": "ETS Official TOEFL iBT Reading Practice Set 1",
+    "title": "The Rise of Teotihuacán",
+    "passage": "The city of Teotihuacán, which lay about 50 kilometers northeast of modern-day Mexico City, began its growth by 200–100 B.C. At its height, between about A.D. 150 and 700, it probably had a population of more than 125,000 people and covered at least 20 square kilometers. It had over 2,000 apartment complexes, a great market, a large number of industrial workshops, an administrative center, a number of massive religious edifices, and a regular grid pattern of streets and buildings. Clearly, much planning and central control were involved in the expansion and ordering of this great metropolis. Moreover, the city had economic and perhaps religious contacts with most parts of Mesoamerica.\n\nHow did this tremendous development take place, and why did it happen in the Teotihuacán Valley? Among the main factors are Teotihuacán's geographic location on a natural trade route to the south and east of the Valley of Mexico, the obsidian resources in the Teotihuacán Valley itself, and the valley's potential for extensive irrigation.\n\nThis last factor is at least circumstantially implicated in Teotihuacán's rise. Prior to 200 B.C., a number of relatively small centers coexisted in and near the Valley of Mexico. Around this time, the largest of these centers, Cuicuilco, was seriously affected by a volcanic eruption, with much of its agricultural land covered by lava. With Cuicuilco eliminated as a potential rival, any one of a number of relatively modest towns might have emerged as a leading economic and political power in Central Mexico.\n\nIt seems likely that Teotihuacán's natural resources—along with the city elite's ability to recognize their potential—gave the city a competitive edge over its neighbors. The valley, like many other places in Mexican and Guatemalan highlands, was rich in obsidian. The hard volcanic stone was a resource that had been in great demand for many years.\n\nLong-distance trade in obsidian probably gave the elite residents of Teotihuacán access to a wide variety of exotic goods, as well as a relatively prosperous life. Such success may have attracted immigrants to Teotihuacán. It is also probable that as early as 200 B.C. Teotihuacán may have achieved some religious significance and its shrine may have served as an additional population magnet.\n\nThe picture of Teotihuacán that emerges is a classic picture of positive feedback among obsidian mining and working, trade, population growth, irrigation, and religious tourism.",
+    "questions": [
+      {
+        "id": "ets-r1-01",
+        "question": "In paragraph 1, each of the following is mentioned as a feature of the city of Teotihuacán between A.D. 150 and 700 EXCEPT",
+        "options": ["A) A regularly arranged streets", "B) Several administrative centers spread across the city", "C) Many manufacturing workshops", "D) Apartment complexes"],
+        "correct": "B",
+        "type": "detail_except",
+        "explanation_pt": "O texto menciona 'an administrative center' (singular, não 'several'). As outras opções são mencionadas: regular grid pattern (A), industrial workshops (C), apartment complexes (D)."
+      },
+      {
+        "id": "ets-r1-02",
+        "question": "The word 'ingenuity' in paragraph 2 is closest in meaning to",
+        "options": ["A) Ambition", "B) Sincerity", "C) Faith", "D) Cleverness"],
+        "correct": "D",
+        "type": "vocabulary",
+        "explanation_pt": "'Ingenuity' = engenhosidade, esperteza, inventividade. 'Cleverness' (esperteza) é o significado mais próximo."
+      },
+      {
+        "id": "ets-r1-03",
+        "question": "Which of the following is NOT mentioned in paragraph 2 as a main factor in the development of Teotihuacán?",
+        "options": ["A) The presence of obsidian in the Teotihuacán Valley", "B) The potential for extensive irrigation of Teotihuacán Valley lands", "C) A long period of volcanic inactivity in the Teotihuacán Valley", "D) Teotihuacán's location on a natural trade route"],
+        "correct": "C",
+        "type": "detail_except",
+        "explanation_pt": "O texto menciona obsidian (A), irrigação (B) e localização em rota comercial (D). Não menciona 'período longo de inatividade vulcânica' (C)."
+      },
+      {
+        "id": "ets-r1-04",
+        "question": "What can be inferred from paragraph 3 about Cuicuilco prior to 200 B.C.?",
+        "options": ["A) It was a fairly small city until that date.", "B) It was located outside the Valley of Mexico.", "C) It emerged rapidly as an economical and political center.", "D) Its economy relied heavily on agriculture."],
+        "correct": "D",
+        "type": "inference",
+        "explanation_pt": "O texto diz que a erupção vulcânica cobriu 'much of its agricultural land' com lava, implicando que a economia de Cuicuilco dependia fortemente da agricultura."
+      },
+      {
+        "id": "ets-r1-05",
+        "question": "Which of the following allowed Teotihuacán to have 'a competitive edge over its neighbors'?",
+        "options": ["A) A well-exploited and readily available commodity", "B) The presence of a highly stable elite class", "C) Knowledge derived directly from the Olmecs about the art of toolmaking", "D) Scarce natural resources in nearby areas"],
+        "correct": "A",
+        "type": "detail",
+        "explanation_pt": "O texto diz que os recursos naturais (obsidiana) deram à cidade vantagem competitiva. Obsidiana era 'a resource in great demand' — um commodity bem explorado e disponível."
+      },
+      {
+        "id": "ets-r1-06",
+        "question": "According to paragraph 4, what has recent research on obsidian tools found at Olmec sites shown?",
+        "options": ["A) Obsidian's value was understood only when Teotihuacán became an important city.", "B) The residents of Teotihuacán were sophisticated toolmakers.", "C) The residents of Teotihuacán traded obsidian with the Olmecs as early as 400 B.C.", "D) Some of the obsidian used by the Olmecs came from the area around Teotihuacán."],
+        "correct": "D",
+        "type": "detail",
+        "explanation_pt": "O texto diz 'recent research on obsidian tools found at Olmec sites has shown that some of the obsidian obtained by the Olmecs originated near Teotihuacán'."
+      },
+      {
+        "id": "ets-r1-07",
+        "question": "Select the TWO answer choices that are mentioned in paragraph 5 as being features of Teotihuacán that may have attracted immigrants.",
+        "options": ["A) The prosperity of the elite", "B) Plenty of available housing", "C) Opportunities for well-paid agricultural employment", "D) The presence of one or more religious shrines"],
+        "correct": "A,D",
+        "type": "multiple_select",
+        "explanation_pt": "O parágrafo 5 menciona 'prosperous life' (prosperidade da elite, A) e 'religious significance and its shrine' (significância religiosa e santuário, D)."
+      },
+      {
+        "id": "ets-r1-08",
+        "question": "In paragraph 6, the author discusses 'The thriving obsidian operation' in order to",
+        "options": ["A) Explain why manufacturing was the main industry of Teotihuacán", "B) Give an example of an industry that took very little time to develop", "C) Illustrate how several factors influenced each other to make Teotihuacán a powerful and wealthy city", "D) Explain how a successful industry can be a source of wealth and conflict at the same time"],
+        "correct": "C",
+        "type": "purpose",
+        "explanation_pt": "O autor discute a operação de obsidiana para ilustrar o 'positive feedback' — como mineração, comércio, crescimento populacional, irrigação e turismo religioso se influenciaram mutuamente."
+      },
+      {
+        "id": "ets-r1-09",
+        "question": "Where would the sentence 'In fact, artifacts and pottery from Teotihuacán have been discovered in sites as far away as the Mayan lowlands, the Guatemalan highlands, northern Mexico, and the Gulf Coast of Mexico.' best fit in paragraph 1?",
+        "options": ["A) Option A", "B) Option B", "C) Option C", "D) Option D"],
+        "correct": "D",
+        "type": "sentence_insertion",
+        "explanation_pt": "A frase sobre artefatos encontrados em locais distantes encaixa melhor após a menção de que a cidade tinha 'economic and perhaps religious contacts with most parts of Mesoamerica' — posição D."
+      },
+      {
+        "id": "ets-r1-10",
+        "question": "Complete the summary: Teotihuacán was a highly developed city that reached its peak between about A.D. 150 and 700. Select THREE.",
+        "options": ["A) The number and sophistication of features indicate centralized planning and control.", "B) Teotihuacán may have developed its own religion due to prosperity.", "C) Several factors may account for its extraordinary development, including location, resources, irrigation, and misfortune of rivals.", "D) It became the most influential religious center.", "E) In many areas, Teotihuacán's success typified the classic positive feedback cycle.", "F) Although many immigrants settled, coerced labor limited population growth."],
+        "correct": "A,C,E",
+        "type": "summary",
+        "explanation_pt": "A (planejamento central), C (fatores de desenvolvimento), e E (ciclo de feedback positivo) expressam as ideias principais. B, D e F são detalhes menores ou informações não apresentadas."
+      }
+    ]
+  },
+  {
+    "source": "ETS Official TOEFL iBT Reading Practice Set 2",
+    "title": "Extinction of the Dinosaurs",
+    "passage": "Paleontologists have argued for a long time that the demise of the dinosaurs was caused by climatic alterations associated with slow changes in the positions of continents and seas resulting from plate tectonics. Off and on throughout the Cretaceous, large shallow seas covered extensive areas of the continents. Data indicate that the Late Cretaceous climate was milder than today's. The days were not too hot, nor the nights too cold. The shallow seas on the continents probably buffered the temperature of the nearby air, keeping it relatively constant.\n\nAt the end of the Cretaceous, the geological record shows that these seaways retreated from the continents back into the major ocean basins. Over a period of about 100,000 years, climates around the world became dramatically more extreme. Perhaps dinosaurs could not tolerate these extreme temperature changes and became extinct.\n\nIf true, though, why did cold-blooded animals such as snakes, lizards, turtles, and crocodiles survive the freezing winters and torrid summers? Although initially appealing, the hypothesis of a simple climatic change related to sea levels is insufficient to explain all the data.\n\nDissatisfaction with conventional explanations led to a new hypothesis. Many plants and animals disappear abruptly from the fossil record as one moves from layers of rock documenting the end of the Cretaceous up into rocks representing the beginning of the Cenozoic. Between the last layer of Cretaceous rock and the first layer of Cenozoic rock, there is often a thin layer of clay.\n\nIr has not been common at Earth's surface since the very beginning of the planet's history. It is found in high concentrations in some meteorites. By measuring how many of these meteorites fall to Earth, scientists can estimate how long it might have taken to deposit the observed amount of Ir in the boundary clay.\n\nIn view of these facts, scientists hypothesized that a single large asteroid, about 10 to 15 kilometers across, collided with Earth, and the resulting fallout created the boundary clay. Their calculations show that the impact kicked up a dust cloud that cut off sunlight for several months.",
+    "questions": [
+      {
+        "id": "ets-r2-01",
+        "question": "According to paragraph 1, which of the following is true of the Late Cretaceous climate?",
+        "options": ["A) Summers were very warm and winters were very cold.", "B) Shallow seas on the continents caused frequent temperature changes.", "C) The climate was very similar to today's climate.", "D) The climate did not change dramatically from season to season."],
+        "correct": "D",
+        "type": "detail",
+        "explanation_pt": "O texto diz 'The days were not too hot, nor the nights too cold' e o clima era 'milder than today's' com temperatura 'relatively constant'."
+      },
+      {
+        "id": "ets-r2-02",
+        "question": "Why does the author mention the survival of 'snakes, lizards, turtles, and crocodiles' in paragraph 3?",
+        "options": ["A) To argue that dinosaurs may have become extinct because they were not cold-blooded", "B) To question the adequacy of the hypothesis that climatic change related to sea levels caused the extinction", "C) To present examples of animals that could maintain a livable body temperature more easily than dinosaurs", "D) To support a hypothesis that these animals were not as sensitive to climate changes in the Cretaceous period"],
+        "correct": "B",
+        "type": "purpose",
+        "explanation_pt": "O autor menciona esses animais para questionar a hipótese de mudança climática — se o clima matou os dinossauros, por que esses animais de sangue frio sobreviveram?"
+      },
+      {
+        "id": "ets-r2-03",
+        "question": "According to paragraph 3, which of the following is true of changes in climate before the Cretaceous period and the effect of these changes on dinosaurs?",
+        "options": ["A) Climate changes associated with the movement of seaways before the Cretaceous period did not cause dinosaurs to become extinct.", "B) Changes in climate before the Cretaceous period caused severe fluctuation in sea level, resulting in the extinction.", "C) Frequent changes in climate before the Cretaceous period made dinosaurs better able to maintain a livable body temperature.", "D) Before the Cretaceous period there were few changes in climate, and dinosaurs flourished."],
+        "correct": "A",
+        "type": "detail",
+        "explanation_pt": "O texto diz que mares rasos 'had retreated from and advanced on the continents numerous times during the Mesozoic' e os dinossauros sobreviveram a essas mudanças anteriores."
+      },
+      {
+        "id": "ets-r2-04",
+        "question": "The word 'fluctuations' in the passage is closest in meaning to",
+        "options": ["A) Extremes", "B) Retreats", "C) Periods", "D) Variations"],
+        "correct": "D",
+        "type": "vocabulary",
+        "explanation_pt": "'Fluctuations' = flutuações, variações. 'Variations' é o sinônimo mais próximo."
+      },
+      {
+        "id": "ets-r2-05",
+        "question": "Which of the sentences below best expresses the essential information in the highlighted sentence in paragraph 4?",
+        "options": ["A) The fossil record suggests an abrupt extinction of many plants and animals at the end of the Mesozoic era.", "B) Few fossils of the Mesozoic era have survived in the rocks that mark the end of the Cretaceous.", "C) Fossils from the Cretaceous period up to the beginning of the Cenozoic era have been removed from the layers of rock.", "D) Plants and animals from the Mesozoic era were unable to survive in the Cenozoic era."],
+        "correct": "A",
+        "type": "sentence_simplification",
+        "explanation_pt": "A frase essencial é que muitas plantas e animais desaparecem abruptamente do registro fóssil na transição Cretáceo→Cenozóico."
+      },
+      {
+        "id": "ets-r2-06",
+        "question": "In paragraph 4, all of the following questions are answered EXCEPT:",
+        "options": ["A) Why is there a layer of clay between the rocks of the Cretaceous and Cenozoic?", "B) Why were scientists interested in determining how long it took to deposit the layer of clay?", "C) What was the effect of the surprising observation scientists made?", "D) Why did scientists want more information about the dinosaur extinctions at the end of the Cretaceous?"],
+        "correct": "A",
+        "type": "detail_except",
+        "explanation_pt": "O parágrafo não explica POR QUE existe a camada de argila — apenas menciona sua existência e que cientistas tentaram determinar quanto tempo levou para depositá-la."
+      },
+      {
+        "id": "ets-r2-07",
+        "question": "Paragraph 5 implies that a special explanation of the Ir in the boundary clay is needed because",
+        "options": ["A) The Ir in microscopic meteorites reaching Earth during the Cretaceous would have been incorporated into Earth's core", "B) The Ir in the boundary clay was deposited much more than a million years ago", "C) The concentration of Ir in the boundary clay is higher than in microscopic meteorites", "D) The amount of Ir in the boundary clay is too great to have come from microscopic meteorites during the time the boundary clay was deposited"],
+        "correct": "D",
+        "type": "inference",
+        "explanation_pt": "O texto diz que cálculos sugerem que levaria ~1 milhão de anos para depositar o Ir observado, mas outras evidências mostram que a deposição não poderia ter levado 1 milhão de anos — logo, a quantidade de Ir é grande demais para ter vindo de meteoritos microscópicos no tempo disponível."
+      },
+      {
+        "id": "ets-r2-08",
+        "question": "The word 'disruption' in the passage is closest in meaning to",
+        "options": ["A) Exhaustion", "B) Disturbance", "C) Modification", "D) Disappearance"],
+        "correct": "B",
+        "type": "vocabulary",
+        "explanation_pt": "'Disruption' = perturbação, interrupção. 'Disturbance' (perturbação) é o sinônimo mais próximo."
+      },
+      {
+        "id": "ets-r2-09",
+        "question": "Where would the sentence 'Consequently, the idea that the Ir in the boundary clay came from microscopic meteorites cannot be accepted.' best fit?",
+        "options": ["A) Option A", "B) Option B", "C) Option C", "D) Option D"],
+        "correct": "C",
+        "type": "sentence_insertion",
+        "explanation_pt": "A frase conclusiva sobre rejeitar a hipótese dos meteoritos microscópicos encaixa melhor após a evidência de que a deposição não poderia ter levado 1 milhão de anos (posição C)."
+      },
+      {
+        "id": "ets-r2-10",
+        "question": "Complete the summary: For a long time scientists have argued that the extinction of the dinosaurs was related to climate change. Select THREE.",
+        "options": ["A) Extreme changes in daily and seasonal climates preceded the retreat of the seas.", "B) A simple climate change does not explain some important data related to the extinction.", "C) The retreat of the seaways at the end of the Cretaceous has not been fully explained.", "D) The abruptness of extinctions and the high concentration of Ir have fueled a new hypothesis.", "E) Some scientists hypothesize that the extinction resulted from the effects of an asteroid collision.", "F) Boundary clay layers are used by scientists to determine the rate at which an extinct species declined."],
+        "correct": "B,D,E",
+        "type": "summary",
+        "explanation_pt": "B (mudança climática simples não explica), D (extinção abrupta + Ir → nova hipótese), E (hipótese do asteroide). A, C, F são detalhes menores ou incorretos."
+      }
+    ]
+  }
+]

@@ -3,182 +3,292 @@
 import { useEffect, useState } from 'react'
 import { getProgress, updateStreak, saveProgress } from '@/lib/storage'
 import { isOnboardingDone, getOnboarding } from '@/lib/onboarding'
+import { checkAndAwardBadges, getTotalBadgesEarned, getTotalBadges } from '@/lib/badges'
+import { getLeague, getDailyChallenge } from '@/lib/gamification'
 import { UserProgress } from '@/types'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import BottomNav from '@/components/BottomNav'
 
 const skillInfo = [
-  { key: 'reading', label: 'Reading', icon: '📖', color: 'bg-blue-500' },
-  { key: 'listening', label: 'Listening', icon: '🎧', color: 'bg-purple-500' },
-  { key: 'speaking', label: 'Speaking', icon: '🗣️', color: 'bg-green-500' },
-  { key: 'writing', label: 'Writing', icon: '✍️', color: 'bg-yellow-500' },
-  { key: 'vocabulary', label: 'Vocabulary', icon: '📝', color: 'bg-red-500' },
-  { key: 'grammar', label: 'Grammar', icon: '📐', color: 'bg-orange-500' },
+  { key: 'reading', label: 'Reading', sublabel: 'Leitura', icon: '/mascot/icon_reading.png', color: '#8CB369' },
+  { key: 'listening', label: 'Listening', sublabel: 'Escuta', icon: '/mascot/icon_listening.png', color: '#5B9BD5' },
+  { key: 'speaking', label: 'Speaking', sublabel: 'Fala', icon: '/mascot/icon_speaking.png', color: '#F4A261' },
+  { key: 'writing', label: 'Writing', sublabel: 'Escrita', icon: '/mascot/icon_writing.png', color: '#E76F51' },
+  { key: 'vocabulary', label: 'Vocabulary', sublabel: 'Palavras', icon: '/mascot/icon_vocabulary.png', color: '#9B59B6' },
+  { key: 'grammar', label: 'Grammar', sublabel: 'Gramática', icon: '/mascot/icon_grammar.png', color: '#3498DB' },
+]
+
+const phrases = [
+  '💪 Cada lição te aproxima do TOEFL!',
+  '🌟 Consistência é a chave!',
+  '🚀 Você está construindo seu futuro!',
+  '🎯 Foco no objetivo!',
+  '⭐ Grandes conquistas, pequenos passos!',
 ]
 
 export default function Home() {
   const router = useRouter()
   const [progress, setProgress] = useState<UserProgress | null>(null)
+  const [phrase] = useState(phrases[Math.floor(Math.random() * phrases.length)])
+  const [newBadges, setNewBadges] = useState<string[]>([])
 
   useEffect(() => {
-    if (!isOnboardingDone()) {
-      router.push('/welcome')
-      return
-    }
+    if (!isOnboardingDone()) { router.push('/welcome'); return }
     updateStreak()
-    setProgress(getProgress())
+    const p = getProgress()
+
+    // Auto-fix: if placement was done but grammar stayed at 1 (bug fix)
+    if (p.placementDone && p.grammar_level === 1) {
+      const otherLevels = [p.reading_level, p.listening_level, p.speaking_level, p.writing_level, p.vocabulary_level]
+      const avg = Math.round(otherLevels.reduce((a, b) => a + b, 0) / otherLevels.length)
+      if (avg > 5) {
+        p.grammar_level = avg
+        saveProgress(p)
+      }
+    }
+
+    setProgress(p)
+    const awarded = checkAndAwardBadges(p)
+    if (awarded.length > 0) {
+      setNewBadges(awarded.map(b => `${b.icon} ${b.name}`))
+      setTimeout(() => setNewBadges([]), 5000)
+    }
   }, [router])
 
-  if (!progress) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-blue-500" />
-      </div>
-    )
-  }
-
-  if (!progress.placementDone) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center">
-        <h1 className="text-4xl font-bold mb-2">In-TOEFL</h1>
-        <p className="text-lg text-slate-400 mb-2">Do Zero ao TOEFL</p>
-        <p className="text-sm text-slate-500 mb-8 max-w-sm">
-          O app que leva do zero absoluto em inglês até passar no TOEFL.
-          Para universitários brasileiros que querem estudar e trabalhar fora.
-        </p>
-
-        <div className="bg-[#1e293b] rounded-2xl p-6 mb-6 max-w-sm w-full border border-[#334155]">
-          <h2 className="text-xl font-semibold mb-3">Teste de Nivelamento</h2>
-          <p className="text-slate-400 text-sm mb-4">
-            35 questões em ~15 minutos. Vamos descobrir seu nível atual de inglês
-            para montar seu plano personalizado.
-          </p>
-          <Link
-            href="/placement"
-            className="block w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl text-center transition-colors"
-          >
-            Começar Teste
-          </Link>
-        </div>
-
-        <button
-          onClick={() => {
-            const p = getProgress()
-            p.placementDone = true
-            saveProgress(p)
-            setProgress({ ...p })
-          }}
-          className="text-slate-500 text-sm underline hover:text-slate-300"
-        >
-          Pular teste (começar do nível 1)
-        </button>
-      </div>
-    )
-  }
-
-  const totalLevels = 50
-  const overallProgress = Math.round(
-    ((progress.reading_level + progress.listening_level + progress.speaking_level +
-      progress.writing_level + progress.vocabulary_level + progress.grammar_level) / (totalLevels * 6)) * 100
+  if (!progress) return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
+      <img src="/mascot/main.png" alt="In-TOEFL" style={{ width: '80px', height: '80px', objectFit: 'contain' }} className="streak-fire" />
+    </div>
   )
 
-  return (
-    <div className="min-h-screen p-4 pb-24 max-w-lg mx-auto">
-      {/* Header */}
-      <div className="flex items-center justify-between mb-6">
+  // Placement screen — give user choice, don't block
+  if (!progress.placementDone) return (
+    <div style={{ minHeight: '100vh', padding: '24px', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
+      {/* Welcome header */}
+      <div style={{ textAlign: 'center', paddingTop: '32px', marginBottom: '28px' }}>
+        <img src="/mascot/main.png" alt="In-TOEFL" style={{ width: '100px', height: '100px', objectFit: 'contain', margin: '0 auto 8px' }} />
+        <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>Bem-vindo ao In-TOEFL!</h1>
+        <p style={{ color: '#999', fontSize: '0.85rem' }}>O que você quer fazer primeiro?</p>
+      </div>
+
+      {/* Option 1: Placement test */}
+      <button onClick={() => router.push('/placement')} style={{ width: '100%', background: '#F0F7EA', borderRadius: '16px', padding: '18px', marginBottom: '12px', border: '2px solid #8CB369', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: '14px', fontFamily: 'inherit' }}>
+        <img src="/mascot/detective.png" alt="Teste" style={{ width: '52px', height: '52px', objectFit: 'contain', flexShrink: 0 }} />
         <div>
-          <h1 className="text-2xl font-bold">Olá, {getOnboarding().name || 'Aluno'}!</h1>
-          <p className="text-slate-400 text-sm">Sua lição de hoje</p>
+          <p style={{ fontWeight: 800, fontSize: '0.95rem', margin: '0 0 2px', color: '#1A1A1A' }}>Fazer Teste de Nivelamento</p>
+          <p style={{ fontSize: '0.75rem', color: '#6B9A4B', margin: '0 0 2px' }}>35 questões · ~15 min · Descubra seu nível</p>
+          <span style={{ fontSize: '0.65rem', color: '#8CB369', fontWeight: 700, background: '#E8F5E9', padding: '2px 8px', borderRadius: '8px' }}>RECOMENDADO</span>
         </div>
-        <div className="flex items-center gap-4">
-          <div className="text-center">
-            <span className="text-2xl streak-fire">🔥</span>
-            <p className="text-xs text-slate-400">{progress.streak} dias</p>
+      </button>
+
+      {/* Option 2: Start from level 1 */}
+      <button onClick={() => { const p = getProgress(); p.placementDone = true; saveProgress(p); setProgress({...p}) }} style={{ width: '100%', background: 'white', borderRadius: '16px', padding: '18px', marginBottom: '12px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: '14px', fontFamily: 'inherit' }}>
+        <img src="/mascot/study.png" alt="Começar" style={{ width: '52px', height: '52px', objectFit: 'contain', flexShrink: 0 }} />
+        <div>
+          <p style={{ fontWeight: 700, fontSize: '0.95rem', margin: '0 0 2px', color: '#1A1A1A' }}>Começar do Nível 1</p>
+          <p style={{ fontSize: '0.75rem', color: '#999', margin: 0 }}>Pular o teste e ir direto para os exercícios</p>
+        </div>
+      </button>
+
+      {/* Option 3: Explore first */}
+      <button onClick={() => { const p = getProgress(); p.placementDone = true; saveProgress(p); setProgress({...p}) }} style={{ width: '100%', background: 'white', borderRadius: '16px', padding: '18px', marginBottom: '24px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'center', gap: '14px', fontFamily: 'inherit' }}>
+        <div style={{ width: '52px', height: '52px', borderRadius: '14px', background: '#F7F7F7', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.5rem', flexShrink: 0 }}>👀</div>
+        <div>
+          <p style={{ fontWeight: 700, fontSize: '0.95rem', margin: '0 0 2px', color: '#1A1A1A' }}>Explorar o App Primeiro</p>
+          <p style={{ fontSize: '0.75rem', color: '#999', margin: 0 }}>Conhecer as habilidades, simulados e conquistas</p>
+        </div>
+      </button>
+
+      <p style={{ textAlign: 'center', fontSize: '0.7rem', color: '#999' }}>
+        Você pode fazer o teste de nivelamento a qualquer momento
+      </p>
+    </div>
+  )
+
+  const totalLevels = 50
+  const onboarding = getOnboarding()
+  const allLevels = [progress.reading_level, progress.listening_level, progress.speaking_level, progress.writing_level, progress.vocabulary_level, progress.grammar_level]
+  const overallProgress = Math.round((allLevels.reduce((a, b) => a + b, 0) / (totalLevels * 6)) * 100)
+  const maxIdx = allLevels.indexOf(Math.max(...allLevels))
+
+  return (
+    <div style={{ minHeight: '100vh', paddingBottom: '80px', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
+      {/* Badge notification */}
+      {newBadges.length > 0 && (
+        <div className="badge-unlock" style={{ position: 'fixed', top: '16px', left: '16px', right: '16px', zIndex: 50, background: '#8CB369', borderRadius: '12px', padding: '14px', textAlign: 'center', color: 'white', boxShadow: '0 4px 20px rgba(140,179,105,0.4)' }}>
+          <p style={{ fontSize: '0.85rem', fontWeight: 700 }}>🎉 Nova conquista!</p>
+          <p>{newBadges.join(' • ')}</p>
+        </div>
+      )}
+
+      {/* Header */}
+      <div style={{ padding: '20px 20px 12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div>
+          <p style={{ color: '#999', fontSize: '0.75rem', margin: 0 }}>Bem-vindo de volta</p>
+          <h1 style={{ fontSize: '1.4rem', fontWeight: 800, margin: 0 }}>{onboarding.name || 'Aluno'} 👋</h1>
+        </div>
+        <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <Link href="/settings" style={{ fontSize: '1.1rem', padding: '4px', textDecoration: 'none' }} title="Configurações">
+            ⚙️
+          </Link>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF3E0', borderRadius: '20px', padding: '6px 12px' }}>
+            <span className="streak-fire" style={{ fontSize: '1rem' }}>🔥</span>
+            <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FF7043' }}>{progress.streak}</span>
           </div>
-          <div className="text-center">
-            <span className="text-lg font-bold text-yellow-400">{progress.xp}</span>
-            <p className="text-xs text-slate-400">XP</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF8E1', borderRadius: '20px', padding: '6px 12px' }}>
+            <span style={{ fontSize: '0.8rem' }}>⭐</span>
+            <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FFC107' }}>{progress.xp}</span>
           </div>
         </div>
       </div>
 
-      {/* Overall Progress */}
-      <div className="bg-[#1e293b] rounded-2xl p-4 mb-6 border border-[#334155]">
-        <div className="flex justify-between items-center mb-2">
-          <span className="text-sm text-slate-400">Progresso geral</span>
-          <span className="text-sm font-semibold text-blue-400">{overallProgress}%</span>
+      {/* Progress card */}
+      <div style={{ padding: '0 20px', marginBottom: '16px' }}>
+        <div style={{ background: '#F0F7EA', borderRadius: '16px', padding: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+            <div>
+              <p style={{ color: '#6B9A4B', fontSize: '0.7rem', fontWeight: 700, margin: 0 }}>
+                {overallProgress < 40 ? 'FASE 1 — ENGLISH BASE' : overallProgress < 80 ? 'FASE 2 — TOEFL TRAINING' : 'FASE 3 — SIMULADOS'}
+              </p>
+              <p style={{ color: '#666', fontSize: '0.75rem', margin: '2px 0 0' }}>Progresso geral</p>
+            </div>
+            <span style={{ fontSize: '1.5rem', fontWeight: 800, color: '#8CB369' }}>{overallProgress}%</span>
+          </div>
+          <div className="jolingo-progress"><div className="jolingo-progress-fill" style={{ width: `${overallProgress}%` }} /></div>
         </div>
-        <div className="w-full bg-[#334155] rounded-full h-3">
-          <div
-            className="bg-blue-500 h-3 rounded-full progress-fill"
-            style={{ width: `${overallProgress}%` }}
-          />
+      </div>
+
+      {/* League + Daily Challenge */}
+      <div style={{ padding: '0 20px', marginBottom: '16px' }}>
+        <div style={{ display: 'flex', gap: '10px' }}>
+          {/* League */}
+          {(() => {
+            const league = getLeague()
+            return (
+              <div style={{ flex: 1, background: '#F7F7F7', borderRadius: '14px', padding: '12px', border: '1px solid #E8E8E8' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
+                  <span style={{ fontSize: '1.2rem' }}>{league.icon}</span>
+                  <div>
+                    <p style={{ fontWeight: 800, fontSize: '0.8rem', margin: 0, color: league.color }}>Liga {league.league}</p>
+                    <p style={{ fontSize: '0.6rem', color: '#999', margin: 0 }}>{league.weeklyXP} XP esta semana</p>
+                  </div>
+                </div>
+                <div style={{ height: '4px', background: '#E8E8E8', borderRadius: '2px' }}>
+                  <div style={{ height: '4px', background: league.color, borderRadius: '2px', width: `${Math.min(100, (league.weeklyXP / (league.weeklyXP + Math.max(1, league.xpToNext))) * 100)}%`, transition: 'width 0.3s' }} />
+                </div>
+                <p style={{ fontSize: '0.55rem', color: '#999', margin: '4px 0 0' }}>{league.xpToNext > 0 ? `${league.xpToNext} XP para ${league.nextLeague}` : 'Liga máxima!'}</p>
+              </div>
+            )
+          })()}
+          {/* Daily Challenge */}
+          {(() => {
+            const daily = getDailyChallenge()
+            return (
+              <div style={{ flex: 1, background: daily.completed ? '#E8F5E9' : '#FFF3E0', borderRadius: '14px', padding: '12px', border: `1px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}` }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
+                  <span style={{ fontSize: '1rem' }}>{daily.completed ? '✅' : '🎯'}</span>
+                  <p style={{ fontWeight: 700, fontSize: '0.7rem', margin: 0, color: daily.completed ? '#4CAF50' : '#E65100' }}>Desafio Diário</p>
+                </div>
+                <p style={{ fontSize: '0.65rem', color: '#666', margin: '0 0 6px', lineHeight: 1.3 }}>{daily.description}</p>
+                <div style={{ height: '4px', background: '#E8E8E8', borderRadius: '2px' }}>
+                  <div style={{ height: '4px', background: daily.completed ? '#4CAF50' : '#FF9800', borderRadius: '2px', width: `${Math.min(100, (daily.progress / Math.max(1, daily.goal)) * 100)}%` }} />
+                </div>
+                <p style={{ fontSize: '0.55rem', color: '#999', margin: '4px 0 0' }}>{daily.progress}/{daily.goal} · +{daily.reward} XP</p>
+              </div>
+            )
+          })()}
         </div>
-        <p className="text-xs text-slate-500 mt-2">
-          {overallProgress < 40 ? 'Fase 1 — English Base' :
-           overallProgress < 80 ? 'Fase 2 — TOEFL Training' :
-           'Fase 3 — Simulados'}
-        </p>
+      </div>
+
+      {/* Motivational */}
+      <div style={{ padding: '0 20px', marginBottom: '12px' }}>
+        <p style={{ textAlign: 'center', color: '#8CB369', fontSize: '0.8rem', fontWeight: 600 }}>{phrase}</p>
+      </div>
+
+      {/* Continue button */}
+      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
+        <Link href={`/lesson/${skillInfo[maxIdx].key}`} className="jolingo-btn" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', textDecoration: 'none' }}>
+          <img src={skillInfo[maxIdx].icon} alt={skillInfo[maxIdx].label} style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover' }} />
+          CONTINUAR {skillInfo[maxIdx].label.toUpperCase()} — NÍVEL {allLevels[maxIdx]}
+        </Link>
       </div>
 
       {/* Skills */}
-      <div className="space-y-3 mb-6">
-        {skillInfo.map((skill) => {
-          const level = progress[`${skill.key}_level` as keyof UserProgress] as number
-          const pct = Math.round((level / totalLevels) * 100)
-          return (
-            <Link
-              key={skill.key}
-              href={`/lesson/${skill.key}`}
-              className="block bg-[#1e293b] rounded-xl p-4 border border-[#334155] hover:border-blue-500 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">{skill.icon}</span>
+      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+          <h2 style={{ fontSize: '1rem', fontWeight: 800, margin: 0 }}>Habilidades</h2>
+          <Link href="/progress" style={{ fontSize: '0.75rem', color: '#8CB369', textDecoration: 'none', fontWeight: 700 }}>Ver tudo →</Link>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+          {skillInfo.map((skill, i) => {
+            const level = allLevels[i]
+            const pct = Math.round((level / totalLevels) * 100)
+            return (
+              <Link key={skill.key} href={`/lesson/${skill.key}`} className="jolingo-card" style={{ textDecoration: 'none', color: '#1A1A1A' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
+                  <img src={skill.icon} alt={skill.label} style={{ width: '36px', height: '36px', borderRadius: '10px', objectFit: 'cover' }} />
                   <div>
-                    <h3 className="font-semibold">{skill.label}</h3>
-                    <p className="text-xs text-slate-400">Nível {level} de {totalLevels}</p>
+                    <p style={{ fontWeight: 700, margin: 0, fontSize: '0.85rem' }}>{skill.label}</p>
+                    <p style={{ color: '#999', margin: 0, fontSize: '0.65rem' }}>{skill.sublabel}</p>
                   </div>
                 </div>
-                <div className="text-right">
-                  <span className="text-sm font-semibold text-slate-300">{pct}%</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                  <span style={{ fontSize: '0.65rem', color: '#999' }}>Nível {level}</span>
+                  <span style={{ fontSize: '0.6rem', fontWeight: 700, color: skill.color, background: skill.color + '15', padding: '2px 6px', borderRadius: '6px' }}>{pct}% →</span>
                 </div>
-              </div>
-              <div className="mt-2 w-full bg-[#334155] rounded-full h-2">
-                <div
-                  className={`${skill.color} h-2 rounded-full progress-fill`}
-                  style={{ width: `${pct}%` }}
-                />
-              </div>
-            </Link>
-          )
-        })}
+                <div className="jolingo-progress" style={{ height: '6px' }}>
+                  <div className="jolingo-progress-fill" style={{ width: `${pct}%`, background: skill.color }} />
+                </div>
+              </Link>
+            )
+          })}
+        </div>
       </div>
 
-      {/* Quick Actions */}
-      <div className="grid grid-cols-3 gap-3">
-        <Link
-          href="/progress"
-          className="bg-[#1e293b] rounded-xl p-4 border border-[#334155] text-center hover:border-blue-500 transition-colors"
-        >
-          <span className="text-2xl block mb-1">📊</span>
-          <span className="text-sm">Progresso</span>
-        </Link>
-        <Link
-          href="/simulado"
-          className="bg-[#1e293b] rounded-xl p-4 border border-[#334155] text-center hover:border-blue-500 transition-colors"
-        >
-          <span className="text-2xl block mb-1">📋</span>
-          <span className="text-sm">Simulados</span>
-        </Link>
-        <Link
-          href="/badges"
-          className="bg-[#1e293b] rounded-xl p-4 border border-[#334155] text-center hover:border-yellow-500 transition-colors"
-        >
-          <span className="text-2xl block mb-1">🏆</span>
-          <span className="text-sm">Conquistas</span>
-        </Link>
+      {/* Quick actions */}
+      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
+        <h2 style={{ fontSize: '1rem', fontWeight: 800, marginBottom: '12px' }}>Explorar</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px' }}>
+          {[
+            { href: '/simulado', icon: '/mascot/card_simulados.png', label: 'Simulados', sub: 'TOEFL Real' },
+            { href: '/badges', icon: '/mascot/card_conquistas.png', label: 'Conquistas', sub: `${getTotalBadgesEarned()}/${getTotalBadges()}` },
+            { href: '/progress', icon: '/mascot/card_progresso.png', label: 'Progresso', sub: 'Detalhado' },
+            { href: '/integrated', icon: '🔗', label: 'Integrated', sub: 'Ler+Ouvir+Escrever' },
+            { href: '/review', icon: '📅', label: 'Review', sub: 'Semanal' },
+            { href: '/monthly', icon: '🎯', label: 'Nota TOEFL', sub: 'Estimada' },
+          ].map((item) => (
+            <Link key={item.href} href={item.href} className="jolingo-card" style={{ textDecoration: 'none', color: '#1A1A1A', textAlign: 'center', padding: '14px 8px' }}>
+              {item.icon.startsWith('/') ? (
+                <img src={item.icon} alt={item.label} style={{ width: '48px', height: '48px', objectFit: 'contain', margin: '0 auto 4px', display: 'block', borderRadius: '10px' }} />
+              ) : (
+                <div style={{ fontSize: '1.8rem', marginBottom: '4px' }}>{item.icon}</div>
+              )}
+              <p style={{ fontWeight: 700, fontSize: '0.75rem', margin: 0 }}>{item.label}</p>
+              <p style={{ color: '#999', fontSize: '0.6rem', margin: 0 }}>{item.sub}</p>
+            </Link>
+          ))}
+        </div>
       </div>
+
+      {/* Stats */}
+      <div style={{ padding: '0 20px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '8px' }}>
+          {[
+            { value: progress.streak, label: 'Streak', color: '#FF7043' },
+            { value: progress.xp, label: 'XP', color: '#FFC107' },
+            { value: getTotalBadgesEarned(), label: 'Badges', color: '#8CB369' },
+            { value: Math.max(...allLevels), label: 'Max Nv', color: '#5B9BD5' },
+          ].map((stat) => (
+            <div key={stat.label} className="jolingo-stat">
+              <p style={{ fontSize: '1.1rem', fontWeight: 800, color: stat.color, margin: 0 }}>{stat.value}</p>
+              <p style={{ fontSize: '0.6rem', color: '#999', margin: 0 }}>{stat.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <BottomNav />
     </div>
   )
 }

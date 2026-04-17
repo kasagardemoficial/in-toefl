@@ -1148,6 +1148,33 @@
           "transformative"
         ],
         "grammar_focus_pt": "Ensaio persuasivo: Tese forte → Evidência científica → Contra-argumento + refutação → Conclusão forte"
+      },
+      {
+        "id": "w14-04",
+        "type": "reorder",
+        "instruction_pt": "Reorganize as partes para formar um parágrafo coerente:",
+        "words": [
+          "However, some people prefer online classes.",
+          "Education has changed a lot in recent years.",
+          "Both methods have advantages and disadvantages.",
+          "Traditional classrooms are still popular."
+        ],
+        "correct_sentence": "Education has changed a lot in recent years. Traditional classrooms are still popular. However, some people prefer online classes. Both methods have advantages and disadvantages.",
+        "explanation_pt": "Um parágrafo bem organizado segue: introdução → fato → contraste (However) → conclusão."
+      },
+      {
+        "id": "w14-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector adequado:",
+        "sentence": "I studied hard for the exam. _____, I didn't pass.",
+        "options": [
+          "Unfortunately",
+          "Fortunately",
+          "Moreover",
+          "Therefore"
+        ],
+        "correct": "Unfortunately",
+        "explanation_pt": "'Unfortunately' (infelizmente) indica resultado negativo inesperado. 'Fortunately' = felizmente. 'Moreover' = além disso. 'Therefore' = portanto."
       }
     ]
   },
@@ -1172,6 +1199,47 @@
           "foundation"
         ],
         "grammar_focus_pt": "TOEFL essay: Tese clara na intro → Body 1 (reason + example) → Body 2 (reason + example) → Counter + refutation → Conclusion restating thesis"
+      },
+      {
+        "id": "w15-02",
+        "type": "guided_write",
+        "instruction_pt": "Escreva um email curto pedindo informações sobre um curso de inglês.",
+        "scene_pt": "Você quer saber: preço, horários e se tem aulas online.",
+        "template": "Dear Sir/Madam,\nI am writing to _____ about _____.\nCould you please _____?\nI would also like to know _____.\nThank you for your time.\nBest regards,",
+        "model_answer": "Dear Sir/Madam,\nI am writing to inquire about your English course.\nCould you please tell me the price and the schedule?\nI would also like to know if you offer online classes.\nThank you for your time.\nBest regards,\n[Name]",
+        "key_vocabulary": [
+          "inquire",
+          "schedule",
+          "offer",
+          "online classes"
+        ]
+      },
+      {
+        "id": "w15-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a palavra formal correta para o email:",
+        "sentence": "I am writing to _____ about the available positions.",
+        "options": [
+          "ask",
+          "inquire",
+          "want",
+          "know"
+        ],
+        "correct": "inquire",
+        "explanation_pt": "Em emails formais, 'inquire' é mais apropriado que 'ask'. 'Inquire' = perguntar formalmente."
+      },
+      {
+        "id": "w15-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases do email na ordem correta:",
+        "words": [
+          "Best regards, Ana",
+          "I look forward to hearing from you.",
+          "Dear Mr. Johnson,",
+          "I am writing to apply for the internship position."
+        ],
+        "correct_sentence": "Dear Mr. Johnson, I am writing to apply for the internship position. I look forward to hearing from you. Best regards, Ana",
+        "explanation_pt": "Estrutura de email formal: Saudação → Motivo → Encerramento → Despedida."
       }
     ]
   },
@@ -1212,6 +1280,48 @@
           "complicate"
         ],
         "grammar_focus_pt": "Integrated essay: Reading says X → Lecture challenges with Y → Specific evidence → Summary"
+      },
+      {
+        "id": "w16-03",
+        "type": "free_write",
+        "instruction_pt": "Escreva sua opinião em 3-4 frases:",
+        "prompt": "Do you think students should wear uniforms at school? Why or why not?",
+        "hint_pt": "Use: In my opinion... First... Additionally... For example...",
+        "model_answer": "In my opinion, students should wear uniforms at school. First, uniforms create equality among students regardless of their economic background. Additionally, they help students focus on learning rather than fashion. For example, in many successful schools around the world, uniforms are mandatory.",
+        "key_vocabulary": [
+          "opinion",
+          "equality",
+          "regardless",
+          "mandatory"
+        ],
+        "grammar_focus_pt": "Expressando opinião: In my opinion, I believe, I think"
+      },
+      {
+        "id": "w16-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com a expressão de opinião correta:",
+        "sentence": "_____, technology has improved our lives significantly.",
+        "options": [
+          "In my opinion",
+          "On my opinion",
+          "By my opinion",
+          "At my opinion"
+        ],
+        "correct": "In my opinion",
+        "explanation_pt": "A expressão correta é 'In my opinion' (na minha opinião). Nunca 'on/by/at my opinion'."
+      },
+      {
+        "id": "w16-05",
+        "type": "reorder",
+        "instruction_pt": "Organize o parágrafo de opinião:",
+        "words": [
+          "Therefore, I believe exercise is essential for everyone.",
+          "Regular exercise has many health benefits.",
+          "For instance, it reduces stress and improves sleep quality.",
+          "In my opinion, people should exercise at least three times a week."
+        ],
+        "correct_sentence": "In my opinion, people should exercise at least three times a week. Regular exercise has many health benefits. For instance, it reduces stress and improves sleep quality. Therefore, I believe exercise is essential for everyone.",
+        "explanation_pt": "Parágrafo de opinião: opinião → argumento → exemplo → conclusão."
       }
     ]
   },
@@ -1236,6 +1346,62 @@
           "simultaneously"
         ],
         "grammar_focus_pt": "TOEFL essay: Tese forte na intro → Evidence with specific examples → Acknowledgment of opposing view → Strong conclusion"
+      },
+      {
+        "id": "w17-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo comparando duas opções:",
+        "prompt": "Compare living in a big city versus living in a small town. Which do you prefer?",
+        "hint_pt": "Use: On one hand... On the other hand... While... In contrast...",
+        "model_answer": "Living in a big city offers more job opportunities and entertainment options. On the other hand, small towns provide a quieter lifestyle and stronger community connections. While cities have better public transportation, small towns have less pollution and lower living costs. In my opinion, I prefer living in a small town because I value peace and nature.",
+        "key_vocabulary": [
+          "opportunities",
+          "entertainment",
+          "community",
+          "pollution"
+        ],
+        "grammar_focus_pt": "Comparação: On one hand/On the other hand, While, In contrast"
+      },
+      {
+        "id": "w17-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector de comparação:",
+        "sentence": "Cities offer many job opportunities. _____, small towns provide a better quality of life.",
+        "options": [
+          "In contrast",
+          "In addition",
+          "Similarly",
+          "As a result"
+        ],
+        "correct": "In contrast",
+        "explanation_pt": "'In contrast' (em contraste) conecta ideias opostas. 'In addition' = além disso. 'Similarly' = similarmente. 'As a result' = como resultado."
+      },
+      {
+        "id": "w17-04",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha o conector correto:",
+        "sentence": "She studied abroad for two years. _____, her English improved significantly.",
+        "options": [
+          "As a result",
+          "In contrast",
+          "However",
+          "On the other hand"
+        ],
+        "correct": "As a result",
+        "explanation_pt": "'As a result' (como resultado) indica consequência. A melhora do inglês é consequência de estudar fora."
+      },
+      {
+        "id": "w17-05",
+        "type": "reorder",
+        "instruction_pt": "Organize o parágrafo de comparação:",
+        "words": [
+          "In contrast, online shopping is more convenient but you cannot try items before buying.",
+          "In conclusion, both have their advantages.",
+          "Shopping in stores allows you to see and touch products.",
+          "However, stores have limited hours while online shops are open 24/7."
+        ],
+        "correct_sentence": "Shopping in stores allows you to see and touch products. In contrast, online shopping is more convenient but you cannot try items before buying. However, stores have limited hours while online shops are open 24/7. In conclusion, both have their advantages.",
+        "explanation_pt": "Parágrafo de comparação: ponto A → contraste com ponto B → detalhe → conclusão."
       }
     ]
   },
@@ -1260,6 +1426,64 @@
           "collaborative"
         ],
         "grammar_focus_pt": "TOEFL preference essay: Clear choice → Academic evidence + personal example → Counterargument acknowledged → Restate position"
+      },
+      {
+        "id": "w18-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo argumentativo (4-5 frases):",
+        "prompt": "Should social media have age restrictions? Defend your position.",
+        "hint_pt": "Use: I strongly believe... The main reason... Furthermore... Research shows...",
+        "model_answer": "I strongly believe social media should have stricter age restrictions. The main reason is that young children are vulnerable to cyberbullying and inappropriate content. Furthermore, excessive screen time can negatively affect their mental health and academic performance. Research shows that children under 13 are not mature enough to handle online interactions safely. Therefore, platforms should enforce age verification more rigorously.",
+        "key_vocabulary": [
+          "restrictions",
+          "vulnerable",
+          "cyberbullying",
+          "excessive",
+          "enforce"
+        ],
+        "grammar_focus_pt": "Argumento forte: I strongly believe, The main reason, Furthermore, Research shows"
+      },
+      {
+        "id": "w18-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com a expressão argumentativa:",
+        "sentence": "_____ that renewable energy is the future of our planet.",
+        "options": [
+          "It is widely believed",
+          "It is widely believed to",
+          "It is wide believed",
+          "It is widely believe"
+        ],
+        "correct": "It is widely believed",
+        "explanation_pt": "'It is widely believed' (é amplamente acreditado) é uma expressão formal para introduzir consenso. Voz passiva: is + believed."
+      },
+      {
+        "id": "w18-04",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha o intensificador correto:",
+        "sentence": "The results were _____ significant, changing our understanding completely.",
+        "options": [
+          "highly",
+          "very much",
+          "so much",
+          "too much"
+        ],
+        "correct": "highly",
+        "explanation_pt": "'Highly significant' é a combinação acadêmica correta. 'Very much' não combina com adjetivos. 'Highly' = altamente."
+      },
+      {
+        "id": "w18-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases do argumento:",
+        "words": [
+          "In conclusion, the benefits far outweigh the risks.",
+          "Moreover, it creates thousands of jobs in the technology sector.",
+          "Critics argue that it is too expensive.",
+          "Renewable energy reduces pollution significantly.",
+          "However, costs have decreased by 80% in the last decade."
+        ],
+        "correct_sentence": "Renewable energy reduces pollution significantly. Moreover, it creates thousands of jobs in the technology sector. Critics argue that it is too expensive. However, costs have decreased by 80% in the last decade. In conclusion, the benefits far outweigh the risks.",
+        "explanation_pt": "Argumento: tese → suporte → contra-argumento → refutação → conclusão."
       }
     ]
   },
@@ -1284,6 +1508,61 @@
           "accountability"
         ],
         "grammar_focus_pt": "Ensaio acadêmico avançado: dados específicos + citações + ambos os lados + posição nuançada"
+      },
+      {
+        "id": "w19-02",
+        "type": "guided_write",
+        "instruction_pt": "Escreva um resumo do texto abaixo em 2-3 frases.",
+        "scene_pt": "Texto original: 'A new study from Harvard University found that students who sleep at least 8 hours perform 25% better on exams. The researchers followed 500 students over two years. They also found that napping for 20 minutes after studying improves memory retention by 15%.'",
+        "template": "According to a study from _____, students who _____ perform _____. The study also showed that _____.",
+        "model_answer": "According to a study from Harvard University, students who sleep at least 8 hours perform 25% better on exams. The research, which followed 500 students over two years, also showed that short naps after studying improve memory retention by 15%.",
+        "key_vocabulary": [
+          "according to",
+          "research",
+          "retention",
+          "improve"
+        ]
+      },
+      {
+        "id": "w19-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com a expressão de resumo:",
+        "sentence": "_____ the article, climate change will affect 70% of species by 2050.",
+        "options": [
+          "According to",
+          "According",
+          "Accordingly to",
+          "Accord to"
+        ],
+        "correct": "According to",
+        "explanation_pt": "'According to' (de acordo com) é a preposição correta para citar fontes. Sempre seguida de substantivo."
+      },
+      {
+        "id": "w19-04",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha o verbo de citação acadêmica:",
+        "sentence": "The researchers _____ that exercise reduces anxiety by 30%.",
+        "options": [
+          "found",
+          "finded",
+          "founded",
+          "finding"
+        ],
+        "correct": "found",
+        "explanation_pt": "'Found' é o passado de 'find'. Em contexto acadêmico: 'The researchers found that...' 'Founded' = fundou (empresa)."
+      },
+      {
+        "id": "w19-05",
+        "type": "reorder",
+        "instruction_pt": "Organize o resumo acadêmico:",
+        "words": [
+          "The study concluded that bilingual education improves cognitive abilities.",
+          "A recent study examined 1,000 students in bilingual programs.",
+          "Furthermore, bilingual students scored 15% higher on problem-solving tests.",
+          "Results showed that these students developed better multitasking skills."
+        ],
+        "correct_sentence": "A recent study examined 1,000 students in bilingual programs. Results showed that these students developed better multitasking skills. Furthermore, bilingual students scored 15% higher on problem-solving tests. The study concluded that bilingual education improves cognitive abilities.",
+        "explanation_pt": "Resumo acadêmico: contexto → resultados → detalhes → conclusão."
       }
     ]
   },
@@ -1324,6 +1603,50 @@
           "rendered"
         ],
         "grammar_focus_pt": "TOEFL essay completo: Strong thesis → Historical example → Current example → Counter acknowledged → Powerful conclusion"
+      },
+      {
+        "id": "w20-03",
+        "type": "free_write",
+        "instruction_pt": "Escreva uma introdução de essay TOEFL (3-4 frases):",
+        "prompt": "Do you agree or disagree: 'University education should be free for all students.'",
+        "hint_pt": "Estrutura: Hook → Contexto → Tese. Use: It is often debated... While some argue... I believe...",
+        "model_answer": "It is often debated whether university education should be free for all students. While some argue that free education would burden taxpayers, I strongly believe that making higher education accessible to everyone would benefit society as a whole. An educated population drives innovation, reduces inequality, and strengthens the economy.",
+        "key_vocabulary": [
+          "debated",
+          "burden",
+          "accessible",
+          "innovation",
+          "inequality"
+        ],
+        "grammar_focus_pt": "Introdução TOEFL: Hook + Contexto + Thesis statement"
+      },
+      {
+        "id": "w20-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete a thesis statement:",
+        "sentence": "While some people believe technology isolates us, I _____ that it actually brings people closer together.",
+        "options": [
+          "contend",
+          "contends",
+          "contending",
+          "contended"
+        ],
+        "correct": "contend",
+        "explanation_pt": "'I contend' (eu afirmo/defendo) é um verbo acadêmico forte para thesis statements. Presente simples com 'I'."
+      },
+      {
+        "id": "w20-05",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha o hook (gancho) mais eficaz para um essay:",
+        "sentence": "_____ In fact, over 60% of jobs in 2030 haven't been invented yet.",
+        "options": [
+          "The job market is changing rapidly.",
+          "Jobs are things",
+          "People work a lot",
+          "Work is important"
+        ],
+        "correct": "The job market is changing rapidly.",
+        "explanation_pt": "Um bom hook é específico e provocativo. 'The job market is changing rapidly' seguido de um fato surpreendente prende a atenção."
       }
     ]
   },
@@ -1364,6 +1687,49 @@
           "implementation"
         ],
         "grammar_focus_pt": "Resumo balanceado: causas → quem é afetado → soluções. Use voz passiva e reporting verbs."
+      },
+      {
+        "id": "w21-03",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre aprender um segundo idioma:",
+        "prompt": "Write a body paragraph supporting or opposing the importance of learning a second language. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why the importance of learning a second language deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w21-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Além disso):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Furthermore",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Furthermore",
+        "explanation_pt": "'Furthermore' (Além disso) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w21-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, the importance of learning a second language is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, the importance of learning a second language is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1388,6 +1754,49 @@
           "complicate"
         ],
         "grammar_focus_pt": "Integrated avançado: Ponto → Contra-ponto → Evidência específica. Reporting verbs: argues, challenges, raises, acknowledges, highlights."
+      },
+      {
+        "id": "w22-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre trabalho remoto vs. escritório:",
+        "prompt": "Write a body paragraph supporting or opposing whether remote work is better than office work. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why whether remote work is better than office work deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w22-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (No entanto):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Nevertheless",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (No entanto) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w22-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, whether remote work is better than office work is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, whether remote work is better than office work is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1412,6 +1821,49 @@
           "speculative"
         ],
         "grammar_focus_pt": "Ensaio C1: evidência histórica específica + dados + contra-argumento refutado + conclusão memorável"
+      },
+      {
+        "id": "w23-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre impacto das redes sociais:",
+        "prompt": "Write a body paragraph supporting or opposing the impact of social media on relationships. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why the impact of social media on relationships deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w23-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Consequentemente):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Consequently",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Consequently",
+        "explanation_pt": "'Consequently' (Consequentemente) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w23-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, the impact of social media on relationships is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, the impact of social media on relationships is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1436,6 +1888,49 @@
           "necessity"
         ],
         "grammar_focus_pt": "Discussion Board: Reconheça ambos → Adicione nova perspectiva → Proponha solução → Conclusão forte. Use nomes dos alunos."
+      },
+      {
+        "id": "w24-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre testes padronizados:",
+        "prompt": "Write a body paragraph supporting or opposing whether standardized tests accurately measure intelligence. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why whether standardized tests accurately measure intelligence deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w24-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Além disso):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "In addition",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "In addition",
+        "explanation_pt": "'In addition' (Além disso) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w24-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, whether standardized tests accurately measure intelligence is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, whether standardized tests accurately measure intelligence is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1476,6 +1971,49 @@
           "accountability"
         ],
         "grammar_focus_pt": "Discussion Board final: Reconheça ambos + evidência psicológica + proposta concreta com exemplo real + conclusão que conecta"
+      },
+      {
+        "id": "w25-03",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre tecnologia na educação:",
+        "prompt": "Write a body paragraph supporting or opposing the role of technology in modern education. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why the role of technology in modern education deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w25-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Pelo contrário):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "On the contrary",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "On the contrary",
+        "explanation_pt": "'On the contrary' (Pelo contrário) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w25-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, the role of technology in modern education is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, the role of technology in modern education is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1500,6 +2038,49 @@
           "implications"
         ],
         "grammar_focus_pt": "Descrever dados: The data reveal/show/indicate... X% of respondents cited... ranked second at... suggesting that..."
+      },
+      {
+        "id": "w26-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre exploração espacial:",
+        "prompt": "Write a body paragraph supporting or opposing whether governments should invest more in space exploration. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why whether governments should invest more in space exploration deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w26-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Subsequentemente):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Subsequently",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Subsequently",
+        "explanation_pt": "'Subsequently' (Subsequentemente) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w26-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, whether governments should invest more in space exploration is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, whether governments should invest more in space exploration is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1524,6 +2105,49 @@
           "enterprise"
         ],
         "grammar_focus_pt": "Refutação: Reconheça (While... undeniably) → Refute com First/Second/Third → Evidência específica → Conclusão forte"
+      },
+      {
+        "id": "w27-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre globalização e culturas:",
+        "prompt": "Write a body paragraph supporting or opposing the effects of globalization on local cultures. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why the effects of globalization on local cultures deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w27-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Não obstante):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Notwithstanding",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Notwithstanding",
+        "explanation_pt": "'Notwithstanding' (Não obstante) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w27-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, the effects of globalization on local cultures is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, the effects of globalization on local cultures is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1548,6 +2172,49 @@
           "meritocracy"
         ],
         "grammar_focus_pt": "Ensaio multi-perspectiva: Perspectiva 1 + evidência → Perspectiva 2 + evidência → Perspectiva 3 + evidência → Síntese pessoal"
+      },
+      {
+        "id": "w28-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre pesquisa com animais:",
+        "prompt": "Write a body paragraph supporting or opposing whether animals should be used in scientific research. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why whether animals should be used in scientific research deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w28-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (De acordo):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Accordingly",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Accordingly",
+        "explanation_pt": "'Accordingly' (De acordo) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w28-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, whether animals should be used in scientific research is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, whether animals should be used in scientific research is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1572,6 +2239,49 @@
           "deploy"
         ],
         "grammar_focus_pt": "Integrated avançado: 3 pontos pareados (texto vs lecture) com transições claras + conclusão que captura a posição geral da lecture"
+      },
+      {
+        "id": "w29-02",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre conservação ambiental:",
+        "prompt": "Write a body paragraph supporting or opposing the importance of environmental conservation. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why the importance of environmental conservation deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w29-03",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Inversamente):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Conversely",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Conversely",
+        "explanation_pt": "'Conversely' (Inversamente) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w29-04",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, the importance of environmental conservation is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, the importance of environmental conservation is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1612,6 +2322,49 @@
           "deployed"
         ],
         "grammar_focus_pt": "Discussion Board avançado: Reconheça ambos → Perspectiva nova (transparência/accountability) → Evidência real (Amazon) → Proposta concreta com 3 pontos → Conclusão memorável"
+      },
+      {
+        "id": "w30-03",
+        "type": "free_write",
+        "instruction_pt": "Escreva um parágrafo de corpo (body paragraph) sobre IA substituindo humanos:",
+        "prompt": "Write a body paragraph supporting or opposing whether artificial intelligence will replace human workers. Include a topic sentence, evidence, and explanation.",
+        "hint_pt": "Estrutura: Topic sentence → Evidence → Explanation → Concluding sentence",
+        "model_answer": "One significant reason to consider is the impact on our daily lives. Studies have shown that this issue affects millions of people worldwide. For example, recent data indicates a 30% increase in related cases over the past decade. This evidence clearly demonstrates why whether artificial intelligence will replace human workers deserves more attention from policymakers and the general public.",
+        "key_vocabulary": [
+          "significant",
+          "impact",
+          "evidence",
+          "demonstrates",
+          "policymakers"
+        ],
+        "grammar_focus_pt": "Body paragraph: Topic sentence + Evidence + Explanation + Link"
+      },
+      {
+        "id": "w30-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto (Em última análise):",
+        "sentence": "The initial results were promising. _____, further research is needed to confirm these findings.",
+        "options": [
+          "Ultimately",
+          "But",
+          "And",
+          "So"
+        ],
+        "correct": "Ultimately",
+        "explanation_pt": "'Ultimately' (Em última análise) é um conector acadêmico que indica continuidade ou contraste no argumento."
+      },
+      {
+        "id": "w30-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar uma conclusão coerente:",
+        "words": [
+          "In conclusion, whether artificial intelligence will replace human workers is a complex issue that requires careful consideration.",
+          "Both sides present valid arguments.",
+          "However, the evidence suggests that the benefits outweigh the drawbacks.",
+          "Moving forward, society must find a balanced approach."
+        ],
+        "correct_sentence": "In conclusion, whether artificial intelligence will replace human workers is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
+        "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
       }
     ]
   },
@@ -1636,6 +2389,36 @@
           "substantial"
         ],
         "grammar_focus_pt": "Ensaio com dados: cite fontes (According to..., A study found...), use porcentagens e números, mencione países/exemplos reais"
+      },
+      {
+        "id": "w31-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Homework Should Be Banned'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether homework should be banned has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether homework should be banned presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w31-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether homework should be banned is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1660,6 +2443,36 @@
           "comprehensive"
         ],
         "grammar_focus_pt": "Análise crítica: Forças (The argument's strength is...) → Fraquezas com evidência (However, First/Second/Third...) → Perspectiva alternativa → Conclusão"
+      },
+      {
+        "id": "w32-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Role Of Art In Education'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the role of art in education has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the role of art in education presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w32-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the role of art in education is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1684,6 +2497,36 @@
           "documented"
         ],
         "grammar_focus_pt": "Ensaio com contra-argumento forte: Argumento → FORTE objeção reconhecida genuinamente → Refutação com evidência e analogia → Conclusão que reconhece complexidade"
+      },
+      {
+        "id": "w33-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether College Athletes Should Be Paid'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether college athletes should be paid has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether college athletes should be paid presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w33-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether college athletes should be paid is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1708,6 +2551,36 @@
           "scrutiny"
         ],
         "grammar_focus_pt": "Integrated nível máximo: 3 pontos pareados com transições perfeitas + reporting verbs variados (argues, counters, acknowledges, contends, rejects) + conclusão forte"
+      },
+      {
+        "id": "w34-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Impact Of Fast Food On Health'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the impact of fast food on health has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the impact of fast food on health presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w34-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the impact of fast food on health is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1748,6 +2621,22 @@
           "reinforce"
         ],
         "grammar_focus_pt": "Discussion Board nível máximo: Identifique a falsa dicotomia → Evidência → Reconheça preocupação válida → Proposta concreta → Conclusão com visão"
+      },
+      {
+        "id": "w35-03",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Voting Should Be Mandatory'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether voting should be mandatory has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether voting should be mandatory presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
       }
     ]
   },
@@ -1772,6 +2661,36 @@
           "integration"
         ],
         "grammar_focus_pt": "Ensaio com perspectiva global: argumento moral + argumento prático + dados + contra-argumento honesto + conclusão que reconhece complexidade"
+      },
+      {
+        "id": "w36-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Importance Of Financial Literacy'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the importance of financial literacy has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the importance of financial literacy presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w36-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the importance of financial literacy is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1796,6 +2715,36 @@
           "rigorous"
         ],
         "grammar_focus_pt": "Discussion Board C1: falsa dicotomia → dados específicos (Harvard, Plan S, citações) → modelo alternativo → conclusão forte"
+      },
+      {
+        "id": "w37-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Zoos Are Ethical'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether zoos are ethical has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether zoos are ethical presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w37-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether zoos are ethical is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1820,6 +2769,36 @@
           "geopolitical"
         ],
         "grammar_focus_pt": "Integrated perfeito: 3 pontos com transições claras + nuance (doesn't dispute potential BUT understates challenges) + vocabulário acadêmico preciso"
+      },
+      {
+        "id": "w38-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Role Of Media In Society'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the role of media in society has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the role of media in society presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w38-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the role of media in society is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1844,6 +2823,36 @@
           "complement"
         ],
         "grammar_focus_pt": "Ensaio visão futura: o que muda + o que permanece + o que escolas devem fazer = análise equilibrada e construtiva"
+      },
+      {
+        "id": "w39-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Space Exploration Is Worth The Cost'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether space exploration is worth the cost has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether space exploration is worth the cost presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w39-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether space exploration is worth the cost is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1884,6 +2893,22 @@
           "social mobility"
         ],
         "grammar_focus_pt": "Discussion Board nível máximo: Desafie premissa → dados que refutam → apoie outro lado com dados → proposta inovadora (first-gen preference) → conclusão com princípio moral"
+      },
+      {
+        "id": "w40-03",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Impact Of Tourism On Local Communities'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the impact of tourism on local communities has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the impact of tourism on local communities presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
       }
     ]
   },
@@ -1908,6 +2933,36 @@
           "false dichotomy"
         ],
         "grammar_focus_pt": "Ensaio com dados: WHO statistics + Lancet study + economic data + false dichotomy refutation"
+      },
+      {
+        "id": "w41-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Genetic Engineering Is Ethical'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether genetic engineering is ethical has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether genetic engineering is ethical presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w41-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether genetic engineering is ethical is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1948,6 +3003,22 @@
           "humanist"
         ],
         "grammar_focus_pt": "Discussion Board: falsa dicotomia → dados (Burning Glass, LinkedIn) → modelo concreto (Stanford CS+X) → conclusão sobre AI age"
+      },
+      {
+        "id": "w42-03",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Future Of Autonomous Vehicles'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the future of autonomous vehicles has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the future of autonomous vehicles presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
       }
     ]
   },
@@ -1972,6 +3043,36 @@
           "erosion"
         ],
         "grammar_focus_pt": "Ensaio com perspectiva histórica: exemplos concretos com datas + citações + nuance (não repete exatamente, 'rima') + conclusão equilibrada"
+      },
+      {
+        "id": "w43-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Social Media Should Be Regulated'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether social media should be regulated has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether social media should be regulated presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w43-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether social media should be regulated is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -1996,6 +3097,36 @@
           "undermines"
         ],
         "grammar_focus_pt": "Integrated nível máximo: nuance final (doesn't argue against EVs entirely, but...) + dimensão ética + presente vs futuro distinction"
+      },
+      {
+        "id": "w44-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Importance Of Mental Health Awareness'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the importance of mental health awareness has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the importance of mental health awareness presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w44-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the importance of mental health awareness is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2020,6 +3151,36 @@
           "intrinsically"
         ],
         "grammar_focus_pt": "Ensaio nível máximo TOEFL: abertura histórica (Plato) → 3 argumentos com dados (WEF, Finland) → concessão honesta → conclusão com visão elevada — THIS is what scores 5/5 on TOEFL Writing"
+      },
+      {
+        "id": "w45-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Nuclear Energy Is The Solution'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether nuclear energy is the solution has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether nuclear energy is the solution presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w45-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether nuclear energy is the solution is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2044,6 +3205,36 @@
           "demagogue"
         ],
         "grammar_focus_pt": "Ensaio nível máximo: definição → evidência de pesquisa (Tetlock, Google) → exemplo histórico (Lincoln) → contra-argumento honesto + refutação → conclusão com paralelismo retórico"
+      },
+      {
+        "id": "w46-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Role Of Artificial Intelligence In Healthcare'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the role of artificial intelligence in healthcare has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the role of artificial intelligence in healthcare presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w46-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the role of artificial intelligence in healthcare is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2068,6 +3259,36 @@
           "implementation"
         ],
         "grammar_focus_pt": "Integrated nível máximo: dados específicos do MIT study + nuance final (doesn't dismiss entirely, but overstates/understates)"
+      },
+      {
+        "id": "w47-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Privacy Is More Important Than Security'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether privacy is more important than security has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether privacy is more important than security presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w47-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether privacy is more important than security is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2092,6 +3313,36 @@
           "reparation"
         ],
         "grammar_focus_pt": "Discussion Board nível máximo: rejeite falsa dicotomia → framework condicional com 3 critérios → citação filosófica (Primo Levi) → conclusão que honra ambos os lados + adiciona dimensão de memória"
+      },
+      {
+        "id": "w48-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Impact Of Climate Change On Economies'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the impact of climate change on economies has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the impact of climate change on economies presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w48-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding the impact of climate change on economies is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2116,6 +3367,36 @@
           "modular"
         ],
         "grammar_focus_pt": "Ensaio com visão: dados atuais (BLS, WEF) → forças de mudança → visão do futuro (career portfolios) → implicações para educação → conclusão com imagem final"
+      },
+      {
+        "id": "w49-02",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'Whether Standardized Curricula Limit Creativity'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of whether standardized curricula limit creativity has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while whether standardized curricula limit creativity presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w49-03",
+        "type": "fill_blank",
+        "instruction_pt": "Escolha a transição acadêmica correta:",
+        "sentence": "The evidence regarding whether standardized curricula limit creativity is compelling. _____, some scholars question the methodology of these studies.",
+        "options": [
+          "Nevertheless",
+          "Therefore",
+          "In addition",
+          "For example"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
       }
     ]
   },
@@ -2156,6 +3437,22 @@
           "compass"
         ],
         "grammar_focus_pt": "ENSAIO FINAL NOTA 5/5: abertura filosófica (Rawls) → exemplos contrastantes (Nazi Germany vs Costa Rica, USSR vs US) → contra-argumento honesto com dados ($25T GDP + 17% child poverty) → conclusão com citação e metáfora (towers vs foundations, compass)"
+      },
+      {
+        "id": "w50-03",
+        "type": "free_write",
+        "instruction_pt": "TOEFL Independent Writing — Escreva um essay completo (4-5 parágrafos):",
+        "prompt": "Do you agree or disagree with the following statement: 'The Responsibility Of Corporations To Society'? Use specific reasons and examples to support your answer.",
+        "hint_pt": "Estrutura TOEFL: Introduction (hook + thesis) → Body 1 (reason + example) → Body 2 (reason + example) → Conclusion (restate + final thought)",
+        "model_answer": "The question of the responsibility of corporations to society has been widely debated in recent years. In my view, this issue requires careful consideration of multiple perspectives.\n\nFirst, proponents argue that the benefits are substantial. Research has shown significant positive outcomes in communities that have adopted this approach. For instance, several countries have implemented related policies with measurable success.\n\nHowever, opponents raise valid concerns about potential drawbacks. The costs and unintended consequences cannot be ignored. Nevertheless, I believe that with proper planning and regulation, these challenges can be addressed.\n\nIn conclusion, while the responsibility of corporations to society presents both opportunities and challenges, the potential benefits to society outweigh the risks. Moving forward, a balanced approach that considers all stakeholders would be the most effective solution.",
+        "key_vocabulary": [
+          "proponents",
+          "substantial",
+          "implemented",
+          "measurable",
+          "stakeholders"
+        ],
+        "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
       }
     ]
   }

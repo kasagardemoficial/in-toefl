@@ -33,6 +33,7 @@ export interface Exercise {
   tip_pt?: string
   accepted_variations?: string[]
   // Writing
+  scene_pt?: string
   sentence?: string
   words?: string[]
   correct_sentence?: string

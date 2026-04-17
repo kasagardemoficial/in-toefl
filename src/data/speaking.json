@@ -1398,6 +1398,38 @@
           "unfair",
           "choice"
         ]
+      },
+      {
+        "id": "s17-04",
+        "type": "guided_response",
+        "instruction_pt": "Responda à pergunta em inglês (30 segundos):",
+        "question": "What is your favorite holiday and why?",
+        "target_text": "My favorite holiday is Christmas because I love spending time with my family. We always cook a special dinner and exchange gifts. It makes me feel happy and grateful.",
+        "hint_pt": "Diga: qual feriado, por quê, o que você faz, como se sente",
+        "accepted_variations": [
+          "my favorite holiday",
+          "christmas",
+          "family",
+          "gifts",
+          "happy"
+        ],
+        "tip_pt": "Use: My favorite... because... We always... It makes me feel..."
+      },
+      {
+        "id": "s17-05",
+        "type": "describe",
+        "instruction_pt": "Descreva esta situação em inglês:",
+        "target_text": "A student is studying in a library. There are many books on the shelves. The student is taking notes and looks very focused.",
+        "hint_pt": "Cena: Um estudante estudando na biblioteca. Muitos livros nas prateleiras. O estudante faz anotações e parece concentrado.",
+        "accepted_variations": [
+          "student",
+          "library",
+          "books",
+          "studying",
+          "notes",
+          "focused"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que está fazendo, como parece"
       }
     ]
   },
@@ -1440,6 +1472,53 @@
           "witnesses",
           "responsibility"
         ]
+      },
+      {
+        "id": "s18-03",
+        "type": "guided_response",
+        "instruction_pt": "Dê sua opinião em inglês (45 segundos):",
+        "question": "Do you prefer studying alone or in a group? Explain why.",
+        "target_text": "I prefer studying alone because I can concentrate better without distractions. When I study by myself, I can go at my own pace and focus on the topics I find most difficult. However, I sometimes study with friends for subjects that require discussion.",
+        "hint_pt": "Diga: sua preferência, razão principal, exemplo, exceção",
+        "accepted_variations": [
+          "prefer",
+          "alone",
+          "group",
+          "concentrate",
+          "focus",
+          "pace"
+        ],
+        "tip_pt": "Estrutura: Preference + Reason + Example + Exception (However...)"
+      },
+      {
+        "id": "s18-04",
+        "type": "repeat",
+        "instruction_pt": "Repita a frase com pronúncia clara:",
+        "target_text": "The university library is open twenty-four hours a day during exam week.",
+        "phonetic_hint": "/ðə juːnɪˈvɜːrsɪti ˈlaɪbrəri/",
+        "accepted_variations": [
+          "university library",
+          "twenty-four hours",
+          "exam week"
+        ],
+        "tip_pt": "Atenção: 'university' = yoo-ni-VER-si-tee, 'library' = LY-breh-ree (não 'liberry')"
+      },
+      {
+        "id": "s18-05",
+        "type": "describe",
+        "instruction_pt": "Descreva o que acontece nesta cena:",
+        "target_text": "A professor is giving a lecture in a large auditorium. Students are sitting in rows, taking notes on their laptops. Some students are raising their hands to ask questions.",
+        "hint_pt": "Cena: Professor dando aula em auditório grande. Alunos sentados em fileiras com notebooks. Alguns levantam a mão.",
+        "accepted_variations": [
+          "professor",
+          "lecture",
+          "auditorium",
+          "students",
+          "notes",
+          "laptops",
+          "questions"
+        ],
+        "tip_pt": "Use presente contínuo: is giving, are sitting, are raising"
       }
     ]
   },
@@ -1482,6 +1561,53 @@
           "emotional",
           "knowledge"
         ]
+      },
+      {
+        "id": "s19-03",
+        "type": "guided_response",
+        "instruction_pt": "Responda como no TOEFL Task 1 (45 segundos):",
+        "question": "Some people prefer to live in a big city, while others prefer a small town. Which do you prefer and why?",
+        "target_text": "I prefer living in a big city for several reasons. First, cities offer more career opportunities and cultural experiences. Second, public transportation makes it easy to get around without a car. Although small towns are peaceful, I believe the advantages of city life outweigh the disadvantages.",
+        "hint_pt": "Estrutura TOEFL: opinião + razão 1 + razão 2 + reconhecer outro lado + conclusão",
+        "accepted_variations": [
+          "prefer",
+          "city",
+          "opportunities",
+          "transportation",
+          "advantages"
+        ],
+        "tip_pt": "TOEFL Task 1: State opinion → Give 2 reasons with details → Acknowledge other side → Conclude"
+      },
+      {
+        "id": "s19-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica:",
+        "target_text": "According to recent research, bilingual individuals demonstrate superior cognitive flexibility.",
+        "phonetic_hint": "/əˈkɔːrdɪŋ tuː ˈriːsənt rɪˈsɜːrtʃ/",
+        "accepted_variations": [
+          "according to",
+          "research",
+          "bilingual",
+          "cognitive flexibility"
+        ],
+        "tip_pt": "Atenção: 'research' = ri-SEARCH, 'bilingual' = by-LIN-gwal, 'cognitive' = KOG-ni-tiv"
+      },
+      {
+        "id": "s19-05",
+        "type": "guided_response",
+        "instruction_pt": "Explique sua escolha (45 segundos):",
+        "question": "If you could learn any skill, what would it be and why?",
+        "target_text": "If I could learn any skill, I would choose to play the piano. Music has always fascinated me, and playing an instrument is a great way to express emotions. Additionally, research shows that learning music improves memory and concentration, which would help me in my academic studies.",
+        "hint_pt": "Use: If I could... I would choose... because... Additionally... which would...",
+        "accepted_variations": [
+          "learn",
+          "skill",
+          "piano",
+          "music",
+          "memory",
+          "concentration"
+        ],
+        "tip_pt": "Conditional: If I could + would + reason + additional benefit"
       }
     ]
   },
@@ -1561,6 +1687,23 @@
           "nature",
           "nurture"
         ]
+      },
+      {
+        "id": "s20-05",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Responda em 45 segundos:",
+        "question": "Do you agree or disagree: 'Students should be required to take physical education classes in college.'",
+        "target_text": "I agree that college students should be required to take physical education classes. Many students spend long hours sitting and studying, which can lead to health problems. Regular exercise improves not only physical health but also mental well-being and academic performance. For example, studies show that students who exercise regularly get better grades.",
+        "hint_pt": "Estrutura: posição clara + razão + benefícios + evidência",
+        "accepted_variations": [
+          "agree",
+          "physical education",
+          "exercise",
+          "health",
+          "academic",
+          "grades"
+        ],
+        "tip_pt": "TOEFL: Clear position → Reason → Multiple benefits → Evidence/Example"
       }
     ]
   },
@@ -1698,6 +1841,52 @@
           "test-taking",
           "inequalities"
         ]
+      },
+      {
+        "id": "s22-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre trabalho em equipe (45 seg):",
+        "question": "What is your opinion about the importance of teamwork? Give reasons and examples.",
+        "target_text": "In my opinion, importance of teamwork is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s22-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of importance of teamwork cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "importance",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s22-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a trabalho em equipe:",
+        "target_text": "A group of students is discussing importance of teamwork in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo trabalho em equipe em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1742,6 +1931,52 @@
           "reduce",
           "cities"
         ]
+      },
+      {
+        "id": "s23-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre melhor idade para aprender idioma (45 seg):",
+        "question": "What is your opinion about the best age to start learning a language? Give reasons and examples.",
+        "target_text": "In my opinion, best age to start learning a language is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s23-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of best age to start learning a language cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "best",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s23-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a melhor idade para aprender idioma:",
+        "target_text": "A group of students is discussing best age to start learning a language in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo melhor idade para aprender idioma em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1787,6 +2022,52 @@
           "balance",
           "Costa Rica"
         ]
+      },
+      {
+        "id": "s24-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre tecnologia em sala de aula (45 seg):",
+        "question": "What is your opinion about the technology in the classroom? Give reasons and examples.",
+        "target_text": "In my opinion, technology in the classroom is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s24-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of technology in the classroom cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "technology",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s24-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a tecnologia em sala de aula:",
+        "target_text": "A group of students is discussing technology in the classroom in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo tecnologia em sala de aula em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1833,6 +2114,52 @@
           "climate",
           "unprecedented"
         ]
+      },
+      {
+        "id": "s25-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre estudar fora vs no país (45 seg):",
+        "question": "What is your opinion about the studying abroad vs home country? Give reasons and examples.",
+        "target_text": "In my opinion, studying abroad vs home country is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s25-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of studying abroad vs home country cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "studying",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s25-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a estudar fora vs no país:",
+        "target_text": "A group of students is discussing studying abroad vs home country in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo estudar fora vs no país em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1875,6 +2202,52 @@
           "Piketty",
           "taxation"
         ]
+      },
+      {
+        "id": "s26-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre importância da leitura (45 seg):",
+        "question": "What is your opinion about the importance of reading books? Give reasons and examples.",
+        "target_text": "In my opinion, importance of reading books is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s26-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of importance of reading books cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "importance",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s26-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a importância da leitura:",
+        "target_text": "A group of students is discussing importance of reading books in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo importância da leitura em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1918,6 +2291,52 @@
           "controlled",
           "experiments"
         ]
+      },
+      {
+        "id": "s27-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre educação online vs tradicional (45 seg):",
+        "question": "What is your opinion about the online education vs traditional? Give reasons and examples.",
+        "target_text": "In my opinion, online education vs traditional is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s27-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of online education vs traditional cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "online",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s27-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a educação online vs tradicional:",
+        "target_text": "A group of students is discussing online education vs traditional in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo educação online vs tradicional em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -1963,6 +2382,52 @@
           "renewable",
           "portfolio"
         ]
+      },
+      {
+        "id": "s28-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre impacto da música nos estudos (45 seg):",
+        "question": "What is your opinion about the impact of music on studying? Give reasons and examples.",
+        "target_text": "In my opinion, impact of music on studying is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s28-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of impact of music on studying cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "impact",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s28-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a impacto da música nos estudos:",
+        "target_text": "A group of students is discussing impact of music on studying in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo impacto da música nos estudos em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2007,6 +2472,52 @@
           "surgery",
           "medicine"
         ]
+      },
+      {
+        "id": "s29-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre voluntariado (45 seg):",
+        "question": "What is your opinion about the volunteering and community service? Give reasons and examples.",
+        "target_text": "In my opinion, volunteering and community service is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s29-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of volunteering and community service cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "volunteering",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s29-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a voluntariado:",
+        "target_text": "A group of students is discussing volunteering and community service in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo voluntariado em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2088,6 +2599,23 @@
           "collectively",
           "shared"
         ]
+      },
+      {
+        "id": "s30-05",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre planos de carreira (45 seg):",
+        "question": "What is your opinion about the future career plans? Give reasons and examples.",
+        "target_text": "In my opinion, future career plans is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
       }
     ]
   },
@@ -2131,6 +2659,52 @@
           "cautiously",
           "mutually exclusive"
         ]
+      },
+      {
+        "id": "s31-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre responsabilidade ambiental (45 seg):",
+        "question": "What is your opinion about the environmental responsibility? Give reasons and examples.",
+        "target_text": "In my opinion, environmental responsibility is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s31-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of environmental responsibility cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "environmental",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s31-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a responsabilidade ambiental:",
+        "target_text": "A group of students is discussing environmental responsibility in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo responsabilidade ambiental em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2176,6 +2750,52 @@
           "hybrid",
           "nuanced"
         ]
+      },
+      {
+        "id": "s32-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre diversidade cultural (45 seg):",
+        "question": "What is your opinion about the cultural diversity in universities? Give reasons and examples.",
+        "target_text": "In my opinion, cultural diversity in universities is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s32-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of cultural diversity in universities cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "cultural",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s32-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a diversidade cultural:",
+        "target_text": "A group of students is discussing cultural diversity in universities in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo diversidade cultural em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2222,6 +2842,52 @@
           "therapy",
           "enhancement"
         ]
+      },
+      {
+        "id": "s33-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre gestão do tempo (45 seg):",
+        "question": "What is your opinion about the importance of time management? Give reasons and examples.",
+        "target_text": "In my opinion, importance of time management is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s33-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of importance of time management cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "importance",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s33-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a gestão do tempo:",
+        "target_text": "A group of students is discussing importance of time management in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo gestão do tempo em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2268,6 +2934,52 @@
           "agency",
           "empower"
         ]
+      },
+      {
+        "id": "s34-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre papel dos mentores (45 seg):",
+        "question": "What is your opinion about the role of mentors in education? Give reasons and examples.",
+        "target_text": "In my opinion, role of mentors in education is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s34-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of role of mentors in education cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "role",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s34-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a papel dos mentores:",
+        "target_text": "A group of students is discussing role of mentors in education in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo papel dos mentores em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2312,6 +3024,52 @@
           "hospitals",
           "informed"
         ]
+      },
+      {
+        "id": "s35-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Task 1 — Dê sua opinião sobre equilíbrio trabalho e estudo (45 seg):",
+        "question": "What is your opinion about the balancing work and study? Give reasons and examples.",
+        "target_text": "In my opinion, balancing work and study is extremely important in today's world. There are two main reasons for this. First, it helps individuals develop essential skills that are valuable in both personal and professional life. Second, it contributes to building a better society. For instance, many successful people credit their achievements to this practice.",
+        "hint_pt": "Estrutura: opinião → 2 razões → exemplo",
+        "accepted_variations": [
+          "opinion",
+          "important",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "TOEFL Task 1: Opinion + 2 reasons with details + Example"
+      },
+      {
+        "id": "s35-04",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza:",
+        "target_text": "The significance of balancing work and study cannot be overstated in contemporary academic discourse.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "balancing",
+          "academic",
+          "discourse"
+        ],
+        "tip_pt": "Fale devagar e claramente. Enfatize as palavras-chave."
+      },
+      {
+        "id": "s35-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação relacionada a equilíbrio trabalho e estudo:",
+        "target_text": "A group of students is discussing balancing work and study in a seminar room. The professor is facilitating the discussion while students share their different perspectives. One student is presenting data on a projector screen.",
+        "hint_pt": "Cena: Grupo de alunos discutindo equilíbrio trabalho e estudo em sala de seminário. Professor media. Um aluno apresenta dados.",
+        "accepted_variations": [
+          "students",
+          "discussing",
+          "professor",
+          "perspectives",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem, onde, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -2357,6 +3115,23 @@
           "reliable",
           "improve"
         ]
+      },
+      {
+        "id": "s36-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre importance of critical thinking:",
+        "question": "What are your thoughts on the importance of critical thinking? Provide specific reasons and examples.",
+        "target_text": "I believe the importance of critical thinking is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2402,6 +3177,23 @@
           "rigor",
           "limitations"
         ]
+      },
+      {
+        "id": "s37-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre role of extracurricular activities:",
+        "question": "What are your thoughts on the role of extracurricular activities? Provide specific reasons and examples.",
+        "target_text": "I believe the role of extracurricular activities is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2449,6 +3241,23 @@
           "subsidize",
           "nutrition"
         ]
+      },
+      {
+        "id": "s38-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre benefits of study groups:",
+        "question": "What are your thoughts on the benefits of study groups? Provide specific reasons and examples.",
+        "target_text": "I believe the benefits of study groups is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2495,6 +3304,23 @@
           "complement",
           "calculators"
         ]
+      },
+      {
+        "id": "s39-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre impact of music on learning:",
+        "question": "What are your thoughts on the impact of music on learning? Provide specific reasons and examples.",
+        "target_text": "I believe the impact of music on learning is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2628,6 +3454,23 @@
           "GDP",
           "well-being"
         ]
+      },
+      {
+        "id": "s41-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre importance of public speaking skills:",
+        "question": "What are your thoughts on the importance of public speaking skills? Provide specific reasons and examples.",
+        "target_text": "I believe the importance of public speaking skills is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2673,6 +3516,23 @@
           "funding",
           "building blocks"
         ]
+      },
+      {
+        "id": "s42-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre benefits of cultural exchange programs:",
+        "question": "What are your thoughts on the benefits of cultural exchange programs? Provide specific reasons and examples.",
+        "target_text": "I believe the benefits of cultural exchange programs is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2717,6 +3577,23 @@
           "prediction",
           "sensitivity"
         ]
+      },
+      {
+        "id": "s43-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre role of libraries in digital age:",
+        "question": "What are your thoughts on the role of libraries in digital age? Provide specific reasons and examples.",
+        "target_text": "I believe the role of libraries in digital age is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2760,6 +3637,23 @@
           "carbon pricing",
           "dual approach"
         ]
+      },
+      {
+        "id": "s44-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre importance of scientific literacy:",
+        "question": "What are your thoughts on the importance of scientific literacy? Provide specific reasons and examples.",
+        "target_text": "I believe the importance of scientific literacy is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2805,6 +3699,23 @@
           "clinical judgment",
           "apprenticeship"
         ]
+      },
+      {
+        "id": "s45-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre value of interdisciplinary studies:",
+        "question": "What are your thoughts on the value of interdisciplinary studies? Provide specific reasons and examples.",
+        "target_text": "I believe the value of interdisciplinary studies is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2851,6 +3762,23 @@
           "pilot programs",
           "knowledge based"
         ]
+      },
+      {
+        "id": "s46-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre impact of climate change on daily life:",
+        "question": "What are your thoughts on the impact of climate change on daily life? Provide specific reasons and examples.",
+        "target_text": "I believe the impact of climate change on daily life is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2897,6 +3825,23 @@
           "transparency",
           "digital literacy"
         ]
+      },
+      {
+        "id": "s47-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre role of ethics in technology:",
+        "question": "What are your thoughts on the role of ethics in technology? Provide specific reasons and examples.",
+        "target_text": "I believe the role of ethics in technology is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2943,6 +3888,23 @@
           "10 percent",
           "achievable"
         ]
+      },
+      {
+        "id": "s48-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre importance of civic engagement:",
+        "question": "What are your thoughts on the importance of civic engagement? Provide specific reasons and examples.",
+        "target_text": "I believe the importance of civic engagement is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
@@ -2991,6 +3953,23 @@
           "Australia",
           "tradeoffs"
         ]
+      },
+      {
+        "id": "s49-03",
+        "type": "guided_response",
+        "instruction_pt": "TOEFL Speaking Task 1 — Responda em 45 segundos sobre future of higher education:",
+        "question": "What are your thoughts on the future of higher education? Provide specific reasons and examples.",
+        "target_text": "I believe the future of higher education is crucial in today's society. There are two key reasons for my position. First, it develops essential skills that are increasingly valued in the modern workforce. For example, employers consistently rank these abilities among their top hiring criteria. Second, it contributes to personal growth and a deeper understanding of the world around us.",
+        "hint_pt": "TOEFL Task 1: Opinião clara + 2 razões + exemplos específicos + conclusão",
+        "accepted_variations": [
+          "believe",
+          "crucial",
+          "reasons",
+          "first",
+          "second",
+          "example"
+        ],
+        "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
       }
     ]
   },
