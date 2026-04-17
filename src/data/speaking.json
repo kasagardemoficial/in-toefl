@@ -3132,6 +3132,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s36-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a critical thinking skills:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about critical thinking skills. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre critical thinking skills. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s36-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of critical thinking skills in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "critical",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3194,6 +3225,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s37-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a extracurricular activities:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about extracurricular activities. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre extracurricular activities. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s37-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of extracurricular activities in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "extracurricular",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3258,6 +3320,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s38-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a study group benefits:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about study group benefits. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre study group benefits. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s38-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of study group benefits in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "study",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3321,6 +3414,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s39-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a music and learning:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about music and learning. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre music and learning. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s39-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of music and learning in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "music",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3407,6 +3531,22 @@
           "rational",
           "bias"
         ]
+      },
+      {
+        "id": "s40-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a internship value:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about internship value. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre internship value. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
       }
     ]
   },
@@ -3471,6 +3611,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s41-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a public speaking importance:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about public speaking importance. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre public speaking importance. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s41-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of public speaking importance in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "public",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3533,6 +3704,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s42-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a cultural exchange programs:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about cultural exchange programs. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre cultural exchange programs. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s42-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of cultural exchange programs in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "cultural",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3594,6 +3796,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s43-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a libraries in digital age:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about libraries in digital age. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre libraries in digital age. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s43-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of libraries in digital age in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "libraries",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3654,6 +3887,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s44-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a scientific literacy:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about scientific literacy. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre scientific literacy. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s44-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of scientific literacy in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "scientific",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3716,6 +3980,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s45-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a interdisciplinary studies:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about interdisciplinary studies. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre interdisciplinary studies. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s45-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of interdisciplinary studies in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "interdisciplinary",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3779,6 +4074,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s46-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a climate change daily impact:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about climate change daily impact. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre climate change daily impact. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s46-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of climate change daily impact in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "climate",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3842,6 +4168,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s47-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a ethics in technology:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about ethics in technology. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre ethics in technology. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s47-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of ethics in technology in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "ethics",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3905,6 +4262,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s48-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a civic engagement:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about civic engagement. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre civic engagement. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s48-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of civic engagement in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "civic",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -3970,6 +4358,37 @@
           "example"
         ],
         "tip_pt": "Fale com confiança, use transições claras (First, Second, For example)"
+      },
+      {
+        "id": "s49-04",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a future of higher education:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about future of higher education. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre future of higher education. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
+      },
+      {
+        "id": "s49-05",
+        "type": "repeat",
+        "instruction_pt": "Repita esta frase acadêmica com clareza e fluência:",
+        "target_text": "The significance of future of higher education in contemporary academic discourse cannot be understated, as it affects multiple disciplines and has practical implications for society.",
+        "phonetic_hint": "/ðə sɪɡˈnɪfɪkəns/",
+        "accepted_variations": [
+          "significance",
+          "future",
+          "academic",
+          "discourse",
+          "disciplines"
+        ],
+        "tip_pt": "Fale com ritmo natural. Enfatize as palavras-chave. Não apresse."
       }
     ]
   },
@@ -4056,6 +4475,22 @@
           "intellectual humility",
           "evidence"
         ]
+      },
+      {
+        "id": "s50-05",
+        "type": "describe",
+        "instruction_pt": "Descreva uma situação acadêmica relacionada a tradition vs innovation:",
+        "target_text": "In this scene, a group of university students are participating in a seminar about tradition vs innovation. The professor is facilitating a discussion while students take turns presenting their research findings. One student is using a laptop to show data on a projector screen, while others are taking notes and preparing questions.",
+        "hint_pt": "Cena: Seminário universitário sobre tradition vs innovation. Professor media discussão. Alunos apresentam pesquisas.",
+        "accepted_variations": [
+          "students",
+          "professor",
+          "seminar",
+          "discussion",
+          "research",
+          "presenting"
+        ],
+        "tip_pt": "Descreva: quem está presente, onde estão, o que fazem, detalhes visuais"
       }
     ]
   }

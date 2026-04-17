@@ -10,7 +10,8 @@ import { shareProgress } from '@/lib/share'
 import { analyzeWriting, WritingFeedback } from '@/lib/writing-feedback'
 import { evaluateSpeaking, AudioRecorder, SpeakingFeedback } from '@/lib/speaking-recorder'
 import { getAudioPath, speakText } from '@/lib/audio'
-import { playCorrect, playWrong, playLevelUp, playCombo, playXP } from '@/lib/sounds'
+import { playCorrect, playWrong, playLevelUp, playCombo } from '@/lib/sounds'
+import { launchConfetti } from '@/lib/confetti'
 import { getHearts, loseHeart, getCombo, addCombo, resetCombo, addLeagueXP, getDailyChallenge, updateDailyProgress } from '@/lib/gamification'
 import { Exercise } from '@/types'
 
@@ -183,6 +184,7 @@ export default function LessonPage() {
 
     if (pct >= 90) {
       playLevelUp()
+      launchConfetti()
       const progress = getProgress()
       const levelKey = `${skill}_level` as keyof typeof progress
       const currentLevel = progress[levelKey] as number

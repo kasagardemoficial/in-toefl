@@ -1240,6 +1240,20 @@
         ],
         "correct_sentence": "Dear Mr. Johnson, I am writing to apply for the internship position. I look forward to hearing from you. Best regards, Ana",
         "explanation_pt": "Estrutura de email formal: Saudação → Motivo → Encerramento → Despedida."
+      },
+      {
+        "id": "w15-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on formal email writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -1797,6 +1811,20 @@
         ],
         "correct_sentence": "In conclusion, whether remote work is better than office work is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w22-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on cause and effect essay presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -1864,6 +1892,20 @@
         ],
         "correct_sentence": "In conclusion, the impact of social media on relationships is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w23-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on problem-solution essay presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -1931,6 +1973,20 @@
         ],
         "correct_sentence": "In conclusion, whether standardized tests accurately measure intelligence is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w24-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on advantages and disadvantages presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -2081,6 +2137,20 @@
         ],
         "correct_sentence": "In conclusion, whether governments should invest more in space exploration is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w26-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on describing trends and data presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -2148,6 +2218,20 @@
         ],
         "correct_sentence": "In conclusion, the effects of globalization on local cultures is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w27-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on academic summary writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -2215,6 +2299,20 @@
         ],
         "correct_sentence": "In conclusion, whether animals should be used in scientific research is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w28-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on argumentative essay structure presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -2282,6 +2380,20 @@
         ],
         "correct_sentence": "In conclusion, the importance of environmental conservation is a complex issue that requires careful consideration. Both sides present valid arguments. However, the evidence suggests that the benefits outweigh the drawbacks. Moving forward, society must find a balanced approach.",
         "explanation_pt": "Conclusão TOEFL: Reafirmar tema → Reconhecer ambos lados → Posição final → Chamada à ação."
+      },
+      {
+        "id": "w29-05",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on critical analysis presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
       }
     ]
   },
@@ -2419,6 +2531,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w31-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on TOEFL independent essay presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w31-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, TOEFL independent essay remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, TOEFL independent essay remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2473,6 +2612,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w32-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on TOEFL integrated writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w32-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, TOEFL integrated writing remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, TOEFL integrated writing remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2527,6 +2693,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w33-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on academic research summary presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w33-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, academic research summary remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, academic research summary remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2581,6 +2774,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w34-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on counterargument and rebuttal presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w34-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, counterargument and rebuttal remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, counterargument and rebuttal remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2637,6 +2857,33 @@
           "stakeholders"
         ],
         "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w35-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on synthesizing multiple sources presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w35-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, synthesizing multiple sources remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, synthesizing multiple sources remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2691,6 +2938,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w36-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on persuasive academic writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w36-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, persuasive academic writing remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, persuasive academic writing remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2745,6 +3019,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w37-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on analytical essay presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w37-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, analytical essay remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, analytical essay remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2799,6 +3100,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w38-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on evaluating evidence presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w38-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, evaluating evidence remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, evaluating evidence remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2853,6 +3181,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w39-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on comparative analysis essay presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w39-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, comparative analysis essay remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, comparative analysis essay remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2909,6 +3264,33 @@
           "stakeholders"
         ],
         "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w40-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on TOEFL writing strategies presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w40-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, TOEFL writing strategies remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, TOEFL writing strategies remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -2963,6 +3345,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w41-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on advanced thesis development presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w41-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, advanced thesis development remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, advanced thesis development remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3019,6 +3428,33 @@
           "stakeholders"
         ],
         "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w42-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on academic tone and register presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w42-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, academic tone and register remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, academic tone and register remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3073,6 +3509,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w43-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on complex argumentation presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w43-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, complex argumentation remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, complex argumentation remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3127,6 +3590,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w44-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on evidence-based writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w44-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, evidence-based writing remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, evidence-based writing remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3181,6 +3671,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w45-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on scholarly discourse presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w45-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, scholarly discourse remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, scholarly discourse remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3235,6 +3752,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w46-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on interdisciplinary analysis presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w46-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, interdisciplinary analysis remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, interdisciplinary analysis remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3289,6 +3833,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w47-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on critical evaluation of theories presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w47-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, critical evaluation of theories remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, critical evaluation of theories remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3343,6 +3914,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w48-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on research methodology critique presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w48-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, research methodology critique remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, research methodology critique remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3397,6 +3995,33 @@
         ],
         "correct": "Nevertheless",
         "explanation_pt": "'Nevertheless' (no entanto) introduz um contra-argumento após evidência forte. Essencial em essays acadêmicos para mostrar pensamento crítico."
+      },
+      {
+        "id": "w49-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on policy analysis presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w49-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, policy analysis remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, policy analysis remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   },
@@ -3453,6 +4078,33 @@
           "stakeholders"
         ],
         "grammar_focus_pt": "TOEFL Essay: 4-5 parágrafos, 300+ palavras, thesis clara, exemplos específicos"
+      },
+      {
+        "id": "w50-04",
+        "type": "fill_blank",
+        "instruction_pt": "Complete com o conector acadêmico correto:",
+        "sentence": "The research on advanced integrated writing presents compelling evidence. _____, further investigation is warranted.",
+        "options": [
+          "Nevertheless",
+          "Because",
+          "And",
+          "But"
+        ],
+        "correct": "Nevertheless",
+        "explanation_pt": "'Nevertheless' (no entanto) indica que apesar da evidência, mais pesquisa é necessária."
+      },
+      {
+        "id": "w50-05",
+        "type": "reorder",
+        "instruction_pt": "Organize as frases para formar um parágrafo coerente:",
+        "words": [
+          "In conclusion, advanced integrated writing remains a critical area of study.",
+          "Recent research has provided new insights.",
+          "However, several questions remain unanswered.",
+          "Future studies should address these gaps."
+        ],
+        "correct_sentence": "Recent research has provided new insights. However, several questions remain unanswered. Future studies should address these gaps. In conclusion, advanced integrated writing remains a critical area of study.",
+        "explanation_pt": "Parágrafo de conclusão: contexto → limitações → recomendação → fechamento."
       }
     ]
   }
