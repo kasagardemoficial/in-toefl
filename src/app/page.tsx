@@ -201,9 +201,47 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Word of the Day */}
+      {(() => {
+        const academicWords = [
+          { word: 'analyze', pron: '/ˈænəlaɪz/', pt: 'analisar', ex: 'Scientists analyze data to find patterns.' },
+          { word: 'significant', pron: '/sɪɡˈnɪfɪkənt/', pt: 'significativo', ex: 'There was a significant improvement in results.' },
+          { word: 'establish', pron: '/ɪˈstæblɪʃ/', pt: 'estabelecer', ex: 'The university was established in 1900.' },
+          { word: 'contribute', pron: '/kənˈtrɪbjuːt/', pt: 'contribuir', ex: 'Many factors contribute to climate change.' },
+          { word: 'demonstrate', pron: '/ˈdemənstreɪt/', pt: 'demonstrar', ex: 'The study demonstrates a clear correlation.' },
+          { word: 'perspective', pron: '/pərˈspektɪv/', pt: 'perspectiva', ex: 'We should consider different perspectives.' },
+          { word: 'fundamental', pron: '/ˌfʌndəˈmentl/', pt: 'fundamental', ex: 'Education is a fundamental right.' },
+          { word: 'evaluate', pron: '/ɪˈvæljueɪt/', pt: 'avaliar', ex: 'We need to evaluate the effectiveness of this program.' },
+          { word: 'hypothesis', pron: '/haɪˈpɑːθəsɪs/', pt: 'hipótese', ex: 'The hypothesis was confirmed by the experiment.' },
+          { word: 'phenomenon', pron: '/fɪˈnɑːmɪnɑːn/', pt: 'fenômeno', ex: 'Climate change is a global phenomenon.' },
+          { word: 'inevitable', pron: '/ɪnˈevɪtəbl/', pt: 'inevitável', ex: 'Change is inevitable in any growing organization.' },
+          { word: 'comprehensive', pron: '/ˌkɑːmprɪˈhensɪv/', pt: 'abrangente', ex: 'The report provides a comprehensive analysis.' },
+          { word: 'controversial', pron: '/ˌkɑːntrəˈvɜːrʃl/', pt: 'controverso', ex: 'This remains a controversial topic among scientists.' },
+          { word: 'subsequent', pron: '/ˈsʌbsɪkwənt/', pt: 'subsequente', ex: 'Subsequent studies confirmed the initial findings.' },
+        ]
+        const dayNum = Math.floor(Date.now() / 86400000)
+        const todayWord = academicWords[dayNum % academicWords.length]
+        return (
+          <div style={{ padding: '0 20px', marginBottom: '12px' }}>
+            <div style={{ background: '#F7F7F7', borderRadius: '14px', padding: '12px 14px', border: '1px solid #E8E8E8' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#9B59B6' }}>📚 Palavra do Dia</span>
+                <span style={{ fontSize: '0.55rem', color: '#999' }}>TOEFL Academic</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', marginBottom: '2px' }}>
+                <span style={{ fontWeight: 800, fontSize: '1.1rem', color: '#1A1A1A' }}>{todayWord.word}</span>
+                <span style={{ fontSize: '0.65rem', color: '#999' }}>{todayWord.pron}</span>
+              </div>
+              <p style={{ fontSize: '0.75rem', color: '#9B59B6', margin: '0 0 4px', fontWeight: 600 }}>{todayWord.pt}</p>
+              <p style={{ fontSize: '0.7rem', color: '#666', margin: 0, fontStyle: 'italic' }}>"{todayWord.ex}"</p>
+            </div>
+          </div>
+        )
+      })()}
+
       {/* Motivational */}
       <div style={{ padding: '0 20px', marginBottom: '12px' }}>
-        <p style={{ textAlign: 'center', color: '#8CB369', fontSize: '0.8rem', fontWeight: 600 }}>{phrase}</p>
+        <p style={{ textAlign: 'center', color: '#8CB369', fontSize: '0.75rem', fontWeight: 600 }}>{phrase}</p>
       </div>
 
       {/* Continue button */}
