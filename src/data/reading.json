@@ -4277,6 +4277,51 @@
         ],
         "correct": "C",
         "explanation_pt": "Críticos argumentam que 'the right to be forgotten amounts to censorship and threatens the historical record' — se políticos podem remover artigos desfavoráveis, a accountability democrática é prejudicada."
+      },
+      {
+        "id": "r42-long-01",
+        "type": "multiple_choice",
+        "instruction_pt": "Leia o texto acadêmico e responda:",
+        "question": "What is the primary cause of antibiotic resistance according to the passage?",
+        "options": [
+          "A) Bacteria naturally become immune to all medications over time",
+          "B) The overuse and misuse of antibiotics accelerates natural selection of resistant strains",
+          "C) Pharmaceutical companies deliberately create weaker antibiotics for profit",
+          "D) Hospitals fail to maintain adequate hygiene standards for patients"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "Antibiotic resistance represents one of the most pressing global health threats of the twenty-first century. The World Health Organization has warned that we risk entering a 'post-antibiotic era' in which common infections could once again become fatal. The mechanism of resistance is rooted in natural selection: when antibiotics are used, susceptible bacteria are killed while naturally resistant variants survive and reproduce. The overuse and misuse of antibiotics — in human medicine, agriculture, and livestock farming — dramatically accelerates this process. Each year, antibiotic-resistant infections cause approximately 1.27 million deaths worldwide, a figure projected to reach 10 million annually by 2050 if current trends continue. The economic burden is equally staggering, with resistant infections adding an estimated $20 billion in direct healthcare costs in the United States alone. Compounding the problem is a critical gap in the antibiotic development pipeline. Developing new antibiotics is expensive, time-consuming, and commercially unattractive because antibiotics are used for short courses, unlike drugs for chronic conditions. Of the 43 antibiotics currently in clinical development, only a few represent new chemical classes with novel mechanisms of action. Solutions require a multifaceted approach: reducing unnecessary antibiotic use through stewardship programs, investing in rapid diagnostic technologies, incentivizing pharmaceutical research through novel economic models, and improving infection prevention. International cooperation is essential, as resistant bacteria do not respect national borders."
+      },
+      {
+        "id": "r42-long-02",
+        "type": "multiple_choice",
+        "instruction_pt": "Segundo o texto:",
+        "question": "Why is developing new antibiotics commercially unattractive?",
+        "options": [
+          "A) Because antibiotics are used for short courses unlike chronic disease medications",
+          "B) Because governments prohibit pharmaceutical companies from profiting on antibiotics",
+          "C) Because the technology to create new antibiotics has not been invented yet",
+          "D) Because doctors refuse to prescribe new antibiotics to their patients"
+        ],
+        "correct": "A",
+        "explanation_pt": "",
+        "passage": "Antibiotic resistance represents one of the most pressing global health threats of the twenty-first century. The World Health Organization has warned that we risk entering a 'post-antibiotic era' in which common infections could once again become fatal. The mechanism of resistance is rooted in natural selection: when antibiotics are used, susceptible bacteria are killed while naturally resistant variants survive and reproduce. The overuse and misuse of antibiotics — in human medicine, agriculture, and livestock farming — dramatically accelerates this process. Each year, antibiotic-resistant infections cause approximately 1.27 million deaths worldwide, a figure projected to reach 10 million annually by 2050 if current trends continue. The economic burden is equally staggering, with resistant infections adding an estimated $20 billion in direct healthcare costs in the United States alone. Compounding the problem is a critical gap in the antibiotic development pipeline. Developing new antibiotics is expensive, time-consuming, and commercially unattractive because antibiotics are used for short courses, unlike drugs for chronic conditions. Of the 43 antibiotics currently in clinical development, only a few represent new chemical classes with novel mechanisms of action. Solutions require a multifaceted approach: reducing unnecessary antibiotic use through stewardship programs, investing in rapid diagnostic technologies, incentivizing pharmaceutical research through novel economic models, and improving infection prevention. International cooperation is essential, as resistant bacteria do not respect national borders."
+      },
+      {
+        "id": "r42-long-03",
+        "type": "multiple_choice",
+        "instruction_pt": "De acordo com o texto:",
+        "question": "How many deaths does antibiotic resistance cause annually?",
+        "options": [
+          "A) Approximately 10 million deaths according to current verified data",
+          "B) Approximately 1.27 million deaths with projections of 10 million by 2050",
+          "C) Approximately 20 billion deaths worldwide across all age demographics",
+          "D) The passage states that exact figures are impossible to determine accurately"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "Antibiotic resistance represents one of the most pressing global health threats of the twenty-first century. The World Health Organization has warned that we risk entering a 'post-antibiotic era' in which common infections could once again become fatal. The mechanism of resistance is rooted in natural selection: when antibiotics are used, susceptible bacteria are killed while naturally resistant variants survive and reproduce. The overuse and misuse of antibiotics — in human medicine, agriculture, and livestock farming — dramatically accelerates this process. Each year, antibiotic-resistant infections cause approximately 1.27 million deaths worldwide, a figure projected to reach 10 million annually by 2050 if current trends continue. The economic burden is equally staggering, with resistant infections adding an estimated $20 billion in direct healthcare costs in the United States alone. Compounding the problem is a critical gap in the antibiotic development pipeline. Developing new antibiotics is expensive, time-consuming, and commercially unattractive because antibiotics are used for short courses, unlike drugs for chronic conditions. Of the 43 antibiotics currently in clinical development, only a few represent new chemical classes with novel mechanisms of action. Solutions require a multifaceted approach: reducing unnecessary antibiotic use through stewardship programs, investing in rapid diagnostic technologies, incentivizing pharmaceutical research through novel economic models, and improving infection prevention. International cooperation is essential, as resistant bacteria do not respect national borders."
       }
     ]
   },
@@ -4654,6 +4699,51 @@
         ],
         "correct": "D",
         "explanation_pt": "'When governments don't need tax revenue from citizens, they have less incentive to invest in education, healthcare, and infrastructure' — sem dependência de impostos, sem accountability."
+      },
+      {
+        "id": "r46-long-01",
+        "type": "multiple_choice",
+        "instruction_pt": "Leia o texto acadêmico e responda:",
+        "question": "According to the passage, what is the 'overview effect'?",
+        "options": [
+          "A) A cognitive bias that causes astronauts to forget their training in space",
+          "B) A profound cognitive shift in awareness reported by astronauts viewing Earth from space",
+          "C) A medical condition caused by prolonged exposure to zero gravity environments",
+          "D) A psychological theory that has been disproven by recent space research"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "The 'overview effect' is a cognitive shift in awareness reported by astronauts during spaceflight. First described by author Frank White in 1987, the phenomenon occurs when individuals view Earth from orbit or from the lunar surface. Astronauts consistently describe a profound sense of the planet's fragility, the artificiality of political boundaries, and an overwhelming connection to all life on Earth. Astronaut Edgar Mitchell described his experience as 'an explosion of awareness' and 'an overwhelming sense of oneness and connectedness.' Research in the field of neuroaesthetics has begun to investigate the neurological basis of this phenomenon. Studies using virtual reality simulations of spaceflight have shown measurable changes in participants' brain activity, particularly in regions associated with awe, self-transcendence, and environmental concern. Participants who experienced simulated overview effects reported significantly increased pro-environmental attitudes and behaviors that persisted for weeks after the experience. These findings have practical implications beyond space exploration. Environmental psychologists are exploring whether virtual overview experiences could be used as a tool for fostering environmental awareness and sustainable behavior in the general population. Preliminary studies suggest that even brief VR exposures to Earth-from-space perspectives can reduce psychological distance from environmental issues and increase willingness to engage in pro-environmental actions. However, critics caution that the overview effect experienced by actual astronauts involves genuine existential risk, physical displacement, and extended duration — factors that cannot be replicated through simulation."
+      },
+      {
+        "id": "r46-long-02",
+        "type": "multiple_choice",
+        "instruction_pt": "De acordo com o texto:",
+        "question": "What practical application of the overview effect are researchers exploring?",
+        "options": [
+          "A) Training astronauts to resist the disorienting effects of space travel",
+          "B) Using VR simulations to foster environmental awareness in the general population",
+          "C) Developing new spacecraft that prevent the overview effect from occurring",
+          "D) Creating medications that replicate the neurological changes seen in astronauts"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "The 'overview effect' is a cognitive shift in awareness reported by astronauts during spaceflight. First described by author Frank White in 1987, the phenomenon occurs when individuals view Earth from orbit or from the lunar surface. Astronauts consistently describe a profound sense of the planet's fragility, the artificiality of political boundaries, and an overwhelming connection to all life on Earth. Astronaut Edgar Mitchell described his experience as 'an explosion of awareness' and 'an overwhelming sense of oneness and connectedness.' Research in the field of neuroaesthetics has begun to investigate the neurological basis of this phenomenon. Studies using virtual reality simulations of spaceflight have shown measurable changes in participants' brain activity, particularly in regions associated with awe, self-transcendence, and environmental concern. Participants who experienced simulated overview effects reported significantly increased pro-environmental attitudes and behaviors that persisted for weeks after the experience. These findings have practical implications beyond space exploration. Environmental psychologists are exploring whether virtual overview experiences could be used as a tool for fostering environmental awareness and sustainable behavior in the general population. Preliminary studies suggest that even brief VR exposures to Earth-from-space perspectives can reduce psychological distance from environmental issues and increase willingness to engage in pro-environmental actions. However, critics caution that the overview effect experienced by actual astronauts involves genuine existential risk, physical displacement, and extended duration — factors that cannot be replicated through simulation."
+      },
+      {
+        "id": "r46-long-03",
+        "type": "multiple_choice",
+        "instruction_pt": "Os críticos mencionados no texto argumentam que:",
+        "question": "What do critics argue about VR simulations of the overview effect?",
+        "options": [
+          "A) VR technology is too expensive to be used for environmental education purposes",
+          "B) The overview effect has been entirely debunked by modern neuroscience research",
+          "C) Real astronaut experiences involve risk and duration that simulations cannot replicate",
+          "D) Virtual reality causes permanent negative psychological effects on all users"
+        ],
+        "correct": "C",
+        "explanation_pt": "",
+        "passage": "The 'overview effect' is a cognitive shift in awareness reported by astronauts during spaceflight. First described by author Frank White in 1987, the phenomenon occurs when individuals view Earth from orbit or from the lunar surface. Astronauts consistently describe a profound sense of the planet's fragility, the artificiality of political boundaries, and an overwhelming connection to all life on Earth. Astronaut Edgar Mitchell described his experience as 'an explosion of awareness' and 'an overwhelming sense of oneness and connectedness.' Research in the field of neuroaesthetics has begun to investigate the neurological basis of this phenomenon. Studies using virtual reality simulations of spaceflight have shown measurable changes in participants' brain activity, particularly in regions associated with awe, self-transcendence, and environmental concern. Participants who experienced simulated overview effects reported significantly increased pro-environmental attitudes and behaviors that persisted for weeks after the experience. These findings have practical implications beyond space exploration. Environmental psychologists are exploring whether virtual overview experiences could be used as a tool for fostering environmental awareness and sustainable behavior in the general population. Preliminary studies suggest that even brief VR exposures to Earth-from-space perspectives can reduce psychological distance from environmental issues and increase willingness to engage in pro-environmental actions. However, critics caution that the overview effect experienced by actual astronauts involves genuine existential risk, physical displacement, and extended duration — factors that cannot be replicated through simulation."
       }
     ]
   },
@@ -4820,6 +4910,51 @@
         ],
         "correct": "A",
         "explanation_pt": "O eixo intestino-cérebro pode 'fundamentally change how we understand and treat mental illness, shifting from a brain-only model to one that considers the entire body as an interconnected system'."
+      },
+      {
+        "id": "r48-long-01",
+        "type": "multiple_choice",
+        "instruction_pt": "Leia o texto acadêmico e responda:",
+        "question": "What is CRISPR-Cas9 as described in the passage?",
+        "options": [
+          "A) A type of virus that causes genetic diseases in human populations",
+          "B) A gene-editing technology that allows precise modification of DNA sequences",
+          "C) A pharmaceutical drug used to treat hereditary conditions in patients",
+          "D) A computer algorithm designed to analyze genetic data from blood samples"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "CRISPR-Cas9, a revolutionary gene-editing technology, has transformed the landscape of molecular biology since its development as a genome engineering tool in 2012. The system, adapted from a natural defense mechanism used by bacteria against viral infections, allows scientists to make precise modifications to DNA sequences in living organisms. The technology works by using a guide RNA molecule to direct the Cas9 enzyme to a specific location in the genome, where it creates a targeted double-strand break. The cell's natural repair mechanisms then either disrupt the targeted gene or incorporate a new DNA sequence. The potential medical applications are vast. Researchers have used CRISPR to correct genetic mutations responsible for sickle cell disease, muscular dystrophy, and certain forms of blindness in laboratory settings. In 2023, the first CRISPR-based therapy — Casgevy, for sickle cell disease — received regulatory approval in the United Kingdom and United States. However, the technology raises profound ethical questions. The possibility of editing human germline cells — changes that would be inherited by future generations — has sparked intense debate. In 2018, Chinese scientist He Jiankui announced the birth of twin girls whose genomes he had edited using CRISPR, provoking international condemnation. The scientific community has broadly agreed that germline editing for reproductive purposes is premature given current understanding of off-target effects — unintended modifications at other genomic locations. Governance frameworks for CRISPR technology remain fragmented, with different countries adopting varying regulatory approaches."
+      },
+      {
+        "id": "r48-long-02",
+        "type": "multiple_choice",
+        "instruction_pt": "Segundo o texto:",
+        "question": "What ethical concern does the passage highlight about CRISPR technology?",
+        "options": [
+          "A) That CRISPR is too expensive for most research laboratories to use effectively",
+          "B) That editing germline cells creates inheritable changes with unknown consequences",
+          "C) That CRISPR can only be used on bacterial organisms and not on human cells",
+          "D) That the technology was stolen from Chinese researchers without proper attribution"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "CRISPR-Cas9, a revolutionary gene-editing technology, has transformed the landscape of molecular biology since its development as a genome engineering tool in 2012. The system, adapted from a natural defense mechanism used by bacteria against viral infections, allows scientists to make precise modifications to DNA sequences in living organisms. The technology works by using a guide RNA molecule to direct the Cas9 enzyme to a specific location in the genome, where it creates a targeted double-strand break. The cell's natural repair mechanisms then either disrupt the targeted gene or incorporate a new DNA sequence. The potential medical applications are vast. Researchers have used CRISPR to correct genetic mutations responsible for sickle cell disease, muscular dystrophy, and certain forms of blindness in laboratory settings. In 2023, the first CRISPR-based therapy — Casgevy, for sickle cell disease — received regulatory approval in the United Kingdom and United States. However, the technology raises profound ethical questions. The possibility of editing human germline cells — changes that would be inherited by future generations — has sparked intense debate. In 2018, Chinese scientist He Jiankui announced the birth of twin girls whose genomes he had edited using CRISPR, provoking international condemnation. The scientific community has broadly agreed that germline editing for reproductive purposes is premature given current understanding of off-target effects — unintended modifications at other genomic locations. Governance frameworks for CRISPR technology remain fragmented, with different countries adopting varying regulatory approaches."
+      },
+      {
+        "id": "r48-long-03",
+        "type": "multiple_choice",
+        "instruction_pt": "De acordo com o texto:",
+        "question": "What milestone was achieved in 2023 regarding CRISPR?",
+        "options": [
+          "A) Scientists completely mapped the human genome for the first time using CRISPR",
+          "B) The first CRISPR-based therapy received regulatory approval for sickle cell disease",
+          "C) CRISPR was proven to be ineffective and was abandoned by the scientific community",
+          "D) The technology was used to edit germline cells legally for the first time worldwide"
+        ],
+        "correct": "B",
+        "explanation_pt": "",
+        "passage": "CRISPR-Cas9, a revolutionary gene-editing technology, has transformed the landscape of molecular biology since its development as a genome engineering tool in 2012. The system, adapted from a natural defense mechanism used by bacteria against viral infections, allows scientists to make precise modifications to DNA sequences in living organisms. The technology works by using a guide RNA molecule to direct the Cas9 enzyme to a specific location in the genome, where it creates a targeted double-strand break. The cell's natural repair mechanisms then either disrupt the targeted gene or incorporate a new DNA sequence. The potential medical applications are vast. Researchers have used CRISPR to correct genetic mutations responsible for sickle cell disease, muscular dystrophy, and certain forms of blindness in laboratory settings. In 2023, the first CRISPR-based therapy — Casgevy, for sickle cell disease — received regulatory approval in the United Kingdom and United States. However, the technology raises profound ethical questions. The possibility of editing human germline cells — changes that would be inherited by future generations — has sparked intense debate. In 2018, Chinese scientist He Jiankui announced the birth of twin girls whose genomes he had edited using CRISPR, provoking international condemnation. The scientific community has broadly agreed that germline editing for reproductive purposes is premature given current understanding of off-target effects — unintended modifications at other genomic locations. Governance frameworks for CRISPR technology remain fragmented, with different countries adopting varying regulatory approaches."
       }
     ]
   },
