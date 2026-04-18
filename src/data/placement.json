@@ -1,620 +1,692 @@
 {
-  "test_name": "In-TOEFL Placement Test",
-  "description": "Teste de nivelamento — 35 questões (~15 min)",
-  "scoring": {
-    "0-30%": {
-      "level": "beginner",
+  "adaptive": true,
+  "start_level": "B1",
+  "questions_per_level": 10,
+  "levels": {
+    "A1": {
       "cefr": "A1",
-      "start_level": 1
+      "mapped_level": 1,
+      "description": "Iniciante absoluto",
+      "questions": [
+        {
+          "id": "a1-01",
+          "section": "grammar",
+          "question": "She ___ a student.",
+          "options": [
+            "A) is",
+            "B) are",
+            "C) am",
+            "D) be"
+          ],
+          "correct": "A",
+          "explanation_pt": "Com she/he/it usa-se 'is'. I am, You are, She is."
+        },
+        {
+          "id": "a1-02",
+          "section": "vocabulary",
+          "question": "What is 'dog' in Portuguese?",
+          "options": [
+            "A) Gato",
+            "B) Pássaro",
+            "C) Cachorro",
+            "D) Peixe"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Dog' = cachorro. 'Cat' = gato, 'Bird' = pássaro, 'Fish' = peixe."
+        },
+        {
+          "id": "a1-03",
+          "section": "grammar",
+          "question": "I ___ from Brazil.",
+          "options": [
+            "A) is",
+            "B) am",
+            "C) are",
+            "D) be"
+          ],
+          "correct": "B",
+          "explanation_pt": "Com 'I' sempre usa-se 'am'. I am = Eu sou/estou."
+        },
+        {
+          "id": "a1-04",
+          "section": "vocabulary",
+          "question": "The opposite of 'hot' is:",
+          "options": [
+            "A) Big",
+            "B) Fast",
+            "C) Cold",
+            "D) Old"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Hot' (quente) × 'Cold' (frio). São antônimos."
+        },
+        {
+          "id": "a1-05",
+          "section": "grammar",
+          "question": "___ you like coffee?",
+          "options": [
+            "A) Does",
+            "B) Do",
+            "C) Is",
+            "D) Are"
+          ],
+          "correct": "B",
+          "explanation_pt": "Perguntas com 'you' no presente: Do you...? Does é para he/she/it."
+        },
+        {
+          "id": "a1-06",
+          "section": "vocabulary",
+          "question": "Which word means 'casa'?",
+          "options": [
+            "A) Car",
+            "B) House",
+            "C) Tree",
+            "D) Book"
+          ],
+          "correct": "B",
+          "explanation_pt": "'House' = casa. 'Car' = carro, 'Tree' = árvore, 'Book' = livro."
+        },
+        {
+          "id": "a1-07",
+          "section": "grammar",
+          "question": "They ___ happy today.",
+          "options": [
+            "A) is",
+            "B) am",
+            "C) are",
+            "D) be"
+          ],
+          "correct": "C",
+          "explanation_pt": "Com 'they' usa-se 'are'. They are = Eles são/estão."
+        },
+        {
+          "id": "a1-08",
+          "section": "grammar",
+          "question": "He ___ to school every day.",
+          "options": [
+            "A) go",
+            "B) goes",
+            "C) going",
+            "D) gone"
+          ],
+          "correct": "B",
+          "explanation_pt": "Presente simples com he/she/it: o verbo recebe -s ou -es. He goes."
+        },
+        {
+          "id": "a1-09",
+          "section": "vocabulary",
+          "question": "'Monday, Tuesday, Wednesday' are:",
+          "options": [
+            "A) Months",
+            "B) Colors",
+            "C) Days of the week",
+            "D) Numbers"
+          ],
+          "correct": "C",
+          "explanation_pt": "São dias da semana (days of the week). Months = meses, Colors = cores."
+        },
+        {
+          "id": "a1-10",
+          "section": "grammar",
+          "question": "I ___ not like spiders.",
+          "options": [
+            "A) does",
+            "B) do",
+            "C) am",
+            "D) is"
+          ],
+          "correct": "B",
+          "explanation_pt": "Negativa com 'I': I do not (don't) like. Com he/she: does not (doesn't)."
+        }
+      ]
     },
-    "31-50%": {
-      "level": "elementary",
+    "A2": {
       "cefr": "A2",
-      "start_level": 25
+      "mapped_level": 10,
+      "description": "Básico",
+      "questions": [
+        {
+          "id": "a2-01",
+          "section": "grammar",
+          "question": "She ___ to the cinema last night.",
+          "options": [
+            "A) goes",
+            "B) went",
+            "C) has gone",
+            "D) going"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Last night' = passado. Past simple de 'go' = 'went' (irregular)."
+        },
+        {
+          "id": "a2-02",
+          "section": "vocabulary",
+          "question": "'I'm looking for a job' means:",
+          "options": [
+            "A) Estou perdendo meu emprego",
+            "B) Estou procurando um emprego",
+            "C) Estou começando um emprego",
+            "D) Estou deixando meu emprego"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Look for' = procurar. 'I'm looking for a job' = Estou procurando um emprego."
+        },
+        {
+          "id": "a2-03",
+          "section": "grammar",
+          "question": "This book is ___ than that one.",
+          "options": [
+            "A) more interesting",
+            "B) most interesting",
+            "C) interestinger",
+            "D) interesting"
+          ],
+          "correct": "A",
+          "explanation_pt": "Comparativo de adjetivos longos: more + adjetivo. More interesting = mais interessante."
+        },
+        {
+          "id": "a2-04",
+          "section": "grammar",
+          "question": "I ___ never been to Japan.",
+          "options": [
+            "A) has",
+            "B) have",
+            "C) had",
+            "D) am"
+          ],
+          "correct": "B",
+          "explanation_pt": "Present perfect com 'I': I have + particípio. I have never been = Eu nunca fui/estive."
+        },
+        {
+          "id": "a2-05",
+          "section": "vocabulary",
+          "question": "'Expensive' means:",
+          "options": [
+            "A) Barato",
+            "B) Caro",
+            "C) Bonito",
+            "D) Grande"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Expensive' = caro. 'Cheap' = barato. Cuidado: NÃO é falso cognato."
+        },
+        {
+          "id": "a2-06",
+          "section": "grammar",
+          "question": "There ___ many people at the party.",
+          "options": [
+            "A) was",
+            "B) were",
+            "C) is",
+            "D) has"
+          ],
+          "correct": "B",
+          "explanation_pt": "'People' é plural, então usa 'were' (passado de 'are'). There were = Havia/Tinha."
+        },
+        {
+          "id": "a2-07",
+          "section": "reading",
+          "question": "'I usually wake up at 7, have breakfast, and take the bus to work.' What does this person do in the morning?",
+          "options": [
+            "A) Drives to work after lunch",
+            "B) Wakes up, eats, and takes the bus to work",
+            "C) Walks to school every morning",
+            "D) Sleeps until noon on weekdays"
+          ],
+          "correct": "B",
+          "explanation_pt": "O texto descreve: acordar às 7, tomar café, pegar ônibus para o trabalho."
+        },
+        {
+          "id": "a2-08",
+          "section": "grammar",
+          "question": "She ___ English since 2020.",
+          "options": [
+            "A) studies",
+            "B) studied",
+            "C) has studied",
+            "D) is studying"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Since 2020' indica ação que começou no passado e continua: Present Perfect. She has studied."
+        },
+        {
+          "id": "a2-09",
+          "section": "vocabulary",
+          "question": "A person who teaches at a university is a:",
+          "options": [
+            "A) Student",
+            "B) Professor",
+            "C) Doctor",
+            "D) Lawyer"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Professor' = professor universitário. Student = aluno, Doctor = médico, Lawyer = advogado."
+        },
+        {
+          "id": "a2-10",
+          "section": "grammar",
+          "question": "If it rains, I ___ at home.",
+          "options": [
+            "A) stay",
+            "B) will stay",
+            "C) stayed",
+            "D) staying"
+          ],
+          "correct": "B",
+          "explanation_pt": "First conditional: If + present, will + infinitive. If it rains, I will stay."
+        }
+      ]
     },
-    "51-70%": {
-      "level": "intermediate",
+    "B1": {
       "cefr": "B1",
-      "start_level": 50
+      "mapped_level": 20,
+      "description": "Intermediário",
+      "questions": [
+        {
+          "id": "b1-01",
+          "section": "grammar",
+          "question": "If I ___ more money, I would travel the world.",
+          "options": [
+            "A) have",
+            "B) had",
+            "C) would have",
+            "D) has"
+          ],
+          "correct": "B",
+          "explanation_pt": "Second conditional: If + past simple, would + infinitive. Situação hipotética no presente."
+        },
+        {
+          "id": "b1-02",
+          "section": "vocabulary",
+          "question": "'Despite the rain, the match continued.' 'Despite' means:",
+          "options": [
+            "A) Because of",
+            "B) In addition to",
+            "C) In spite of",
+            "D) As a result of"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Despite' = apesar de (in spite of). Indica contraste. Diferente de 'because of' (por causa de)."
+        },
+        {
+          "id": "b1-03",
+          "section": "grammar",
+          "question": "The letter ___ yesterday.",
+          "options": [
+            "A) was sent",
+            "B) sent",
+            "C) is sent",
+            "D) sends"
+          ],
+          "correct": "A",
+          "explanation_pt": "Passive voice no passado: was/were + particípio. The letter was sent = A carta foi enviada."
+        },
+        {
+          "id": "b1-04",
+          "section": "reading",
+          "question": "'The government announced a new policy to reduce carbon emissions by 40% by 2030. Environmental groups welcomed the decision but said it did not go far enough.' What is the environmental groups' position?",
+          "options": [
+            "A) They completely oppose the new policy and want it reversed",
+            "B) They support it but think it should be more ambitious",
+            "C) They believe 40% reduction is too aggressive a target",
+            "D) They have not commented on the government's announcement"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Welcomed but said it did not go far enough' = apoiam mas acham que deveria ser mais ambicioso."
+        },
+        {
+          "id": "b1-05",
+          "section": "grammar",
+          "question": "She asked me ___ I had been to London.",
+          "options": [
+            "A) that",
+            "B) if",
+            "C) what",
+            "D) do"
+          ],
+          "correct": "B",
+          "explanation_pt": "Reported questions (yes/no): She asked me if/whether... Quando a pergunta original é sim/não, usa-se 'if'."
+        },
+        {
+          "id": "b1-06",
+          "section": "vocabulary",
+          "question": "'The company launched a new product.' 'Launched' is closest in meaning to:",
+          "options": [
+            "A) Cancelled",
+            "B) Introduced",
+            "C) Destroyed",
+            "D) Criticized"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Launch' = lançar/introduzir (um produto, projeto, campanha). Diferente de 'cancel' (cancelar)."
+        },
+        {
+          "id": "b1-07",
+          "section": "grammar",
+          "question": "I wish I ___ speak French fluently.",
+          "options": [
+            "A) can",
+            "B) could",
+            "C) will",
+            "D) would"
+          ],
+          "correct": "B",
+          "explanation_pt": "Wish + past simple/could: expressa desejo sobre algo irreal no presente. I wish I could = Quem dera eu pudesse."
+        },
+        {
+          "id": "b1-08",
+          "section": "grammar",
+          "question": "The book ___ she recommended was excellent.",
+          "options": [
+            "A) who",
+            "B) which",
+            "C) what",
+            "D) where"
+          ],
+          "correct": "B",
+          "explanation_pt": "Relative pronoun para coisas: which/that. 'Who' é para pessoas. The book which she recommended..."
+        },
+        {
+          "id": "b1-09",
+          "section": "vocabulary",
+          "question": "'Reliable' means someone or something that:",
+          "options": [
+            "A) Changes frequently and unpredictably",
+            "B) Can be trusted and depended on consistently",
+            "C) Is very expensive and luxurious",
+            "D) Is old and no longer functional"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Reliable' = confiável, de confiança. Uma pessoa reliable é alguém em quem você pode confiar."
+        },
+        {
+          "id": "b1-10",
+          "section": "grammar",
+          "question": "By the time I arrived, the meeting ___.",
+          "options": [
+            "A) already started",
+            "B) has already started",
+            "C) had already started",
+            "D) already starts"
+          ],
+          "correct": "C",
+          "explanation_pt": "Past perfect: had + particípio. Ação anterior a outra no passado. A reunião já tinha começado quando cheguei."
+        }
+      ]
     },
-    "71-85%": {
-      "level": "upper_intermediate",
+    "B2": {
       "cefr": "B2",
-      "start_level": 75
+      "mapped_level": 35,
+      "description": "Intermediário-Avançado",
+      "questions": [
+        {
+          "id": "b2-01",
+          "section": "grammar",
+          "question": "Not only ___ the exam, but she also got the highest score.",
+          "options": [
+            "A) she passed",
+            "B) did she pass",
+            "C) she did pass",
+            "D) passed she"
+          ],
+          "correct": "B",
+          "explanation_pt": "Inversão após 'Not only': Not only did she pass... Estrutura enfática que inverte auxiliar e sujeito."
+        },
+        {
+          "id": "b2-02",
+          "section": "vocabulary",
+          "question": "'The findings of the study corroborate previous research.' 'Corroborate' means:",
+          "options": [
+            "A) Contradict",
+            "B) Ignore",
+            "C) Confirm and support",
+            "D) Partially explain"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Corroborate' = confirmar, corroborar, dar suporte. Vocabulário acadêmico frequente no TOEFL."
+        },
+        {
+          "id": "b2-03",
+          "section": "reading",
+          "question": "'While correlation between social media use and anxiety has been documented, establishing causation remains problematic. Longitudinal studies suggest the relationship may be bidirectional.' The author's main point is:",
+          "options": [
+            "A) Social media definitely causes anxiety in all users",
+            "B) There is no relationship between social media and anxiety",
+            "C) The causal direction of the relationship is not yet clear",
+            "D) Longitudinal studies have proven social media is safe"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Establishing causation remains problematic' + 'bidirectional' = a direção causal não está clara."
+        },
+        {
+          "id": "b2-04",
+          "section": "grammar",
+          "question": "Had I known about the deadline, I ___ my application earlier.",
+          "options": [
+            "A) would submit",
+            "B) would have submitted",
+            "C) submitted",
+            "D) will submit"
+          ],
+          "correct": "B",
+          "explanation_pt": "Third conditional invertido: Had I known = If I had known. Would have + particípio = resultado hipotético no passado."
+        },
+        {
+          "id": "b2-05",
+          "section": "vocabulary",
+          "question": "'The policy was implemented despite considerable opposition.' 'Considerable' is closest to:",
+          "options": [
+            "A) Minimal",
+            "B) Significant",
+            "C) Unexpected",
+            "D) Political"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Considerable' = significativo, considerável. 'Considerable opposition' = oposição significativa."
+        },
+        {
+          "id": "b2-06",
+          "section": "grammar",
+          "question": "It's high time we ___ a decision about the project.",
+          "options": [
+            "A) make",
+            "B) made",
+            "C) will make",
+            "D) making"
+          ],
+          "correct": "B",
+          "explanation_pt": "'It's high time' + past simple: expressa que algo deveria ter sido feito já. It's high time we made..."
+        },
+        {
+          "id": "b2-07",
+          "section": "reading",
+          "question": "'The proliferation of misinformation online has prompted calls for greater digital literacy education. Proponents argue that teaching critical evaluation of sources should be integrated into school curricula from an early age.' The word 'proliferation' most likely means:",
+          "options": [
+            "A) Decrease",
+            "B) Rapid spread and increase",
+            "C) Careful organization",
+            "D) Complete elimination"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Proliferation' = proliferação, disseminação rápida. Contexto: 'misinformation online has prompted calls' indica aumento."
+        },
+        {
+          "id": "b2-08",
+          "section": "grammar",
+          "question": "The report, ___ was published last week, has generated significant debate.",
+          "options": [
+            "A) that",
+            "B) which",
+            "C) what",
+            "D) who"
+          ],
+          "correct": "B",
+          "explanation_pt": "Non-defining relative clause (com vírgulas): usa 'which', nunca 'that'. Adiciona informação extra."
+        },
+        {
+          "id": "b2-09",
+          "section": "vocabulary",
+          "question": "'The government allocated substantial funds to infrastructure.' 'Allocated' means:",
+          "options": [
+            "A) Wasted",
+            "B) Distributed for a specific purpose",
+            "C) Borrowed from other countries",
+            "D) Refused to provide"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Allocate' = alocar, destinar, distribuir para um fim específico. Vocabulário acadêmico/político."
+        },
+        {
+          "id": "b2-10",
+          "section": "grammar",
+          "question": "Rarely ___ such a comprehensive analysis of the issue.",
+          "options": [
+            "A) we have seen",
+            "B) have we seen",
+            "C) we see",
+            "D) did we saw"
+          ],
+          "correct": "B",
+          "explanation_pt": "Inversão após advérbios negativos: Rarely/Seldom/Never + auxiliar + sujeito. Rarely have we seen..."
+        }
+      ]
     },
-    "86-100%": {
-      "level": "advanced",
+    "C1": {
       "cefr": "C1",
-      "start_level": 90
+      "mapped_level": 45,
+      "description": "Avançado — Pronto para o TOEFL",
+      "questions": [
+        {
+          "id": "c1-01",
+          "section": "grammar",
+          "question": "Scarcely ___ the building when the fire alarm went off.",
+          "options": [
+            "A) he had left",
+            "B) had he left",
+            "C) he left",
+            "D) did he leave"
+          ],
+          "correct": "B",
+          "explanation_pt": "Inversão com 'Scarcely...when': Scarcely had he left when... = Mal ele tinha saído quando..."
+        },
+        {
+          "id": "c1-02",
+          "section": "vocabulary",
+          "question": "'The researcher's methodology was deemed fundamentally flawed, thereby undermining the validity of the entire study.' 'Undermining' means:",
+          "options": [
+            "A) Strengthening gradually over time",
+            "B) Weakening or subverting from the foundation",
+            "C) Supporting with additional evidence",
+            "D) Replicating under controlled conditions"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Undermine' = minar, enfraquecer pela base. Vocabulário acadêmico avançado essencial no TOEFL."
+        },
+        {
+          "id": "c1-03",
+          "section": "reading",
+          "question": "'The ostensible purpose of the legislation was to protect consumer privacy; however, critics contend that its vague provisions may paradoxically facilitate greater governmental surveillance.' The author suggests that:",
+          "options": [
+            "A) The legislation will definitely protect consumer privacy as intended",
+            "B) Critics are wrong to question the legislation's effectiveness",
+            "C) The law's stated aim may differ from its actual consequences",
+            "D) Governmental surveillance is beneficial for consumer protection"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Ostensible' (aparente) + 'paradoxically facilitate' = o objetivo declarado pode diferir das consequências reais."
+        },
+        {
+          "id": "c1-04",
+          "section": "grammar",
+          "question": "___ it not been for her intervention, the negotiations would have collapsed.",
+          "options": [
+            "A) If",
+            "B) Had",
+            "C) Should",
+            "D) Were"
+          ],
+          "correct": "B",
+          "explanation_pt": "Third conditional invertido formal: Had it not been for = If it had not been for. Estilo acadêmico/formal."
+        },
+        {
+          "id": "c1-05",
+          "section": "vocabulary",
+          "question": "'The findings are commensurate with those of previous studies.' 'Commensurate' means:",
+          "options": [
+            "A) Contradictory to",
+            "B) Unrelated to",
+            "C) Proportionate to and consistent with",
+            "D) Superior to"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Commensurate' = proporcional a, compatível com. Vocabulário acadêmico de nível C1."
+        },
+        {
+          "id": "c1-06",
+          "section": "reading",
+          "question": "'Notwithstanding the methodological limitations acknowledged by the authors, the study's contribution to the field of epigenetics cannot be overstated. The longitudinal design, encompassing three generations of participants, provides unprecedented insight into transgenerational inheritance patterns.' The phrase 'cannot be overstated' suggests the contribution is:",
+          "options": [
+            "A) Frequently exaggerated by the media",
+            "B) Impossible to describe accurately",
+            "C) Extremely important and significant",
+            "D) Difficult to measure quantitatively"
+          ],
+          "correct": "C",
+          "explanation_pt": "'Cannot be overstated' = não pode ser exagerado = é extremamente importante. Expressão acadêmica formal."
+        },
+        {
+          "id": "c1-07",
+          "section": "grammar",
+          "question": "It is imperative that the committee ___ its decision by Friday.",
+          "options": [
+            "A) makes",
+            "B) make",
+            "C) will make",
+            "D) made"
+          ],
+          "correct": "B",
+          "explanation_pt": "Subjunctive: It is imperative/essential/vital that + sujeito + base form (sem -s). Formal/acadêmico."
+        },
+        {
+          "id": "c1-08",
+          "section": "vocabulary",
+          "question": "'The government's austerity measures have exacerbated economic inequality.' 'Exacerbated' means:",
+          "options": [
+            "A) Slightly improved",
+            "B) Made significantly worse",
+            "C) Had no effect on",
+            "D) Completely resolved"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Exacerbate' = exacerbar, piorar significativamente. Frequente em textos acadêmicos e TOEFL."
+        },
+        {
+          "id": "c1-09",
+          "section": "grammar",
+          "question": "So complex ___ the problem that even experts struggled to find a solution.",
+          "options": [
+            "A) is",
+            "B) was",
+            "C) it was",
+            "D) has been"
+          ],
+          "correct": "B",
+          "explanation_pt": "Inversão enfática: So + adjetivo + was/is + sujeito + that... Estilo formal/acadêmico."
+        },
+        {
+          "id": "c1-10",
+          "section": "vocabulary",
+          "question": "'The two theories, once thought to be mutually exclusive, have been shown to be complementary.' 'Mutually exclusive' means:",
+          "options": [
+            "A) Supporting each other's conclusions",
+            "B) Impossible to be true at the same time",
+            "C) Based on the same fundamental principles",
+            "D) Developed by the same research team"
+          ],
+          "correct": "B",
+          "explanation_pt": "'Mutually exclusive' = mutuamente exclusivos, não podem coexistir. Se um é verdade, o outro não pode ser."
+        }
+      ]
     }
-  },
-  "questions": [
-    {
-      "id": "placement-r01",
-      "section": "reading",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Leia a frase e escolha a resposta correta:",
-      "passage": "The cat is on the table.",
-      "question": "Where is the cat?",
-      "options": [
-        "A) Under the table",
-        "B) In the garden",
-        "C) On the table",
-        "D) Next to the door"
-      ],
-      "correct": "C",
-      "explanation_pt": "'On the table' significa 'em cima da mesa'. A frase diz que o gato está em cima da mesa."
-    },
-    {
-      "id": "placement-r02",
-      "section": "reading",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Leia a frase e escolha a resposta correta:",
-      "passage": "Maria drinks coffee every morning.",
-      "question": "What does Maria drink in the morning?",
-      "options": [
-        "A) Tea",
-        "B) Coffee",
-        "C) Water",
-        "D) Juice"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Coffee' significa 'café'. Maria bebe café toda manhã."
-    },
-    {
-      "id": "placement-r03",
-      "section": "reading",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Leia a frase e escolha a resposta correta:",
-      "passage": "My brother is a doctor. He works at a hospital.",
-      "question": "Where does the brother work?",
-      "options": [
-        "A) At a restaurant",
-        "B) At a hospital",
-        "C) At a school",
-        "D) At home"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Hospital' é a mesma palavra em português. Ele trabalha em um hospital."
-    },
-    {
-      "id": "placement-r04",
-      "section": "reading",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Leia o parágrafo e escolha a resposta correta:",
-      "passage": "Sarah moved to a new city last month. She doesn't know many people yet, but she joined a gym and started taking a cooking class. She hopes to make new friends soon.",
-      "question": "Why did Sarah join a gym and a cooking class?",
-      "options": [
-        "A) Because her doctor told her to",
-        "B) Because she wants to lose weight",
-        "C) Because she wants to meet people",
-        "D) Because she likes exercise"
-      ],
-      "correct": "C",
-      "explanation_pt": "O texto diz que Sarah não conhece muitas pessoas e espera fazer novos amigos. Ela entrou na academia e no curso de culinária para conhecer pessoas."
-    },
-    {
-      "id": "placement-r05",
-      "section": "reading",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Leia o parágrafo e escolha a resposta correta:",
-      "passage": "The weather in London is often cloudy and rainy. Summers are mild, with temperatures around 20°C. Winters are cold but rarely freezing. Many tourists visit in June and July when the weather is best.",
-      "question": "When is the best time to visit London?",
-      "options": [
-        "A) September and October",
-        "B) December and January",
-        "C) June and July",
-        "D) March and April"
-      ],
-      "correct": "C",
-      "explanation_pt": "O texto diz que muitos turistas visitam em junho e julho, quando o tempo está melhor."
-    },
-    {
-      "id": "placement-r06",
-      "section": "reading",
-      "difficulty": "medium",
-      "cefr": "B1",
-      "instruction_pt": "Leia o parágrafo e escolha a resposta correta:",
-      "passage": "Although smartphones have made communication easier, many experts worry about their effect on mental health. Studies show that excessive screen time can lead to anxiety and poor sleep quality, especially among teenagers. Some schools have started banning phones during class hours.",
-      "question": "What is the main concern about smartphones according to the text?",
-      "options": [
-        "A) They can negatively affect mental health",
-        "B) They make people less intelligent",
-        "C) They distract students from homework",
-        "D) They are too expensive"
-      ],
-      "correct": "A",
-      "explanation_pt": "'Mental health' significa 'saúde mental'. O texto fala que especialistas se preocupam com o efeito dos smartphones na saúde mental."
-    },
-    {
-      "id": "placement-r07",
-      "section": "reading",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Leia o texto e escolha a resposta correta:",
-      "passage": "The concept of neuroplasticity has revolutionized our understanding of the brain. Previously, scientists believed that the brain's structure was fixed after childhood. However, research has demonstrated that the brain continues to form new neural connections throughout life. This discovery has profound implications for rehabilitation after brain injuries and for learning at any age.",
-      "question": "What can be inferred from the passage about the previous scientific view of the brain?",
-      "options": [
-        "A) Scientists believed adult brains could not form new connections",
-        "B) Scientists thought the brain could always change",
-        "C) Scientists never studied brain development",
-        "D) Scientists only studied children's brains"
-      ],
-      "correct": "A",
-      "explanation_pt": "O texto diz que 'anteriormente, cientistas acreditavam que a estrutura do cérebro era fixa após a infância'. Isso implica que achavam que cérebros adultos não formavam novas conexões."
-    },
-    {
-      "id": "placement-r08",
-      "section": "reading",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Leia o texto e escolha a resposta correta:",
-      "passage": "Coral reefs, often called the 'rainforests of the sea,' support approximately 25% of all marine species despite covering less than 1% of the ocean floor. Rising ocean temperatures due to climate change cause coral bleaching, a phenomenon where corals expel the algae living in their tissues. Without these algae, corals lose their color and their primary source of nutrition, often leading to death.",
-      "question": "According to the passage, why do corals die after bleaching?",
-      "options": [
-        "A) Because the water is too cold",
-        "B) Because pollution kills them directly",
-        "C) Because they lose their food source when algae leave",
-        "D) Because other marine species attack them"
-      ],
-      "correct": "C",
-      "explanation_pt": "O texto explica que os corais expulsam as algas, que são sua principal fonte de nutrição. Sem as algas, os corais perdem a cor e a nutrição, levando à morte."
-    },
-    {
-      "id": "placement-r09",
-      "section": "reading",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Leia o texto e escolha a resposta correta:",
-      "passage": "The gig economy has fundamentally altered traditional employment models. While proponents argue it provides unprecedented flexibility and autonomy, critics point to the lack of benefits, job security, and the erosion of worker protections. The debate reflects broader tensions between innovation and regulation in modern economies.",
-      "question": "What does the passage suggest about the gig economy debate?",
-      "options": [
-        "A) It only affects technology workers",
-        "B) It involves a conflict between flexibility and worker protection",
-        "C) Governments have solved the problem",
-        "D) Everyone agrees it is beneficial"
-      ],
-      "correct": "B",
-      "explanation_pt": "O texto apresenta dois lados: defensores falam de flexibilidade, críticos falam de falta de proteção. O debate reflete a tensão entre inovação e regulação."
-    },
-    {
-      "id": "placement-r10",
-      "section": "reading",
-      "difficulty": "very_hard",
-      "cefr": "C1",
-      "instruction_pt": "Leia o texto acadêmico e escolha a resposta correta:",
-      "passage": "Epigenetics, the study of heritable changes in gene expression that do not involve alterations to the DNA sequence itself, has challenged the long-held notion that our genetic destiny is immutable. Environmental factors such as diet, stress, and exposure to toxins can modify gene expression patterns, and remarkably, some of these modifications can be transmitted across generations. This transgenerational inheritance suggests that the experiences of our ancestors may have a more direct impact on our biology than previously imagined.",
-      "question": "What is the most significant implication of transgenerational epigenetic inheritance?",
-      "options": [
-        "A) DNA sequences change frequently",
-        "B) Genetic destiny cannot be changed",
-        "C) Diet has no effect on genes",
-        "D) Ancestral experiences may biologically affect descendants"
-      ],
-      "correct": "D",
-      "explanation_pt": "O texto diz que modificações epigenéticas podem ser transmitidas entre gerações, sugerindo que experiências dos ancestrais podem impactar diretamente nossa biologia. 'Transgenerational' = entre gerações."
-    },
-    {
-      "id": "placement-l01",
-      "section": "listening",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Ouça o áudio e escolha o que a pessoa disse:",
-      "transcript": "Excuse me, where is the bathroom?",
-      "question": "What did the person ask?",
-      "options": [
-        "A) Where is the bathroom?",
-        "B) Where is the school?",
-        "C) Where is the restaurant?",
-        "D) Where is the hospital?"
-      ],
-      "correct": "A",
-      "explanation_pt": "'Where is the bathroom?' significa 'Onde fica o banheiro?'. 'Bathroom' = banheiro."
-    },
-    {
-      "id": "placement-l02",
-      "section": "listening",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Ouça o áudio e escolha o que a pessoa disse:",
-      "transcript": "I would like a cup of coffee, please.",
-      "question": "What does the person want?",
-      "options": [
-        "A) A cup of coffee",
-        "B) A cup of tea",
-        "C) A piece of cake",
-        "D) A glass of water"
-      ],
-      "correct": "A",
-      "explanation_pt": "'A cup of coffee' significa 'uma xícara de café'. A pessoa quer café."
-    },
-    {
-      "id": "placement-l03",
-      "section": "listening",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Ouça o áudio e escolha o que a pessoa disse:",
-      "transcript": "The train leaves at nine thirty in the morning.",
-      "question": "What time does the train leave?",
-      "options": [
-        "A) 8:30 AM",
-        "B) 9:30 AM",
-        "C) 9:30 PM",
-        "D) 10:30 AM"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Nine thirty in the morning' = 9h30 da manhã. 'Morning' = manhã."
-    },
-    {
-      "id": "placement-l04",
-      "section": "listening",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Ouça o diálogo e responda:",
-      "transcript": "A: Hi, I'm looking for a book about Brazilian history. B: Sure, the history section is on the second floor, to your left. A: Thank you. Is there an elevator? B: Yes, it's right behind you.",
-      "question": "Where is the history section?",
-      "options": [
-        "A) Second floor, to the left",
-        "B) Third floor, straight ahead",
-        "C) Ground floor, behind the elevator",
-        "D) First floor, to the right"
-      ],
-      "correct": "A",
-      "explanation_pt": "'Second floor, to your left' = segundo andar, à sua esquerda."
-    },
-    {
-      "id": "placement-l05",
-      "section": "listening",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Ouça o diálogo e responda:",
-      "transcript": "A: What are you doing this weekend? B: I'm visiting my grandmother. She lives in the countryside. A: That sounds nice. How long will you stay? B: Just Saturday and Sunday. I have to be back for work on Monday.",
-      "question": "How long will the person stay at the grandmother's house?",
-      "options": [
-        "A) Two days",
-        "B) One day",
-        "C) Three days",
-        "D) One week"
-      ],
-      "correct": "A",
-      "explanation_pt": "A pessoa diz 'Saturday and Sunday' — sábado e domingo = 2 dias."
-    },
-    {
-      "id": "placement-l06",
-      "section": "listening",
-      "difficulty": "medium",
-      "cefr": "B1",
-      "instruction_pt": "Ouça o diálogo e responda:",
-      "transcript": "A: Professor, I'm having trouble with the assignment. I don't understand what 'analyze the methodology' means. B: Well, it means you need to examine how the research was conducted — the methods they used, the sample size, whether there were any limitations. A: So I should critique the research methods? B: Exactly. And suggest improvements if you can.",
-      "question": "What does the professor want the student to do?",
-      "options": [
-        "A) Repeat the experiment",
-        "B) Write a new research paper",
-        "C) Examine and critique the research methods",
-        "D) Find more sample data"
-      ],
-      "correct": "C",
-      "explanation_pt": "O professor explica que 'analyze the methodology' significa examinar como a pesquisa foi conduzida e criticar os métodos."
-    },
-    {
-      "id": "placement-l07",
-      "section": "listening",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Ouça o trecho acadêmico e responda:",
-      "transcript": "Today we'll discuss the urban heat island effect. Cities tend to be significantly warmer than surrounding rural areas. This happens because buildings and pavement absorb and retain heat, while vegetation, which would normally cool the air through evapotranspiration, is largely absent. The temperature difference can be as much as 5 to 10 degrees Celsius, particularly at night.",
-      "question": "According to the lecture, why are cities warmer than rural areas?",
-      "options": [
-        "A) Because cities have more people",
-        "B) Because cities are at lower elevations",
-        "C) Because buildings absorb heat and there is less vegetation",
-        "D) Because of industrial pollution"
-      ],
-      "correct": "C",
-      "explanation_pt": "O trecho explica que prédios e pavimento absorvem calor, e a vegetação (que resfriaria o ar) está ausente nas cidades."
-    },
-    {
-      "id": "placement-l08",
-      "section": "listening",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Ouça o trecho acadêmico e responda:",
-      "transcript": "The placebo effect is a fascinating phenomenon in medical research. When patients believe they are receiving treatment, their condition often improves even if the treatment is inactive. This isn't mere imagination — brain scans show measurable changes in neural activity. Some researchers argue this demonstrates the powerful connection between psychological expectation and physiological response.",
-      "question": "What evidence supports that the placebo effect is real and not just imagination?",
-      "options": [
-        "A) Brain scans show measurable neural changes",
-        "B) The same results occur in all patients",
-        "C) Doctors confirm the improvements",
-        "D) Patients say they feel better"
-      ],
-      "correct": "A",
-      "explanation_pt": "O texto diz que 'brain scans show measurable changes in neural activity' — exames cerebrais mostram mudanças mensuráveis, provando que não é apenas imaginação."
-    },
-    {
-      "id": "placement-l09",
-      "section": "listening",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Ouça o trecho e responda:",
-      "transcript": "A: I've been reading about intermittent fasting. Apparently it can improve metabolism and even slow aging. B: I've heard that too, but the evidence is mostly from animal studies. The human trials have been small and short-term. A: Good point. I guess we shouldn't draw definitive conclusions yet. B: Exactly. It's promising but we need more rigorous research.",
-      "question": "What is the speakers' conclusion about intermittent fasting?",
-      "options": [
-        "A) It definitely works for humans",
-        "B) It only works for animals",
-        "C) It is promising but needs more human research",
-        "D) It is dangerous and should be avoided"
-      ],
-      "correct": "C",
-      "explanation_pt": "Os falantes concordam que é 'promising' (promissor) mas precisa de mais pesquisa rigorosa em humanos."
-    },
-    {
-      "id": "placement-l10",
-      "section": "listening",
-      "difficulty": "very_hard",
-      "cefr": "C1",
-      "instruction_pt": "Ouça o trecho de lecture acadêmica e responda:",
-      "transcript": "Cognitive load theory, developed by John Sweller in the late 1980s, posits that working memory has a limited capacity for processing new information. When instructional materials are poorly designed, they can overwhelm this capacity, leading to what Sweller calls 'extraneous cognitive load.' The implication for education is significant: effective teaching isn't just about delivering content, but about managing the cognitive demands placed on learners. Techniques such as worked examples, segmenting complex tasks, and eliminating redundant information all serve to optimize cognitive load and enhance learning outcomes.",
-      "question": "According to cognitive load theory, what is the key to effective teaching?",
-      "options": [
-        "A) Managing the cognitive demands on learners",
-        "B) Allowing students to work independently",
-        "C) Delivering as much content as possible",
-        "D) Using only visual materials"
-      ],
-      "correct": "A",
-      "explanation_pt": "O trecho diz que ensino eficaz não é apenas entregar conteúdo, mas 'managing the cognitive demands placed on learners' — gerenciar as demandas cognitivas dos alunos."
-    },
-    {
-      "id": "placement-v01",
-      "section": "vocabulary",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Escolha o significado correto da palavra em inglês:",
-      "question": "What does 'breakfast' mean?",
-      "options": [
-        "A) Almoço",
-        "B) Lanche",
-        "C) Jantar",
-        "D) Café da manhã"
-      ],
-      "correct": "D",
-      "explanation_pt": "'Breakfast' = café da manhã. 'Break' (quebrar) + 'fast' (jejum) = quebrar o jejum."
-    },
-    {
-      "id": "placement-v02",
-      "section": "vocabulary",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Escolha o significado correto da palavra em inglês:",
-      "question": "What does 'teacher' mean?",
-      "options": [
-        "A) Enfermeiro(a)",
-        "B) Médico(a)",
-        "C) Estudante",
-        "D) Professor(a)"
-      ],
-      "correct": "D",
-      "explanation_pt": "'Teacher' = professor(a). Vem de 'teach' (ensinar) + '-er' (quem faz a ação)."
-    },
-    {
-      "id": "placement-v03",
-      "section": "vocabulary",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Escolha o significado correto da palavra em inglês:",
-      "question": "What does 'expensive' mean?",
-      "options": [
-        "A) Barato",
-        "B) Caro",
-        "C) Bonito",
-        "D) Grande"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Expensive' = caro. Dica: vem do latim 'expensus' (gasto). O oposto é 'cheap' (barato) ou 'inexpensive'."
-    },
-    {
-      "id": "placement-v04",
-      "section": "vocabulary",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Escolha a palavra que melhor completa a frase:",
-      "passage": "She was very _____ after running for two hours.",
-      "question": "Which word best completes the sentence?",
-      "options": [
-        "A) happy",
-        "B) hungry",
-        "C) tired",
-        "D) angry"
-      ],
-      "correct": "C",
-      "explanation_pt": "'Tired' = cansada. Depois de correr por 2 horas, a pessoa estaria cansada."
-    },
-    {
-      "id": "placement-v05",
-      "section": "vocabulary",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Escolha a palavra que melhor completa a frase:",
-      "passage": "The doctor told him to take the _____ three times a day.",
-      "question": "Which word best completes the sentence?",
-      "options": [
-        "A) shower",
-        "B) medicine",
-        "C) food",
-        "D) exercise"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Medicine' = remédio/medicamento. O médico mandou tomar o remédio 3 vezes ao dia."
-    },
-    {
-      "id": "placement-v06",
-      "section": "vocabulary",
-      "difficulty": "medium",
-      "cefr": "B1",
-      "instruction_pt": "Escolha o significado da palavra destacada:",
-      "passage": "The company decided to postpone the meeting until next week.",
-      "question": "What does 'postpone' mean?",
-      "options": [
-        "A) Adiar",
-        "B) Cancelar",
-        "C) Começar",
-        "D) Organizar"
-      ],
-      "correct": "A",
-      "explanation_pt": "'Postpone' = adiar, remarcar para depois. A empresa adiou a reunião para a próxima semana."
-    },
-    {
-      "id": "placement-v07",
-      "section": "vocabulary",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Escolha o significado da palavra destacada no contexto:",
-      "passage": "The government implemented stringent regulations to reduce pollution.",
-      "question": "What does 'stringent' mean in this context?",
-      "options": [
-        "A) Strict",
-        "B) Optional",
-        "C) Flexible",
-        "D) Temporary"
-      ],
-      "correct": "A",
-      "explanation_pt": "'Stringent' = rigoroso, severo. O governo implementou regulações rigorosas para reduzir a poluição."
-    },
-    {
-      "id": "placement-v08",
-      "section": "vocabulary",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Escolha o significado da palavra destacada no contexto:",
-      "passage": "The proliferation of social media has fundamentally altered how people consume news.",
-      "question": "What does 'proliferation' mean?",
-      "options": [
-        "A) Creation",
-        "B) Rapid spread or increase",
-        "C) Disappearance",
-        "D) Regulation"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Proliferation' = proliferação, rápido crescimento/espalhamento. Similar ao português."
-    },
-    {
-      "id": "placement-v09",
-      "section": "vocabulary",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Escolha o significado da palavra destacada no contexto:",
-      "passage": "Her argument was cogent and well-supported by evidence.",
-      "question": "What does 'cogent' mean?",
-      "options": [
-        "A) Weak and unconvincing",
-        "B) Clear, logical, and convincing",
-        "C) Emotional and passionate",
-        "D) Long and complicated"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Cogent' = convincente, lógico, persuasivo. O argumento dela era lógico e apoiado por evidências."
-    },
-    {
-      "id": "placement-v10",
-      "section": "vocabulary",
-      "difficulty": "very_hard",
-      "cefr": "C1",
-      "instruction_pt": "Escolha o significado da palavra destacada no contexto acadêmico:",
-      "passage": "The researcher's hypothesis was deemed untenable after the replication study failed to reproduce the original findings.",
-      "question": "What does 'untenable' mean?",
-      "options": [
-        "A) Innovative",
-        "B) Partially correct",
-        "C) Impossible to defend or maintain",
-        "D) Extremely important"
-      ],
-      "correct": "C",
-      "explanation_pt": "'Untenable' = insustentável, impossível de defender. 'Un-' (não) + 'tenable' (sustentável). A hipótese foi considerada insustentável após o estudo de replicação falhar."
-    },
-    {
-      "id": "placement-g01",
-      "section": "grammar",
-      "difficulty": "easy",
-      "cefr": "A1",
-      "instruction_pt": "Escolha a forma gramatical correta:",
-      "question": "She _____ to school every day.",
-      "options": [
-        "A) goes",
-        "B) go",
-        "C) going",
-        "D) gone"
-      ],
-      "correct": "A",
-      "explanation_pt": "No presente simples (Simple Present), com 'she/he/it', o verbo recebe '-s' ou '-es'. She goes = Ela vai."
-    },
-    {
-      "id": "placement-g02",
-      "section": "grammar",
-      "difficulty": "medium",
-      "cefr": "A2",
-      "instruction_pt": "Escolha a forma gramatical correta:",
-      "question": "I _____ to Paris twice. I went in 2019 and 2022.",
-      "options": [
-        "A) will be",
-        "B) have been",
-        "C) was",
-        "D) am going"
-      ],
-      "correct": "B",
-      "explanation_pt": "'Have been' = Present Perfect. Usado para experiências de vida (já fui a Paris duas vezes). O fato de mencionar as datas específicas depois não muda isso — a primeira frase expressa a experiência acumulada."
-    },
-    {
-      "id": "placement-g03",
-      "section": "grammar",
-      "difficulty": "medium",
-      "cefr": "B1",
-      "instruction_pt": "Escolha a forma gramatical correta:",
-      "question": "If I _____ more money, I would travel the world.",
-      "options": [
-        "A) will have",
-        "B) have",
-        "C) had",
-        "D) having"
-      ],
-      "correct": "C",
-      "explanation_pt": "Second Conditional: If + past simple, would + infinitive. 'If I had' = 'Se eu tivesse'. Usado para situações hipotéticas no presente."
-    },
-    {
-      "id": "placement-g04",
-      "section": "grammar",
-      "difficulty": "hard",
-      "cefr": "B2",
-      "instruction_pt": "Escolha a forma gramatical correta:",
-      "question": "The report, _____ was published last week, revealed serious problems in the healthcare system.",
-      "options": [
-        "A) that",
-        "B) who",
-        "C) which",
-        "D) whose"
-      ],
-      "correct": "C",
-      "explanation_pt": "'Which' é usado em cláusulas relativas não-restritivas (entre vírgulas) para coisas. 'The report, which was published...' = O relatório, que foi publicado..."
-    },
-    {
-      "id": "placement-g05",
-      "section": "grammar",
-      "difficulty": "very_hard",
-      "cefr": "C1",
-      "instruction_pt": "Escolha a forma gramatical correta:",
-      "question": "_____ the researchers controlled for all variables, the results might have been more reliable.",
-      "options": [
-        "A) Had",
-        "B) If",
-        "C) Would",
-        "D) Should"
-      ],
-      "correct": "A",
-      "explanation_pt": "Third Conditional com inversão: 'Had + subject + past participle' substitui 'If + subject + had + past participle'. 'Had the researchers controlled...' = 'Se os pesquisadores tivessem controlado...'. Estrutura formal/acadêmica."
-    }
-  ]
+  }
 }
