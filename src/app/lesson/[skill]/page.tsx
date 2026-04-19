@@ -272,35 +272,34 @@ export default function LessonPage() {
     writing: '#E76F51', vocabulary: '#9B59B6', grammar: '#3498DB',
   }
 
+  const skillColor = skillColors[skill] || '#8CB369'
+
   return (
-    <div className={`min-h-screen p-4 max-w-lg mx-auto ${flash === 'correct' ? 'flash-correct' : flash === 'wrong' ? 'flash-wrong' : ''}`}>
-      {/* Top bar */}
-      <div className="flex items-center gap-3 mb-6">
-        <button onClick={() => router.push('/')} className="text-[#999] text-2xl">
-          ✕
+    <div className={`page-content min-h-screen p-4 max-w-lg mx-auto ${flash === 'correct' ? 'flash-correct' : flash === 'wrong' ? 'flash-wrong' : ''}`}>
+      {/* Top bar — clean */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+        <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '4px', display: 'flex' }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#AFAFAF" strokeWidth="2.5" strokeLinecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
         </button>
-        {/* Hearts */}
-        <div style={{ display: 'flex', gap: '2px', fontSize: '0.8rem' }}>
-          {Array.from({ length: 5 }, (_, i) => (
-            <span key={i} style={{ opacity: i < hearts ? 1 : 0.2 }}>{i < hearts ? '❤️' : '🖤'}</span>
-          ))}
+        <div style={{ flex: 1, background: '#E8E8E8', borderRadius: '8px', height: '10px' }}>
+          <div style={{ width: `${progressPct}%`, background: skillColor, height: '10px', borderRadius: '8px', transition: 'width 0.3s' }} />
         </div>
-        <div style={{ width: '28px', height: '28px', borderRadius: '8px', background: (skillColors[skill] || '#8CB369') + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem' }}>{skillEmojis[skill] || '📖'}</div>
-        <div className="flex-1 bg-[#E8E8E8] rounded-full h-3">
-          <div
-            className="bg-[#8CB369] h-3 rounded-full progress-fill"
-            style={{ width: `${progressPct}%` }}
-          />
-        </div>
-        <button
-          onClick={() => setShowLevelPicker(!showLevelPicker)}
-          style={{ background: '#F0F7EA', border: '1px solid #D4E8C4', borderRadius: '8px', padding: '4px 10px', cursor: 'pointer', fontSize: '0.7rem', fontWeight: 700, color: '#6B9A4B', fontFamily: 'inherit', whiteSpace: 'nowrap' }}
-        >
+        <button onClick={() => setShowLevelPicker(!showLevelPicker)} style={{ background: skillColor + '15', border: `2px solid ${skillColor}30`, borderRadius: '10px', padding: '4px 10px', cursor: 'pointer', fontSize: '0.7rem', fontWeight: 700, color: skillColor, fontFamily: 'inherit', whiteSpace: 'nowrap' }}>
           Nv {currentLevel} ▾
         </button>
-        <span className="text-sm text-[#999]">
-          {currentExercise + 1}/{exercises.length}
-        </span>
+      </div>
+
+      {/* Sub bar — hearts + counter */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', padding: '0 4px' }}>
+        <div style={{ display: 'flex', gap: '3px' }}>
+          {Array.from({ length: 5 }, (_, i) => (
+            <span key={i} style={{ fontSize: '0.75rem', opacity: i < hearts ? 1 : 0.2 }}>{i < hearts ? '❤️' : '🤍'}</span>
+          ))}
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div style={{ width: '22px', height: '22px', borderRadius: '6px', background: skillColor + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.7rem' }}>{skillEmojis[skill] || '📖'}</div>
+          <span style={{ fontSize: '0.75rem', color: '#999', fontWeight: 600 }}>{currentExercise + 1}/{exercises.length}</span>
+        </div>
       </div>
 
       {/* Combo & XP */}
@@ -382,7 +381,7 @@ export default function LessonPage() {
       )}
 
       {/* Exercise */}
-      <div className="bg-white rounded-2xl p-5 border border-[#E8E8E8] mb-4">
+      <div style={{ background: 'white', borderRadius: '16px', padding: '20px', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8', marginBottom: '16px' }}>
         <p className="text-sm text-[#8CB369] mb-3">{ex.instruction_pt}</p>
 
         {/* Listening audio + transcript */}
@@ -445,7 +444,7 @@ export default function LessonPage() {
                     key={opt}
                     onClick={() => selectOption(opt)}
                     disabled={showResult}
-                    className={`w-full text-left p-3 rounded-xl border ${bg} transition-colors`}
+                    className={`w-full text-left p-3 rounded-xl border tap-feedback ${bg} transition-colors`}
                   >
                     {opt}
                   </button>
