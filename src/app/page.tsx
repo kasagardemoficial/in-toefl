@@ -66,7 +66,12 @@ export default function Home() {
   if (!progress.placementDone) return (
     <div style={{ minHeight: '100vh', padding: '24px', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
       {/* Welcome header */}
-      <div style={{ textAlign: 'center', paddingTop: '32px', marginBottom: '28px' }}>
+      {/* Back button */}
+      <div style={{ padding: '12px 0' }}>
+        <button onClick={() => { const p = getProgress(); p.placementDone = true; saveProgress(p); setProgress({...p}) }} style={{ background: 'none', border: 'none', fontSize: '1.3rem', cursor: 'pointer', color: '#999' }}>← Voltar</button>
+      </div>
+
+      <div style={{ textAlign: 'center', marginBottom: '28px' }}>
         <img src="/mascot/main.png" alt="In-TOEFL" style={{ width: '100px', height: '100px', objectFit: 'contain', margin: '0 auto 8px' }} />
         <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>Bem-vindo ao In-TOEFL!</h1>
         <p style={{ color: '#999', fontSize: '0.85rem' }}>O que você quer fazer primeiro?</p>
@@ -77,7 +82,7 @@ export default function Home() {
         <img src="/mascot/detective.png" alt="Teste" style={{ width: '52px', height: '52px', objectFit: 'contain', flexShrink: 0 }} />
         <div>
           <p style={{ fontWeight: 800, fontSize: '0.95rem', margin: '0 0 2px', color: '#1A1A1A' }}>Fazer Teste de Nivelamento</p>
-          <p style={{ fontSize: '0.75rem', color: '#6B9A4B', margin: '0 0 2px' }}>35 questões · ~15 min · Descubra seu nível</p>
+          <p style={{ fontSize: '0.75rem', color: '#6B9A4B', margin: '0 0 2px' }}>15 questões adaptativas · ~5 min · Descubra seu nível</p>
           <span style={{ fontSize: '0.65rem', color: '#8CB369', fontWeight: 700, background: '#E8F5E9', padding: '2px 8px', borderRadius: '8px' }}>RECOMENDADO</span>
         </div>
       </button>

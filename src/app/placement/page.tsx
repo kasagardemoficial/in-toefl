@@ -49,6 +49,7 @@ export default function PlacementPage() {
   })
   const [consecutiveCorrect, setConsecutiveCorrect] = useState(0)
   const [consecutiveWrong, setConsecutiveWrong] = useState(0)
+  const [transitioning, setTransitioning] = useState(false)
 
   const getQuestion = useCallback((): Question | null => {
     const levelData = levels[currentLevel]
@@ -112,9 +113,13 @@ export default function PlacementPage() {
       return
     }
 
-    setCurrentLevel(nextLevel)
-    setSelected(null)
-    setShowResult(false)
+    setTransitioning(true)
+    setTimeout(() => {
+      setCurrentLevel(nextLevel)
+      setSelected(null)
+      setShowResult(false)
+      setTransitioning(false)
+    }, 50)
   }
 
   function finishTest() {
@@ -206,6 +211,14 @@ export default function PlacementPage() {
         <button onClick={() => router.push('/')} className="jolingo-btn" style={{ maxWidth: '320px' }}>
           COMEÇAR A ESTUDAR
         </button>
+      </div>
+    )
+  }
+
+  if (transitioning) {
+    return (
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
+        <img src="/mascot/main.png" alt="Loading" style={{ width: '60px', height: '60px', objectFit: 'contain' }} className="streak-fire" />
       </div>
     )
   }
