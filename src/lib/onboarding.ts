@@ -3,6 +3,7 @@ const ONBOARDING_KEY = 'intoefl_onboarding'
 
 export interface OnboardingData {
   name: string
+  email: string
   goal: 'study_abroad' | 'medical' | 'work' | 'immigration' | 'personal'
   dailyMinutes: 10 | 20 | 30
   currentLevel: 'zero' | 'basic' | 'intermediate' | 'advanced'
@@ -11,6 +12,7 @@ export interface OnboardingData {
 
 const defaultOnboarding: OnboardingData = {
   name: '',
+  email: '',
   goal: 'study_abroad',
   dailyMinutes: 20,
   currentLevel: 'zero',

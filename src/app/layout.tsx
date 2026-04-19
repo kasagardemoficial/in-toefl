@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     title: "In-TOEFL — Do Zero ao TOEFL",
-    description: "1.843 exercícios + 963 questões TOEFL reais. Método Kumon. Em português. De graça.",
+    description: "3.000+ exercícios + 963 questões TOEFL. Teste adaptativo. Método Kumon. Em português. De graça.",
     type: "website",
     siteName: "In-TOEFL",
   },
@@ -47,6 +49,8 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-white text-[#1A1A1A]" style={{ fontFamily: 'var(--font-nunito), Nunito, sans-serif' }}>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

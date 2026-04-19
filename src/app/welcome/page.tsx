@@ -30,6 +30,7 @@ export default function WelcomePage() {
   const [step, setStep] = useState(0)
   const [data, setData] = useState<OnboardingData>({
     name: '',
+    email: '',
     goal: 'study_abroad',
     dailyMinutes: 20,
     currentLevel: 'zero',
@@ -127,7 +128,7 @@ export default function WelcomePage() {
         {step === 4 && 'Começaremos no lugar certo'}
       </p>
 
-      {/* Step 1: Name */}
+      {/* Step 1: Name + Email */}
       {step === 1 && (
         <div>
           <input
@@ -135,10 +136,18 @@ export default function WelcomePage() {
             value={data.name}
             onChange={(e) => setData({ ...data, name: e.target.value })}
             placeholder="Seu nome ou apelido"
-            style={{ width: '100%', padding: '16px', fontSize: '1rem', border: '2px solid #E8E8E8', borderRadius: '16px', outline: 'none', textAlign: 'center', fontFamily: 'Nunito, sans-serif', fontWeight: 600, boxSizing: 'border-box' }}
+            style={{ width: '100%', padding: '16px', fontSize: '1rem', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8', borderRadius: '16px', outline: 'none', textAlign: 'center', fontFamily: 'Nunito, sans-serif', fontWeight: 600, boxSizing: 'border-box', marginBottom: '12px' }}
             autoFocus
           />
-          <div style={{ marginTop: '32px' }}>
+          <input
+            type="email"
+            value={data.email || ''}
+            onChange={(e) => setData({ ...data, email: e.target.value })}
+            placeholder="Seu email (para salvar progresso)"
+            style={{ width: '100%', padding: '14px', fontSize: '0.9rem', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8', borderRadius: '16px', outline: 'none', textAlign: 'center', fontFamily: 'Nunito, sans-serif', fontWeight: 500, boxSizing: 'border-box', color: '#666' }}
+          />
+          <p style={{ fontSize: '0.65rem', color: '#999', textAlign: 'center', marginTop: '6px' }}>Usaremos para lembretes de estudo e salvar seu progresso</p>
+          <div style={{ marginTop: '24px' }}>
             <button onClick={next} disabled={!data.name.trim()} className="jolingo-btn" style={{ opacity: data.name.trim() ? 1 : 0.4 }}>
               CONTINUAR
             </button>

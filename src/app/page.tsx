@@ -119,10 +119,10 @@ export default function Home() {
   const maxIdx = allLevels.indexOf(Math.max(...allLevels))
 
   return (
-    <div style={{ minHeight: '100vh', paddingBottom: '80px', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
+    <div className="page-content safe-bottom" style={{ minHeight: '100vh', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
       {/* Badge notification */}
       {newBadges.length > 0 && (
-        <div className="badge-unlock" style={{ position: 'fixed', top: '16px', left: '16px', right: '16px', zIndex: 50, background: '#8CB369', borderRadius: '12px', padding: '14px', textAlign: 'center', color: 'white', boxShadow: '0 4px 20px rgba(140,179,105,0.4)' }}>
+        <div className="badge-unlock" style={{ position: 'fixed', top: '16px', left: '16px', right: '16px', zIndex: 50, background: '#8CB369', borderRadius: '16px', padding: '14px', textAlign: 'center', color: 'white', boxShadow: '0 8px 30px rgba(140,179,105,0.4)' }}>
           <p style={{ fontSize: '0.85rem', fontWeight: 700 }}>🎉 Nova conquista!</p>
           <p>{newBadges.join(' • ')}</p>
         </div>
@@ -165,89 +165,24 @@ export default function Home() {
         </div>
       </div>
 
-      {/* League + Daily Challenge */}
+      {/* Daily info row */}
       <div style={{ padding: '0 20px', marginBottom: '16px' }}>
-        <div style={{ display: 'flex', gap: '10px' }}>
-          {/* League */}
-          {(() => {
-            const league = getLeague()
-            return (
-              <div style={{ flex: 1, background: '#F7F7F7', borderRadius: '14px', padding: '12px', border: '1px solid #E8E8E8' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
-                  <span style={{ fontSize: '1.2rem' }}>{league.icon}</span>
-                  <div>
-                    <p style={{ fontWeight: 800, fontSize: '0.8rem', margin: 0, color: league.color }}>Liga {league.league}</p>
-                    <p style={{ fontSize: '0.6rem', color: '#999', margin: 0 }}>{league.weeklyXP} XP esta semana</p>
-                  </div>
-                </div>
-                <div style={{ height: '4px', background: '#E8E8E8', borderRadius: '2px' }}>
-                  <div style={{ height: '4px', background: league.color, borderRadius: '2px', width: `${Math.min(100, (league.weeklyXP / (league.weeklyXP + Math.max(1, league.xpToNext))) * 100)}%`, transition: 'width 0.3s' }} />
-                </div>
-                <p style={{ fontSize: '0.55rem', color: '#999', margin: '4px 0 0' }}>{league.xpToNext > 0 ? `${league.xpToNext} XP para ${league.nextLeague}` : 'Liga máxima!'}</p>
+        {(() => {
+          const daily = getDailyChallenge()
+          const league = getLeague()
+          return (
+            <div style={{ display: 'flex', gap: '8px' }}>
+              <div className="tap-feedback" style={{ flex: 1, background: '#F7F7F7', borderRadius: '14px', padding: '10px 12px', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8' }}>
+                <p style={{ fontSize: '0.6rem', color: '#999', margin: '0 0 2px', fontWeight: 600 }}>{league.icon} Liga {league.league}</p>
+                <p style={{ fontSize: '0.85rem', fontWeight: 800, color: league.color, margin: 0 }}>{league.weeklyXP} XP</p>
               </div>
-            )
-          })()}
-          {/* Daily Challenge */}
-          {(() => {
-            const daily = getDailyChallenge()
-            return (
-              <div style={{ flex: 1, background: daily.completed ? '#E8F5E9' : '#FFF3E0', borderRadius: '14px', padding: '12px', border: `1px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}` }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
-                  <span style={{ fontSize: '1rem' }}>{daily.completed ? '✅' : '🎯'}</span>
-                  <p style={{ fontWeight: 700, fontSize: '0.7rem', margin: 0, color: daily.completed ? '#4CAF50' : '#E65100' }}>Desafio Diário</p>
-                </div>
-                <p style={{ fontSize: '0.65rem', color: '#666', margin: '0 0 6px', lineHeight: 1.3 }}>{daily.description}</p>
-                <div style={{ height: '4px', background: '#E8E8E8', borderRadius: '2px' }}>
-                  <div style={{ height: '4px', background: daily.completed ? '#4CAF50' : '#FF9800', borderRadius: '2px', width: `${Math.min(100, (daily.progress / Math.max(1, daily.goal)) * 100)}%` }} />
-                </div>
-                <p style={{ fontSize: '0.55rem', color: '#999', margin: '4px 0 0' }}>{daily.progress}/{daily.goal} · +{daily.reward} XP</p>
-              </div>
-            )
-          })()}
-        </div>
-      </div>
-
-      {/* Word of the Day */}
-      {(() => {
-        const academicWords = [
-          { word: 'analyze', pron: '/ˈænəlaɪz/', pt: 'analisar', ex: 'Scientists analyze data to find patterns.' },
-          { word: 'significant', pron: '/sɪɡˈnɪfɪkənt/', pt: 'significativo', ex: 'There was a significant improvement in results.' },
-          { word: 'establish', pron: '/ɪˈstæblɪʃ/', pt: 'estabelecer', ex: 'The university was established in 1900.' },
-          { word: 'contribute', pron: '/kənˈtrɪbjuːt/', pt: 'contribuir', ex: 'Many factors contribute to climate change.' },
-          { word: 'demonstrate', pron: '/ˈdemənstreɪt/', pt: 'demonstrar', ex: 'The study demonstrates a clear correlation.' },
-          { word: 'perspective', pron: '/pərˈspektɪv/', pt: 'perspectiva', ex: 'We should consider different perspectives.' },
-          { word: 'fundamental', pron: '/ˌfʌndəˈmentl/', pt: 'fundamental', ex: 'Education is a fundamental right.' },
-          { word: 'evaluate', pron: '/ɪˈvæljueɪt/', pt: 'avaliar', ex: 'We need to evaluate the effectiveness of this program.' },
-          { word: 'hypothesis', pron: '/haɪˈpɑːθəsɪs/', pt: 'hipótese', ex: 'The hypothesis was confirmed by the experiment.' },
-          { word: 'phenomenon', pron: '/fɪˈnɑːmɪnɑːn/', pt: 'fenômeno', ex: 'Climate change is a global phenomenon.' },
-          { word: 'inevitable', pron: '/ɪnˈevɪtəbl/', pt: 'inevitável', ex: 'Change is inevitable in any growing organization.' },
-          { word: 'comprehensive', pron: '/ˌkɑːmprɪˈhensɪv/', pt: 'abrangente', ex: 'The report provides a comprehensive analysis.' },
-          { word: 'controversial', pron: '/ˌkɑːntrəˈvɜːrʃl/', pt: 'controverso', ex: 'This remains a controversial topic among scientists.' },
-          { word: 'subsequent', pron: '/ˈsʌbsɪkwənt/', pt: 'subsequente', ex: 'Subsequent studies confirmed the initial findings.' },
-        ]
-        const dayNum = Math.floor(Date.now() / 86400000)
-        const todayWord = academicWords[dayNum % academicWords.length]
-        return (
-          <div style={{ padding: '0 20px', marginBottom: '12px' }}>
-            <div style={{ background: '#F7F7F7', borderRadius: '14px', padding: '12px 14px', border: '1px solid #E8E8E8' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#9B59B6' }}>📚 Palavra do Dia</span>
-                <span style={{ fontSize: '0.55rem', color: '#999' }}>TOEFL Academic</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px', marginBottom: '2px' }}>
-                <span style={{ fontWeight: 800, fontSize: '1.1rem', color: '#1A1A1A' }}>{todayWord.word}</span>
-                <span style={{ fontSize: '0.65rem', color: '#999' }}>{todayWord.pron}</span>
-              </div>
-              <p style={{ fontSize: '0.75rem', color: '#9B59B6', margin: '0 0 4px', fontWeight: 600 }}>{todayWord.pt}</p>
-              <p style={{ fontSize: '0.7rem', color: '#666', margin: 0, fontStyle: 'italic' }}>"{todayWord.ex}"</p>
+              <Link href="/review" className="tap-feedback" style={{ flex: 1, background: daily.completed ? '#E8F5E9' : '#FFF8E1', borderRadius: '14px', padding: '10px 12px', border: `2px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}`, borderBottom: `4px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}`, textDecoration: 'none', color: '#1A1A1A' }}>
+                <p style={{ fontSize: '0.6rem', color: daily.completed ? '#4CAF50' : '#E65100', margin: '0 0 2px', fontWeight: 600 }}>{daily.completed ? '✅' : '🎯'} Desafio</p>
+                <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#666', margin: 0 }}>{daily.progress}/{daily.goal}</p>
+              </Link>
             </div>
-          </div>
-        )
-      })()}
-
-      {/* Motivational */}
-      <div style={{ padding: '0 20px', marginBottom: '12px' }}>
-        <p style={{ textAlign: 'center', color: '#8CB369', fontSize: '0.75rem', fontWeight: 600 }}>{phrase}</p>
+          )
+        })()}
       </div>
 
       {/* Continue button */}
@@ -309,23 +244,6 @@ export default function Home() {
               <p style={{ fontWeight: 700, fontSize: '0.75rem', margin: 0 }}>{item.label}</p>
               <p style={{ color: '#999', fontSize: '0.6rem', margin: 0 }}>{item.sub}</p>
             </Link>
-          ))}
-        </div>
-      </div>
-
-      {/* Stats */}
-      <div style={{ padding: '0 20px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '8px' }}>
-          {[
-            { value: progress.streak, label: 'Streak', color: '#FF7043' },
-            { value: progress.xp, label: 'XP', color: '#FFC107' },
-            { value: getTotalBadgesEarned(), label: 'Badges', color: '#8CB369' },
-            { value: Math.max(...allLevels), label: 'Max Nv', color: '#5B9BD5' },
-          ].map((stat) => (
-            <div key={stat.label} className="jolingo-stat">
-              <p style={{ fontSize: '1.1rem', fontWeight: 800, color: stat.color, margin: 0 }}>{stat.value}</p>
-              <p style={{ fontSize: '0.6rem', color: '#999', margin: 0 }}>{stat.label}</p>
-            </div>
           ))}
         </div>
       </div>
