@@ -388,28 +388,14 @@ export default function LessonPage() {
         {/* Listening audio + transcript */}
         {ex.transcript && (
           <div className="bg-[#F7F7F7] rounded-xl p-4 mb-4 border-l-4 border-[#5B9BD5]">
-            {/* Audio player or TTS button */}
-            {(() => {
-              const audioPath = getAudioPath(skill, currentLevel)
-              if (audioPath) {
-                return (
-                  <div style={{ marginBottom: '8px' }}>
-                    <p className="text-xs text-[#5B9BD5] mb-2">🎧 Ouça o áudio:</p>
-                    <audio controls style={{ width: '100%', height: '36px', borderRadius: '8px' }} preload="none">
-                      <source src={audioPath} type="audio/mpeg" />
-                    </audio>
-                  </div>
-                )
-              }
-              return (
-                <button
-                  onClick={() => speakText(ex.transcript || '')}
-                  style={{ display: 'flex', alignItems: 'center', gap: '8px', background: '#EDE7F6', border: '1px solid #CE93D8', borderRadius: '10px', padding: '8px 14px', cursor: 'pointer', marginBottom: '8px', fontFamily: 'inherit', fontSize: '0.8rem', color: '#7B1FA2', fontWeight: 600 }}
-                >
-                  🔊 Ouvir (voz do navegador)
-                </button>
-              )
-            })()}
+            {/* TTS button — plays this specific exercise's transcript */}
+            <button
+              onClick={() => speakText(ex.transcript || '', 0.85)}
+              className="tap-feedback"
+              style={{ display: 'flex', alignItems: 'center', gap: '8px', background: '#5B9BD5', border: 'none', borderBottom: '3px solid #4A89C4', borderRadius: '12px', padding: '10px 16px', cursor: 'pointer', marginBottom: '8px', fontFamily: 'inherit', fontSize: '0.85rem', color: 'white', fontWeight: 700, width: '100%', justifyContent: 'center' }}
+            >
+              🎧 OUVIR ÁUDIO
+            </button>
             <details>
               <summary style={{ fontSize: '0.7rem', color: '#5B9BD5', cursor: 'pointer', marginBottom: '4px' }}>Ver transcrição</summary>
               <p className="text-[#1A1A1A] leading-relaxed italic text-sm">{ex.transcript}</p>
