@@ -199,7 +199,7 @@ export default function SimuladoPage() {
       <div style={{ minHeight: '100vh', padding: '16px', paddingBottom: '80px', maxWidth: '500px', margin: '0 auto', background: 'white' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
           <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>
-          <img src="/mascot/card_simulados.png" alt="Simulados" style={{ width: '44px', height: '44px', objectFit: 'contain', borderRadius: '10px' }} />
+          <div style={{ width: '44px', height: '44px', borderRadius: '12px', background: '#E3F2FD', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.4rem', border: '2px solid #5B9BD530' }}>🎯</div>
           <div>
             <h1 style={{ fontSize: '1.2rem', fontWeight: 800, margin: 0 }}>Simulados TOEFL</h1>
             <p style={{ fontSize: '0.7rem', color: '#999', margin: 0 }}>963 questões de provas aposentadas</p>

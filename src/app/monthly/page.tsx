@@ -108,14 +108,14 @@ export default function MonthlyPage() {
       {/* Section scores */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '20px' }}>
         {[
-          { label: 'Reading', value: score!.reading, color: '#8CB369', icon: '/mascot/icon_reading.png' },
-          { label: 'Listening', value: score!.listening, color: '#5B9BD5', icon: '/mascot/icon_listening.png' },
-          { label: 'Speaking', value: score!.speaking, color: '#F4A261', icon: '/mascot/icon_speaking.png' },
-          { label: 'Writing', value: score!.writing, color: '#E76F51', icon: '/mascot/icon_writing.png' },
+          { label: 'Reading', value: score!.reading, color: '#8CB369', emoji: '📖' },
+          { label: 'Listening', value: score!.listening, color: '#5B9BD5', emoji: '🎧' },
+          { label: 'Speaking', value: score!.speaking, color: '#F4A261', emoji: '🎤' },
+          { label: 'Writing', value: score!.writing, color: '#E76F51', emoji: '✏️' },
         ].map((section) => (
           <div key={section.label} style={{ background: '#F7F7F7', borderRadius: '16px', padding: '14px', border: '1px solid #E8E8E8' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-              <img src={section.icon} alt={section.label} style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover' }} />
+              <div style={{ width: '28px', height: '28px', borderRadius: '7px', background: section.color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem' }}>{section.emoji}</div>
               <span style={{ fontSize: '0.8rem', fontWeight: 700 }}>{section.label}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>

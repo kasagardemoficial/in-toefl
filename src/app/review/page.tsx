@@ -116,17 +116,17 @@ export default function ReviewPage() {
       <div style={{ background: '#F7F7F7', borderRadius: '16px', padding: '16px', marginBottom: '24px', border: '1px solid #E8E8E8' }}>
         <p style={{ fontSize: '0.8rem', fontWeight: 700, marginBottom: '12px' }}>Nível atual por habilidade</p>
         {[
-          { label: 'Reading', level: progress.reading_level, icon: '/mascot/icon_reading.png', color: '#8CB369' },
-          { label: 'Listening', level: progress.listening_level, icon: '/mascot/icon_listening.png', color: '#5B9BD5' },
-          { label: 'Speaking', level: progress.speaking_level, icon: '/mascot/icon_speaking.png', color: '#F4A261' },
-          { label: 'Writing', level: progress.writing_level, icon: '/mascot/icon_writing.png', color: '#E76F51' },
-          { label: 'Vocabulary', level: progress.vocabulary_level, icon: '/mascot/icon_vocabulary.png', color: '#9B59B6' },
-          { label: 'Grammar', level: progress.grammar_level, icon: '/mascot/icon_grammar.png', color: '#3498DB' },
+          { label: 'Reading', level: progress.reading_level, emoji: '📖', color: '#8CB369' },
+          { label: 'Listening', level: progress.listening_level, emoji: '🎧', color: '#5B9BD5' },
+          { label: 'Speaking', level: progress.speaking_level, emoji: '🎤', color: '#F4A261' },
+          { label: 'Writing', level: progress.writing_level, emoji: '✏️', color: '#E76F51' },
+          { label: 'Vocabulary', level: progress.vocabulary_level, emoji: '📚', color: '#9B59B6' },
+          { label: 'Grammar', level: progress.grammar_level, emoji: '📐', color: '#3498DB' },
         ].map((skill) => {
           const pct = Math.round((skill.level / 50) * 100)
           return (
             <div key={skill.label} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-              <img src={skill.icon} alt={skill.label} style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover' }} />
+              <div style={{ width: '28px', height: '28px', borderRadius: '7px', background: skill.color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem' }}>{skill.emoji}</div>
               <div style={{ flex: 1 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
                   <span style={{ fontSize: '0.75rem', fontWeight: 600 }}>{skill.label}</span>

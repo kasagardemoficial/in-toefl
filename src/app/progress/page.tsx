@@ -12,12 +12,12 @@ import Link from 'next/link'
 import BottomNav from '@/components/BottomNav'
 
 const skills = [
-  { key: 'reading', label: 'Reading', sublabel: 'Leitura', icon: '/mascot/icon_reading.png', color: '#8CB369' },
-  { key: 'listening', label: 'Listening', sublabel: 'Escuta', icon: '/mascot/icon_listening.png', color: '#5B9BD5' },
-  { key: 'speaking', label: 'Speaking', sublabel: 'Fala', icon: '/mascot/icon_speaking.png', color: '#F4A261' },
-  { key: 'writing', label: 'Writing', sublabel: 'Escrita', icon: '/mascot/icon_writing.png', color: '#E76F51' },
-  { key: 'vocabulary', label: 'Vocabulary', sublabel: 'Palavras', icon: '/mascot/icon_vocabulary.png', color: '#9B59B6' },
-  { key: 'grammar', label: 'Grammar', sublabel: 'Gramática', icon: '/mascot/icon_grammar.png', color: '#3498DB' },
+  { key: 'reading', label: 'Reading', sublabel: 'Leitura', emoji: '📖', color: '#8CB369' },
+  { key: 'listening', label: 'Listening', sublabel: 'Escuta', emoji: '🎧', color: '#5B9BD5' },
+  { key: 'speaking', label: 'Speaking', sublabel: 'Fala', emoji: '🎤', color: '#F4A261' },
+  { key: 'writing', label: 'Writing', sublabel: 'Escrita', emoji: '✏️', color: '#E76F51' },
+  { key: 'vocabulary', label: 'Vocabulary', sublabel: 'Palavras', emoji: '📚', color: '#9B59B6' },
+  { key: 'grammar', label: 'Grammar', sublabel: 'Gramática', emoji: '📐', color: '#3498DB' },
 ]
 
 export default function ProgressPage() {
@@ -44,7 +44,7 @@ export default function ProgressPage() {
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
         <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>
-        <img src="/mascot/card_progresso.png" alt="Progresso" style={{ width: '40px', height: '40px', objectFit: 'contain', borderRadius: '10px' }} />
+        <div style={{ width: '40px', height: '40px', borderRadius: '12px', background: '#E8F4FD', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.3rem', border: '2px solid #3498DB30' }}>📊</div>
         <div>
           <h1 style={{ fontSize: '1.2rem', fontWeight: 800, margin: 0 }}>Meu Progresso</h1>
           <p style={{ fontSize: '0.7rem', color: '#999', margin: 0 }}>{onboarding.name || 'Aluno'}</p>
@@ -109,7 +109,7 @@ export default function ProgressPage() {
         <div style={{ background: '#E8F5E9', borderRadius: '14px', padding: '14px', border: '1px solid #C8E6C9' }}>
           <p style={{ fontSize: '0.65rem', color: '#4CAF50', fontWeight: 700, marginBottom: '6px' }}>MAIS FORTE</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <img src={skills[strongestIdx].icon} alt="" style={{ width: '32px', height: '32px', borderRadius: '6px', objectFit: 'cover' }} />
+            <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: skills[strongestIdx].color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem' }}>{skills[strongestIdx].emoji}</div>
             <div>
               <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>{skills[strongestIdx].label}</p>
               <p style={{ fontSize: '0.7rem', color: '#4CAF50', margin: 0 }}>Nível {allLevels[strongestIdx]}</p>
@@ -119,7 +119,7 @@ export default function ProgressPage() {
         <div style={{ background: '#FFF3E0', borderRadius: '14px', padding: '14px', border: '1px solid #FFE0B2' }}>
           <p style={{ fontSize: '0.65rem', color: '#F4A261', fontWeight: 700, marginBottom: '6px' }}>PRECISA FOCAR</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <img src={skills[weakestIdx].icon} alt="" style={{ width: '32px', height: '32px', borderRadius: '6px', objectFit: 'cover' }} />
+            <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: skills[weakestIdx].color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem' }}>{skills[weakestIdx].emoji}</div>
             <div>
               <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>{skills[weakestIdx].label}</p>
               <p style={{ fontSize: '0.7rem', color: '#F4A261', margin: 0 }}>Nível {allLevels[weakestIdx]}</p>
@@ -141,7 +141,7 @@ export default function ProgressPage() {
                 <div style={{ background: '#F7F7F7', borderRadius: '14px', padding: '14px', border: '1px solid #E8E8E8' }}>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <img src={skill.icon} alt={skill.label} style={{ width: '36px', height: '36px', borderRadius: '8px', objectFit: 'cover' }} />
+                      <div style={{ width: '36px', height: '36px', borderRadius: '10px', background: skill.color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.1rem', border: `2px solid ${skill.color}30` }}>{skill.emoji}</div>
                       <div>
                         <p style={{ fontWeight: 700, margin: 0, fontSize: '0.9rem' }}>{skill.label}</p>
                         <p style={{ color: '#999', margin: 0, fontSize: '0.65rem' }}>{skill.sublabel} · {phase}</p>

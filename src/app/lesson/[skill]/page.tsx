@@ -263,13 +263,13 @@ export default function LessonPage() {
   }
 
   const progressPct = Math.round(((currentExercise) / exercises.length) * 100)
-  const skillIcons: Record<string, string> = {
-    reading: '/mascot/icon_reading.png',
-    listening: '/mascot/icon_listening.png',
-    speaking: '/mascot/icon_speaking.png',
-    writing: '/mascot/icon_writing.png',
-    vocabulary: '/mascot/icon_vocabulary.png',
-    grammar: '/mascot/icon_grammar.png',
+  const skillEmojis: Record<string, string> = {
+    reading: '📖', listening: '🎧', speaking: '🎤',
+    writing: '✏️', vocabulary: '📚', grammar: '📐',
+  }
+  const skillColors: Record<string, string> = {
+    reading: '#8CB369', listening: '#5B9BD5', speaking: '#F4A261',
+    writing: '#E76F51', vocabulary: '#9B59B6', grammar: '#3498DB',
   }
 
   return (
@@ -285,7 +285,7 @@ export default function LessonPage() {
             <span key={i} style={{ opacity: i < hearts ? 1 : 0.2 }}>{i < hearts ? '❤️' : '🖤'}</span>
           ))}
         </div>
-        <img src={skillIcons[skill] || '/mascot/main.png'} alt={skill} style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover' }} />
+        <div style={{ width: '28px', height: '28px', borderRadius: '8px', background: (skillColors[skill] || '#8CB369') + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem' }}>{skillEmojis[skill] || '📖'}</div>
         <div className="flex-1 bg-[#E8E8E8] rounded-full h-3">
           <div
             className="bg-[#8CB369] h-3 rounded-full progress-fill"

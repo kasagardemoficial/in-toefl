@@ -19,7 +19,7 @@ export default function BadgesPage() {
     <div className="min-h-screen p-4 max-w-lg mx-auto" style={{ paddingBottom: '80px' }}>
       <div className="flex items-center gap-3 mb-6">
         <button onClick={() => router.push('/')} className="text-[#999] text-2xl">←</button>
-        <img src="/mascot/card_conquistas.png" alt="Conquistas" style={{ width: '40px', height: '40px', objectFit: 'contain', borderRadius: '10px' }} />
+        <div style={{ width: '40px', height: '40px', borderRadius: '12px', background: '#FFF8E1', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.3rem', border: '2px solid #FFC10730' }}>🏆</div>
         <h1 className="text-xl font-bold">Conquistas</h1>
         <span className="text-sm text-[#999] ml-auto">{earnedBadges.length}/{allBadges.length}</span>
       </div>
