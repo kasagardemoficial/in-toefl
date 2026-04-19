@@ -42,56 +42,8 @@ body {
   font-weight: 500;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-main: #1A1A2E;
-    --bg-secondary: #16213E;
-    --bg-card: #1A1A2E;
-    --text-primary: #E8E8E8;
-    --text-secondary: #B0B0B0;
-    --text-muted: #808080;
-    --border: #2A2A4A;
-    --border-active: #8CB369;
-  }
-  body {
-    background: #1A1A2E;
-    color: #E8E8E8;
-  }
-  .jolingo-card {
-    background: #16213E;
-    border-color: #2A2A4A;
-  }
-  .jolingo-card:hover {
-    border-color: #8CB369;
-    box-shadow: 0 4px 12px rgba(140, 179, 105, 0.1);
-  }
-  .jolingo-nav {
-    background: #1A1A2E;
-    border-top-color: #2A2A4A;
-  }
-  .jolingo-stat {
-    background: #16213E;
-  }
-  input, textarea {
-    background: #16213E !important;
-    color: #E8E8E8 !important;
-    border-color: #2A2A4A !important;
-  }
-  .jolingo-progress {
-    background: #2A2A4A;
-  }
-}
-
-[data-theme="dark"] {
-  --bg-main: #1A1A2E;
-  --bg-secondary: #16213E;
-  --bg-card: #1A1A2E;
-  --text-primary: #E8E8E8;
-  --text-secondary: #B0B0B0;
-  --text-muted: #808080;
-  --border: #2A2A4A;
-}
+/* Dark mode — disabled until mascots have transparent backgrounds */
+/* Will be re-enabled in v4 with proper dark theme assets */
 
 * { -webkit-tap-highlight-color: transparent; }
 

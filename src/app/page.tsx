@@ -289,24 +289,22 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Quick actions */}
+      {/* Quick actions — consistent SVG icons */}
       <div style={{ padding: '0 20px', marginBottom: '20px' }}>
         <h2 style={{ fontSize: '1rem', fontWeight: 800, marginBottom: '12px' }}>Explorar</h2>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px' }}>
           {[
-            { href: '/simulado', icon: '/mascot/card_simulados.png', label: 'Simulados', sub: 'TOEFL Real' },
-            { href: '/badges', icon: '/mascot/card_conquistas.png', label: 'Conquistas', sub: `${getTotalBadgesEarned()}/${getTotalBadges()}` },
-            { href: '/progress', icon: '/mascot/card_progresso.png', label: 'Progresso', sub: 'Detalhado' },
-            { href: '/integrated', icon: '🔗', label: 'Integrated', sub: 'Ler+Ouvir+Escrever' },
-            { href: '/review', icon: '📅', label: 'Review', sub: 'Semanal' },
-            { href: '/monthly', icon: '🎯', label: 'Nota TOEFL', sub: 'Estimada' },
+            { href: '/simulado', color: '#5B9BD5', bg: '#E3F2FD', label: 'Simulados', sub: 'TOEFL' },
+            { href: '/badges', color: '#FFC107', bg: '#FFF8E1', label: 'Conquistas', sub: `${getTotalBadgesEarned()}/${getTotalBadges()}` },
+            { href: '/integrated', color: '#9B59B6', bg: '#F3E5F5', label: 'Integrated', sub: 'Ler+Ouvir' },
+            { href: '/review', color: '#FF7043', bg: '#FBE9E7', label: 'Review', sub: 'Semanal' },
+            { href: '/monthly', color: '#8CB369', bg: '#F0F7EA', label: 'Nota TOEFL', sub: 'Estimada' },
+            { href: '/progress', color: '#3498DB', bg: '#E8F4FD', label: 'Progresso', sub: 'Detalhado' },
           ].map((item) => (
-            <Link key={item.href} href={item.href} className="jolingo-card" style={{ textDecoration: 'none', color: '#1A1A1A', textAlign: 'center', padding: '14px 8px' }}>
-              {item.icon.startsWith('/') ? (
-                <img src={item.icon} alt={item.label} style={{ width: '48px', height: '48px', objectFit: 'contain', margin: '0 auto 4px', display: 'block', borderRadius: '10px' }} />
-              ) : (
-                <div style={{ fontSize: '1.8rem', marginBottom: '4px' }}>{item.icon}</div>
-              )}
+            <Link key={item.href} href={item.href} className="jolingo-card tap-feedback" style={{ textDecoration: 'none', color: '#1A1A1A', textAlign: 'center', padding: '14px 8px' }}>
+              <div style={{ width: '40px', height: '40px', borderRadius: '12px', background: item.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 6px', border: `1px solid ${item.color}20` }}>
+                <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: item.color }} />
+              </div>
               <p style={{ fontWeight: 700, fontSize: '0.75rem', margin: 0 }}>{item.label}</p>
               <p style={{ color: '#999', fontSize: '0.6rem', margin: 0 }}>{item.sub}</p>
             </Link>
