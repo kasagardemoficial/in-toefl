@@ -9,14 +9,15 @@ import { UserProgress } from '@/types'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import BottomNav from '@/components/BottomNav'
+import { IconSettings, IconFlame, IconStar } from '@/components/Icons'
 
 const skillInfo = [
-  { key: 'reading', label: 'Reading', sublabel: 'Leitura', icon: '/mascot/icon_reading.png', color: '#8CB369' },
-  { key: 'listening', label: 'Listening', sublabel: 'Escuta', icon: '/mascot/icon_listening.png', color: '#5B9BD5' },
-  { key: 'speaking', label: 'Speaking', sublabel: 'Fala', icon: '/mascot/icon_speaking.png', color: '#F4A261' },
-  { key: 'writing', label: 'Writing', sublabel: 'Escrita', icon: '/mascot/icon_writing.png', color: '#E76F51' },
-  { key: 'vocabulary', label: 'Vocabulary', sublabel: 'Palavras', icon: '/mascot/icon_vocabulary.png', color: '#9B59B6' },
-  { key: 'grammar', label: 'Grammar', sublabel: 'Gramática', icon: '/mascot/icon_grammar.png', color: '#3498DB' },
+  { key: 'reading', label: 'Reading', sublabel: 'Leitura', emoji: '📖', color: '#8CB369' },
+  { key: 'listening', label: 'Listening', sublabel: 'Escuta', emoji: '🎧', color: '#5B9BD5' },
+  { key: 'speaking', label: 'Speaking', sublabel: 'Fala', emoji: '🎤', color: '#F4A261' },
+  { key: 'writing', label: 'Writing', sublabel: 'Escrita', emoji: '✏️', color: '#E76F51' },
+  { key: 'vocabulary', label: 'Vocabulary', sublabel: 'Palavras', emoji: '📚', color: '#9B59B6' },
+  { key: 'grammar', label: 'Grammar', sublabel: 'Gramática', emoji: '📐', color: '#3498DB' },
 ]
 
 const phrases = [
@@ -134,15 +135,15 @@ export default function Home() {
           <h1 style={{ fontSize: '1.4rem', fontWeight: 800, margin: 0 }}>{onboarding.name || 'Aluno'} 👋</h1>
         </div>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-          <Link href="/settings" style={{ fontSize: '1.1rem', padding: '4px', textDecoration: 'none' }} title="Configurações">
-            ⚙️
+          <Link href="/settings" style={{ padding: '6px', textDecoration: 'none', color: '#AFAFAF', display: 'flex' }} title="Configurações">
+            <IconSettings size={20} />
           </Link>
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF3E0', borderRadius: '20px', padding: '6px 12px' }}>
-            <span className="streak-fire" style={{ fontSize: '1rem' }}>🔥</span>
+            <IconFlame size={16} color="#FF7043" />
             <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FF7043' }}>{progress.streak}</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF8E1', borderRadius: '20px', padding: '6px 12px' }}>
-            <span style={{ fontSize: '0.8rem' }}>⭐</span>
+            <IconStar size={14} color="#FFC107" />
             <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FFC107' }}>{progress.xp}</span>
           </div>
         </div>
@@ -252,7 +253,7 @@ export default function Home() {
       {/* Continue button */}
       <div style={{ padding: '0 20px', marginBottom: '20px' }}>
         <Link href={`/lesson/${skillInfo[maxIdx].key}`} className="jolingo-btn" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', textDecoration: 'none' }}>
-          <img src={skillInfo[maxIdx].icon} alt={skillInfo[maxIdx].label} style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover' }} />
+          <span style={{ fontSize: '1.2rem' }}>{skillInfo[maxIdx].emoji}</span>
           CONTINUAR {skillInfo[maxIdx].label.toUpperCase()} — NÍVEL {allLevels[maxIdx]}
         </Link>
       </div>
@@ -268,9 +269,9 @@ export default function Home() {
             const level = allLevels[i]
             const pct = Math.round((level / totalLevels) * 100)
             return (
-              <Link key={skill.key} href={`/lesson/${skill.key}`} className="jolingo-card" style={{ textDecoration: 'none', color: '#1A1A1A' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>
-                  <img src={skill.icon} alt={skill.label} style={{ width: '36px', height: '36px', borderRadius: '10px', objectFit: 'cover' }} />
+              <Link key={skill.key} href={`/lesson/${skill.key}`} className="jolingo-card tap-feedback" style={{ textDecoration: 'none', color: '#1A1A1A' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
+                  <div style={{ width: '38px', height: '38px', borderRadius: '12px', background: skill.color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem', flexShrink: 0, border: `2px solid ${skill.color}30` }}>{skill.emoji}</div>
                   <div>
                     <p style={{ fontWeight: 700, margin: 0, fontSize: '0.85rem' }}>{skill.label}</p>
                     <p style={{ color: '#999', margin: 0, fontSize: '0.65rem' }}>{skill.sublabel}</p>
