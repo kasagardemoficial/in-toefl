@@ -119,50 +119,42 @@ export default function Home() {
   const maxIdx = allLevels.indexOf(Math.max(...allLevels))
 
   return (
-    <div className="page-content safe-bottom" style={{ minHeight: '100vh', background: 'white', maxWidth: '500px', margin: '0 auto' }}>
+    <div className="page-shell page-content safe-bottom">
       {/* Badge notification */}
       {newBadges.length > 0 && (
-        <div className="badge-unlock" style={{ position: 'fixed', top: '16px', left: '16px', right: '16px', zIndex: 50, background: '#8CB369', borderRadius: '16px', padding: '14px', textAlign: 'center', color: 'white', boxShadow: '0 8px 30px rgba(140,179,105,0.4)' }}>
+        <div className="badge-unlock" style={{ position: 'fixed', top: '16px', left: '16px', right: '16px', zIndex: 50, background: 'linear-gradient(135deg, var(--primary-light), var(--primary))', borderRadius: 'var(--radius-lg)', padding: '14px', textAlign: 'center', color: 'white', boxShadow: '0 8px 30px rgba(140,179,105,0.4)' }}>
           <p style={{ fontSize: '0.85rem', fontWeight: 700 }}>🎉 Nova conquista!</p>
           <p>{newBadges.join(' • ')}</p>
         </div>
       )}
 
       {/* Header */}
-      <div style={{ padding: '20px 20px 12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
         <div>
-          <p style={{ color: '#999', fontSize: '0.75rem', margin: 0 }}>Bem-vindo de volta</p>
-          <h1 style={{ fontSize: '1.4rem', fontWeight: 800, margin: 0 }}>{onboarding.name || 'Aluno'} 👋</h1>
+          <p style={{ color: 'var(--text-muted)', fontSize: '0.72rem', margin: 0, fontWeight: 600 }}>Bem-vindo de volta</p>
+          <h1 style={{ fontSize: '1.4rem', fontWeight: 900, margin: 0, color: 'var(--text-primary)' }}>{onboarding.name || 'Aluno'} 👋</h1>
         </div>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-          <Link href="/settings" style={{ padding: '6px', textDecoration: 'none', color: '#AFAFAF', display: 'flex' }} title="Configurações">
+          <Link href="/settings" className="tap-feedback" style={{ padding: '6px', textDecoration: 'none', color: 'var(--text-muted)', display: 'flex' }}>
             <IconSettings size={20} />
           </Link>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF3E0', borderRadius: '20px', padding: '6px 12px' }}>
-            <IconFlame size={16} color="#FF7043" />
-            <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FF7043' }}>{progress.streak}</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#FFF8E1', borderRadius: '20px', padding: '6px 12px' }}>
-            <IconStar size={14} color="#FFC107" />
-            <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#FFC107' }}>{progress.xp}</span>
-          </div>
+          <span className="stat-pill orange"><IconFlame size={14} color="currentColor" /> {progress.streak}</span>
+          <span className="stat-pill gold"><IconStar size={12} color="currentColor" /> {progress.xp}</span>
         </div>
       </div>
 
-      {/* Progress card */}
-      <div style={{ padding: '0 20px', marginBottom: '16px' }}>
-        <div style={{ background: '#F0F7EA', borderRadius: '16px', padding: '16px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-            <div>
-              <p style={{ color: '#6B9A4B', fontSize: '0.7rem', fontWeight: 700, margin: 0 }}>
-                {overallProgress < 40 ? 'FASE 1 — ENGLISH BASE' : overallProgress < 80 ? 'FASE 2 — TOEFL TRAINING' : 'FASE 3 — SIMULADOS'}
-              </p>
-              <p style={{ color: '#666', fontSize: '0.75rem', margin: '2px 0 0' }}>Progresso geral</p>
-            </div>
-            <span style={{ fontSize: '1.5rem', fontWeight: 800, color: '#8CB369' }}>{overallProgress}%</span>
+      {/* Progress hero */}
+      <div className="page-hero" style={{ marginBottom: '16px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+          <div>
+            <span className="kicker">
+              {overallProgress < 40 ? 'FASE 1 — ENGLISH BASE' : overallProgress < 80 ? 'FASE 2 — TOEFL TRAINING' : 'FASE 3 — SIMULADOS'}
+            </span>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.75rem', margin: '6px 0 0' }}>Progresso geral</p>
           </div>
-          <div className="jolingo-progress"><div className="jolingo-progress-fill" style={{ width: `${overallProgress}%` }} /></div>
+          <span style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--primary-dark)' }}>{overallProgress}%</span>
         </div>
+        <div className="jolingo-progress"><div className="jolingo-progress-fill" style={{ width: `${overallProgress}%` }} /></div>
       </div>
 
       {/* Daily info row */}
@@ -171,14 +163,14 @@ export default function Home() {
           const daily = getDailyChallenge()
           const league = getLeague()
           return (
-            <div style={{ display: 'flex', gap: '8px' }}>
-              <div className="tap-feedback" style={{ flex: 1, background: '#F7F7F7', borderRadius: '14px', padding: '10px 12px', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8' }}>
-                <p style={{ fontSize: '0.6rem', color: '#999', margin: '0 0 2px', fontWeight: 600 }}>{league.icon} Liga {league.league}</p>
-                <p style={{ fontSize: '0.85rem', fontWeight: 800, color: league.color, margin: 0 }}>{league.weeklyXP} XP</p>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+              <div className="jolingo-card flat tap-feedback" style={{ padding: '12px' }}>
+                <p style={{ fontSize: '0.68rem', color: 'var(--text-muted)', margin: '0 0 4px', fontWeight: 700 }}>{league.icon} Liga {league.league}</p>
+                <p style={{ fontSize: '0.92rem', fontWeight: 900, color: league.color, margin: 0 }}>{league.weeklyXP} XP</p>
               </div>
-              <Link href="/review" className="tap-feedback" style={{ flex: 1, background: daily.completed ? '#E8F5E9' : '#FFF8E1', borderRadius: '14px', padding: '10px 12px', border: `2px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}`, borderBottom: `4px solid ${daily.completed ? '#C8E6C9' : '#FFE0B2'}`, textDecoration: 'none', color: '#1A1A1A' }}>
-                <p style={{ fontSize: '0.6rem', color: daily.completed ? '#4CAF50' : '#E65100', margin: '0 0 2px', fontWeight: 600 }}>{daily.completed ? '✅' : '🎯'} Desafio</p>
-                <p style={{ fontSize: '0.75rem', fontWeight: 700, color: '#666', margin: 0 }}>{daily.progress}/{daily.goal}</p>
+              <Link href="/review" className="jolingo-card flat tap-feedback" style={{ padding: '12px', textDecoration: 'none', color: 'var(--text-primary)', background: daily.completed ? 'var(--success-bg)' : 'var(--warning-bg)' }}>
+                <p style={{ fontSize: '0.68rem', color: daily.completed ? 'var(--success-dark)' : 'var(--warning-dark)', margin: '0 0 4px', fontWeight: 700 }}>{daily.completed ? '✅' : '🎯'} Desafio</p>
+                <p style={{ fontSize: '0.82rem', fontWeight: 800, color: 'var(--text-secondary)', margin: 0 }}>{daily.progress}/{daily.goal}</p>
               </Link>
             </div>
           )
@@ -186,66 +178,64 @@ export default function Home() {
       </div>
 
       {/* Continue button */}
-      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
-        <Link href={`/lesson/${skillInfo[maxIdx].key}`} className="jolingo-btn" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', textDecoration: 'none' }}>
+      <div style={{ marginBottom: '20px' }}>
+        <Link href={`/lesson/${skillInfo[maxIdx].key}`} className="jolingo-btn" style={{ textDecoration: 'none' }}>
           <span style={{ fontSize: '1.2rem' }}>{skillInfo[maxIdx].emoji}</span>
-          CONTINUAR {skillInfo[maxIdx].label.toUpperCase()} — NÍVEL {allLevels[maxIdx]}
+          Continuar {skillInfo[maxIdx].label} — Nível {allLevels[maxIdx]}
         </Link>
       </div>
 
       {/* Skills */}
-      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-          <h2 style={{ fontSize: '1rem', fontWeight: 800, margin: 0 }}>Habilidades</h2>
-          <Link href="/progress" style={{ fontSize: '0.75rem', color: '#8CB369', textDecoration: 'none', fontWeight: 700 }}>Ver tudo →</Link>
-        </div>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-          {skillInfo.map((skill, i) => {
-            const level = allLevels[i]
-            const pct = Math.round((level / totalLevels) * 100)
-            return (
-              <Link key={skill.key} href={`/lesson/${skill.key}`} className="jolingo-card tap-feedback" style={{ textDecoration: 'none', color: '#1A1A1A' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-                  <div style={{ width: '38px', height: '38px', borderRadius: '12px', background: skill.color + '15', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem', flexShrink: 0, border: `2px solid ${skill.color}30` }}>{skill.emoji}</div>
-                  <div>
-                    <p style={{ fontWeight: 700, margin: 0, fontSize: '0.85rem' }}>{skill.label}</p>
-                    <p style={{ color: '#999', margin: 0, fontSize: '0.65rem' }}>{skill.sublabel}</p>
-                  </div>
+      <div className="section-title">
+        <h2 style={{ fontSize: '1rem', fontWeight: 900 }}>Habilidades</h2>
+        <Link href="/progress" style={{ fontSize: '0.72rem', color: 'var(--primary-dark)', textDecoration: 'none', fontWeight: 800 }}>Ver tudo →</Link>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '20px' }}>
+        {skillInfo.map((skill, i) => {
+          const level = allLevels[i]
+          const pct = Math.round((level / totalLevels) * 100)
+          return (
+            <Link key={skill.key} href={`/lesson/${skill.key}`} className="jolingo-card tap-feedback" style={{ textDecoration: 'none', color: 'var(--text-primary)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
+                <span className="icon-bubble small" style={{ background: skill.color + '15', borderColor: skill.color + '25', color: skill.color, fontSize: '1.1rem' }}>{skill.emoji}</span>
+                <div>
+                  <p style={{ fontWeight: 800, margin: 0, fontSize: '0.85rem' }}>{skill.label}</p>
+                  <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.65rem' }}>{skill.sublabel}</p>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                  <span style={{ fontSize: '0.65rem', color: '#999' }}>Nível {level}</span>
-                  <span style={{ fontSize: '0.6rem', fontWeight: 700, color: skill.color, background: skill.color + '15', padding: '2px 6px', borderRadius: '6px' }}>{pct}% →</span>
-                </div>
-                <div className="jolingo-progress" style={{ height: '6px' }}>
-                  <div className="jolingo-progress-fill" style={{ width: `${pct}%`, background: skill.color }} />
-                </div>
-              </Link>
-            )
-          })}
-        </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                <span style={{ fontSize: '0.65rem', color: 'var(--text-muted)' }}>Nível {level}</span>
+                <span className="jolingo-badge" style={{ fontSize: '0.6rem', background: skill.color + '12', color: skill.color }}>{pct}%</span>
+              </div>
+              <div className="jolingo-progress" style={{ height: '8px' }}>
+                <div className="jolingo-progress-fill" style={{ width: `${pct}%`, background: `linear-gradient(90deg, ${skill.color}90, ${skill.color})` }} />
+              </div>
+            </Link>
+          )
+        })}
       </div>
 
-      {/* Quick actions — consistent SVG icons */}
-      <div style={{ padding: '0 20px', marginBottom: '20px' }}>
-        <h2 style={{ fontSize: '1rem', fontWeight: 800, marginBottom: '12px' }}>Explorar</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px' }}>
-          {[
-            { href: '/simulado', color: '#5B9BD5', bg: '#E3F2FD', label: 'Simulados', sub: 'TOEFL' },
-            { href: '/badges', color: '#FFC107', bg: '#FFF8E1', label: 'Conquistas', sub: `${getTotalBadgesEarned()}/${getTotalBadges()}` },
-            { href: '/integrated', color: '#9B59B6', bg: '#F3E5F5', label: 'Integrated', sub: 'Ler+Ouvir' },
-            { href: '/review', color: '#FF7043', bg: '#FBE9E7', label: 'Review', sub: 'Semanal' },
-            { href: '/monthly', color: '#8CB369', bg: '#F0F7EA', label: 'Nota TOEFL', sub: 'Estimada' },
-            { href: '/progress', color: '#3498DB', bg: '#E8F4FD', label: 'Progresso', sub: 'Detalhado' },
-          ].map((item) => (
-            <Link key={item.href} href={item.href} className="jolingo-card tap-feedback" style={{ textDecoration: 'none', color: '#1A1A1A', textAlign: 'center', padding: '14px 8px' }}>
-              <div style={{ width: '40px', height: '40px', borderRadius: '12px', background: item.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 6px', border: `1px solid ${item.color}20` }}>
-                <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: item.color }} />
-              </div>
-              <p style={{ fontWeight: 700, fontSize: '0.75rem', margin: 0 }}>{item.label}</p>
-              <p style={{ color: '#999', fontSize: '0.6rem', margin: 0 }}>{item.sub}</p>
-            </Link>
-          ))}
-        </div>
+      {/* Quick actions */}
+      <div className="section-title">
+        <h2 style={{ fontSize: '1rem', fontWeight: 900 }}>Explorar</h2>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px', marginBottom: '20px' }}>
+        {[
+          { href: '/simulado', color: 'var(--info)', label: 'Simulados', sub: 'TOEFL', cls: 'blue' },
+          { href: '/badges', color: 'var(--xp-gold-dark)', label: 'Conquistas', sub: `${getTotalBadgesEarned()}/${getTotalBadges()}`, cls: 'gold' },
+          { href: '/integrated', color: 'var(--purple)', label: 'Integrated', sub: 'Ler+Ouvir', cls: 'purple' },
+          { href: '/review', color: 'var(--streak-orange)', label: 'Review', sub: 'Semanal', cls: 'red' },
+          { href: '/monthly', color: 'var(--primary)', label: 'Nota TOEFL', sub: 'Estimada', cls: '' },
+          { href: '/progress', color: 'var(--info)', label: 'Progresso', sub: 'Detalhado', cls: 'blue' },
+        ].map((item) => (
+          <Link key={item.href} href={item.href} className="jolingo-card flat tap-feedback" style={{ textDecoration: 'none', color: 'var(--text-primary)', textAlign: 'center', padding: '14px 8px' }}>
+            <span className={`icon-bubble small ${item.cls}`} style={{ margin: '0 auto 6px', display: 'flex' }}>
+              <span style={{ fontSize: '0.85rem' }}>●</span>
+            </span>
+            <p style={{ fontWeight: 800, fontSize: '0.72rem', margin: 0 }}>{item.label}</p>
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.6rem', margin: 0 }}>{item.sub}</p>
+          </Link>
+        ))}
       </div>
 
       <BottomNav />
