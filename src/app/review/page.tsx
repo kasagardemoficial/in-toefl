@@ -48,7 +48,7 @@ export default function ReviewPage() {
   const maxHistoryXP = Math.max(...history.map(w => w.xpEarned), current.xpEarned, 1)
 
   return (
-    <div style={{ minHeight: '100vh', padding: '16px', maxWidth: '500px', margin: '0 auto', background: 'white' }}>
+    <div className="page-shell page-content">
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
         <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>

@@ -40,19 +40,21 @@ export default function ProgressPage() {
   const weakestIdx = allLevels.indexOf(Math.min(...allLevels))
 
   return (
-    <div style={{ minHeight: '100vh', padding: '16px', paddingBottom: '40px', maxWidth: '500px', margin: '0 auto', background: 'white' }}>
+    <div className="page-shell page-content safe-bottom">
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
-        <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>
-        <div style={{ width: '40px', height: '40px', borderRadius: '12px', background: '#E8F4FD', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.3rem', border: '2px solid #3498DB30' }}>📊</div>
+        <button onClick={() => router.push('/')} className="tap-feedback" style={{ width: '40px', height: '40px', borderRadius: '14px', border: '2px solid var(--border)', background: 'var(--bg-elevated)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--text-secondary)' }}>
+          ←
+        </button>
+        <span className="icon-bubble blue">📊</span>
         <div>
-          <h1 style={{ fontSize: '1.2rem', fontWeight: 800, margin: 0 }}>Meu Progresso</h1>
-          <p style={{ fontSize: '0.7rem', color: '#999', margin: 0 }}>{onboarding.name || 'Aluno'}</p>
+          <h1 style={{ fontSize: '1.2rem', fontWeight: 900, margin: 0 }}>Meu Progresso</h1>
+          <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', margin: 0 }}>{onboarding.name || 'Aluno'}</p>
         </div>
       </div>
 
       {/* TOEFL Score card */}
-      <div style={{ background: 'linear-gradient(135deg, #F0F7EA, #E8F5E9)', borderRadius: '20px', padding: '20px', textAlign: 'center', marginBottom: '16px', border: '1px solid #D4E8C4' }}>
+      <div className="page-hero" style={{ textAlign: 'center', marginBottom: '16px' }}>
         <p style={{ fontSize: '0.7rem', color: '#6B9A4B', fontWeight: 700, marginBottom: '4px' }}>NOTA TOEFL ESTIMADA</p>
         <p style={{ fontSize: '3rem', fontWeight: 800, color: '#8CB369', margin: '0 0 4px' }}>{toeflScore.total}<span style={{ fontSize: '1rem', color: '#999' }}>/120</span></p>
         <div style={{ display: 'inline-block', padding: '4px 12px', borderRadius: '16px', background: readiness.color + '20', marginBottom: '6px' }}>

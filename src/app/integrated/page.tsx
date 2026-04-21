@@ -32,7 +32,7 @@ export default function IntegratedPage() {
   // Task list
   if (!selectedTask) {
     return (
-      <div style={{ minHeight: '100vh', padding: '16px', paddingBottom: '40px', maxWidth: '500px', margin: '0 auto', background: 'white' }}>
+      <div className="page-shell page-content">
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
           <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>
           <div>

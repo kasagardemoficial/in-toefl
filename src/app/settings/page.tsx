@@ -37,17 +37,17 @@ export default function SettingsPage() {
   const totalLevels = allLevels.reduce((a, b) => a + b, 0)
 
   return (
-    <div style={{ minHeight: '100vh', padding: '16px', paddingBottom: '40px', maxWidth: '500px', margin: '0 auto' }}>
+    <div className="page-shell page-content">
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
-        <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer', color: '#999' }}>←</button>
-        <h1 style={{ fontSize: '1.2rem', fontWeight: 800, margin: 0 }}>Configurações</h1>
+        <button onClick={() => router.push('/')} className="tap-feedback" style={{ width: '40px', height: '40px', borderRadius: '14px', border: '2px solid var(--border)', background: 'var(--bg-elevated)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--text-secondary)' }}>←</button>
+        <h1 style={{ fontSize: '1.2rem', fontWeight: 900, margin: 0 }}>Configurações</h1>
       </div>
 
       {/* Profile */}
-      <div style={{ background: '#F7F7F7', borderRadius: '16px', padding: '16px', marginBottom: '16px', border: '1px solid #E8E8E8' }}>
+      <div className="page-hero" style={{ marginBottom: '16px', padding: '16px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px' }}>
-          <img src="/mascot/main.png" alt="Perfil" style={{ width: '48px', height: '48px', objectFit: 'contain', borderRadius: '12px' }} />
+          <img src="/mascot/main.png" alt="Perfil" style={{ width: '48px', height: '48px', objectFit: 'contain', borderRadius: '14px' }} />
           <div>
             <p style={{ fontWeight: 800, fontSize: '1rem', margin: 0 }}>{onboarding.name || 'Aluno'}</p>
             <p style={{ fontSize: '0.7rem', color: '#999', margin: 0 }}>{totalLevels} níveis alcançados · {progress.xp} XP</p>
@@ -59,7 +59,7 @@ export default function SettingsPage() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
 
         {/* Dark mode */}
-        <button onClick={toggleDarkMode} style={{ width: '100%', background: '#F7F7F7', borderRadius: '14px', padding: '14px 16px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <button onClick={toggleDarkMode} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <span style={{ fontSize: '1.2rem' }}>{darkMode ? '🌙' : '☀️'}</span>
             <div>
@@ -73,7 +73,7 @@ export default function SettingsPage() {
         </button>
 
         {/* Refill hearts */}
-        <button onClick={() => { refillHearts(); setHearts(5); alert('Corações recarregados!') }} style={{ width: '100%', background: '#F7F7F7', borderRadius: '14px', padding: '14px 16px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <button onClick={() => { refillHearts(); setHearts(5); alert('Corações recarregados!') }} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '1.2rem' }}>❤️</span>
           <div>
             <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Recarregar Corações</p>
@@ -82,7 +82,7 @@ export default function SettingsPage() {
         </button>
 
         {/* Redo placement */}
-        <button onClick={() => { const p = getProgress(); p.placementDone = false; saveProgress(p); router.push('/') }} style={{ width: '100%', background: '#F7F7F7', borderRadius: '14px', padding: '14px 16px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <button onClick={() => { const p = getProgress(); p.placementDone = false; saveProgress(p); router.push('/') }} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '1.2rem' }}>🎯</span>
           <div>
             <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Refazer Teste de Nivelamento</p>
@@ -91,7 +91,7 @@ export default function SettingsPage() {
         </button>
 
         {/* Redo onboarding */}
-        <button onClick={() => { localStorage.removeItem('intoefl_onboarding'); router.push('/welcome') }} style={{ width: '100%', background: '#F7F7F7', borderRadius: '14px', padding: '14px 16px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <button onClick={() => { localStorage.removeItem('intoefl_onboarding'); router.push('/welcome') }} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '1.2rem' }}>👤</span>
           <div>
             <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Alterar Perfil</p>
@@ -100,7 +100,7 @@ export default function SettingsPage() {
         </button>
 
         {/* About */}
-        <button onClick={() => router.push('/sobre')} style={{ width: '100%', background: '#F7F7F7', borderRadius: '14px', padding: '14px 16px', border: '1px solid #E8E8E8', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <button onClick={() => router.push('/sobre')} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '1.2rem' }}>ℹ️</span>
           <div>
             <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Sobre o In-TOEFL</p>
