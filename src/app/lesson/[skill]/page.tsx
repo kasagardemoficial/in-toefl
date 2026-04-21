@@ -275,22 +275,20 @@ export default function LessonPage() {
   const skillColor = skillColors[skill] || '#8CB369'
 
   return (
-    <div className={`page-content min-h-screen p-4 max-w-lg mx-auto ${flash === 'correct' ? 'flash-correct' : flash === 'wrong' ? 'flash-wrong' : ''}`}>
-      {/* Top bar — clean */}
+    <div className={`page-shell compact page-content ${flash === 'correct' ? 'flash-correct' : flash === 'wrong' ? 'flash-wrong' : ''}`} style={{ paddingBottom: '24px' }}>
+      {/* Top bar */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-        <button onClick={() => router.push('/')} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '4px', display: 'flex' }}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#AFAFAF" strokeWidth="2.5" strokeLinecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-        </button>
-        <div style={{ flex: 1, background: '#E8E8E8', borderRadius: '8px', height: '10px' }}>
-          <div style={{ width: `${progressPct}%`, background: skillColor, height: '10px', borderRadius: '8px', transition: 'width 0.3s' }} />
+        <button onClick={() => router.push('/')} className="tap-feedback" style={{ width: '36px', height: '36px', borderRadius: '12px', border: '2px solid var(--border)', background: 'var(--bg-elevated)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--text-muted)' }}>✕</button>
+        <div className="jolingo-progress" style={{ flex: 1, height: '10px' }}>
+          <div className="jolingo-progress-fill" style={{ width: `${progressPct}%`, background: `linear-gradient(90deg, ${skillColor}90, ${skillColor})` }} />
         </div>
-        <button onClick={() => setShowLevelPicker(!showLevelPicker)} style={{ background: skillColor + '15', border: `2px solid ${skillColor}30`, borderRadius: '10px', padding: '4px 10px', cursor: 'pointer', fontSize: '0.7rem', fontWeight: 700, color: skillColor, fontFamily: 'inherit', whiteSpace: 'nowrap' }}>
+        <button onClick={() => setShowLevelPicker(!showLevelPicker)} className="jolingo-badge tap-feedback" style={{ background: skillColor + '12', color: skillColor, cursor: 'pointer', border: 'none', fontFamily: 'inherit' }}>
           Nv {currentLevel} ▾
         </button>
       </div>
 
       {/* Sub bar — hearts + counter */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', padding: '0 4px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
         <div style={{ display: 'flex', gap: '3px' }}>
           {Array.from({ length: 5 }, (_, i) => (
             <span key={i} style={{ fontSize: '0.75rem', opacity: i < hearts ? 1 : 0.2 }}>{i < hearts ? '❤️' : '🤍'}</span>
@@ -381,7 +379,7 @@ export default function LessonPage() {
       )}
 
       {/* Exercise */}
-      <div style={{ background: 'white', borderRadius: '16px', padding: '20px', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8', marginBottom: '16px' }}>
+      <div className="jolingo-card" style={{ marginBottom: '16px' }}>
         <p className="text-sm text-[#8CB369] mb-3">{ex.instruction_pt}</p>
 
         {/* Listening audio + transcript */}
