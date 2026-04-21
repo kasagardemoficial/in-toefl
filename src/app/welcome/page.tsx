@@ -48,43 +48,36 @@ export default function WelcomePage() {
 
   if (step === 0) {
     return (
-      <div className="page-shell page-content" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <section className="page-hero" style={{ width: '100%', textAlign: 'center', padding: '28px 22px' }}>
-          <img src="/mascot/main.png" alt="In-TOEFL Mascot" style={{ width: '160px', height: '160px', objectFit: 'contain', margin: '0 auto 14px' }} />
-          <span className="kicker" style={{ marginBottom: '12px' }}>Do zero ao TOEFL</span>
-          <h1 style={{ fontSize: '2.3rem', fontWeight: 900, margin: '0 0 8px', color: 'var(--primary-dark)' }}>In-TOEFL</h1>
-          <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', margin: '0 auto 10px', maxWidth: '320px' }}>
-            Aprenda inglês do zero em português e construa a base certa para passar no TOEFL.
-          </p>
-          <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', margin: '0 auto 24px', maxWidth: '320px', lineHeight: 1.6 }}>
-            Uma jornada guiada com gamificação, prática real e trilha estruturada para universitários brasileiros.
-          </p>
+      <div className="page-content" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px', textAlign: 'center' }}>
+        {/* Mascot — big, emotional */}
+        <img
+          src="/mascot/main.png"
+          alt="In-TOEFL Mascot"
+          className="confetti-burst"
+          style={{ width: '200px', height: '200px', objectFit: 'contain', marginBottom: '16px' }}
+        />
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: '10px', marginBottom: '24px' }}>
-            <div className="jolingo-stat">
-              <span className="icon-bubble red small"><IconFlame size={15} /></span>
-              <p style={{ margin: '8px 0 2px', fontWeight: 900, fontSize: '0.86rem' }}>Streak</p>
-              <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.68rem' }}>Hábito diário</p>
-            </div>
-            <div className="jolingo-stat">
-              <span className="icon-bubble gold small"><IconStar size={14} /></span>
-              <p style={{ margin: '8px 0 2px', fontWeight: 900, fontSize: '0.86rem' }}>XP</p>
-              <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.68rem' }}>Motivação real</p>
-            </div>
-            <div className="jolingo-stat">
-              <span className="icon-bubble blue small"><IconTarget size={15} /></span>
-              <p style={{ margin: '8px 0 2px', fontWeight: 900, fontSize: '0.86rem' }}>TOEFL</p>
-              <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.68rem' }}>Meta clara</p>
-            </div>
-          </div>
+        {/* One powerful headline */}
+        <h1 style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--primary-dark)', margin: '0 0 8px', lineHeight: 1.2, maxWidth: '320px' }}>
+          Do zero ao TOEFL.
+          <br />
+          <span style={{ color: 'var(--text-primary)' }}>Em português. De graça.</span>
+        </h1>
 
-          <button onClick={next} className="jolingo-btn" style={{ maxWidth: '340px', margin: '0 auto' }}>
-            Começar agora
-          </button>
-          <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '16px' }}>
-            100% gratuito — sem cartão de crédito
-          </p>
-        </section>
+        {/* One subtitle */}
+        <p style={{ fontSize: '0.92rem', color: 'var(--text-secondary)', margin: '0 auto 32px', maxWidth: '300px', lineHeight: 1.5 }}>
+          3.000+ exercícios, questões reais e simulados completos para universitários brasileiros.
+        </p>
+
+        {/* BIG CTA */}
+        <button onClick={next} className="jolingo-btn" style={{ maxWidth: '340px', margin: '0 auto', fontSize: '1rem', minHeight: '58px' }}>
+          COMEÇAR AGORA
+        </button>
+
+        {/* Trust */}
+        <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '16px' }}>
+          ● 100% gratuito — Sem cartão — Sem cadastro
+        </p>
       </div>
     )
   }

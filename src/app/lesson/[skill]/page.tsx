@@ -199,61 +199,57 @@ export default function LessonPage() {
     const pct = Math.round((correct / total) * 100)
     const passed = pct >= 90
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center">
-        <img src={passed ? '/mascot/success.png' : '/mascot/resilient.png'} alt={passed ? 'Parabéns!' : 'Quase lá!'} style={{ width: '120px', height: '120px', objectFit: 'contain', marginBottom: '8px' }} />
-        <h2 className="text-2xl font-bold mb-2">
-          {passed ? 'Parabéns!' : 'Quase lá!'}
-        </h2>
-        <p className="text-lg text-[#666] mb-2">
-          Você acertou {correct} de {total} ({pct}%)
-        </p>
-        <p className="text-sm text-[#999] mb-6">
-          {passed
-            ? 'Você avançou de nível! +50 XP'
-            : 'Precisa de 90% para avançar. Tente novamente!'}
-        </p>
+      <div className="page-content" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px' }}>
+        <div style={{ width: '100%', maxWidth: '400px', textAlign: 'center' }}>
+          <div className={passed ? 'page-hero' : ''} style={{ padding: '28px 20px', marginBottom: '16px', borderRadius: 'var(--radius-xl)', background: passed ? undefined : 'var(--bg-elevated)', border: passed ? undefined : '2px solid var(--border)', borderBottomWidth: passed ? undefined : '6px' }}>
+            <img src={passed ? '/mascot/success.png' : '/mascot/resilient.png'} alt={passed ? 'Parabéns!' : 'Quase lá!'} className="confetti-burst" style={{ width: '140px', height: '140px', objectFit: 'contain', margin: '0 auto 12px' }} />
+            <h2 style={{ fontSize: '1.8rem', fontWeight: 900, marginBottom: '4px' }}>
+              {passed ? 'Parabéns! 🎉' : 'Quase lá! 💪'}
+            </h2>
+            <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', marginBottom: '4px' }}>
+              Você acertou <strong>{correct}</strong> de <strong>{total}</strong> ({pct}%)
+            </p>
+            <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
+              {passed
+                ? 'Você avançou de nível! +50 XP 🚀'
+                : 'Precisa de 90% para avançar. Não desista!'}
+            </p>
 
-        <div className="w-full max-w-xs bg-[#E8E8E8] rounded-full h-4 mb-6">
-          <div
-            className={`h-4 rounded-full progress-fill ${passed ? 'bg-[#8CB369]' : 'bg-yellow-500'}`}
-            style={{ width: `${pct}%` }}
-          />
-        </div>
+            <div className="jolingo-progress" style={{ height: '12px', marginBottom: '8px' }}>
+              <div className="jolingo-progress-fill" style={{ width: `${pct}%`, background: passed ? 'linear-gradient(90deg, var(--primary-light), var(--primary))' : 'linear-gradient(90deg, var(--warning), var(--warning-dark))' }} />
+            </div>
+          </div>
 
-        <div className="flex gap-3">
-          <button
-            onClick={() => router.push('/')}
-            className="bg-white border border-[#E8E8E8] text-[#1A1A1A] font-semibold py-3 px-6 rounded-xl"
-          >
-            Voltar
-          </button>
-          <button
-            onClick={() => window.location.reload()}
-            className="bg-[#8CB369] hover:bg-[#6B9A4B] text-[#1A1A1A] font-semibold py-3 px-6 rounded-xl"
-          >
-            {passed ? 'Próximo Nível' : 'Tentar de Novo'}
-          </button>
-        </div>
-        {passed && (
-          <button
-            onClick={() => {
-              const p = getProgress()
-              const onb = getOnboarding()
-              const score = estimateTOEFLScore(p)
-              const allLvls = [p.reading_level, p.listening_level, p.speaking_level, p.writing_level, p.vocabulary_level, p.grammar_level]
-              const maxIdx = allLvls.indexOf(Math.max(...allLvls))
-              const skillNames = ['Reading', 'Listening', 'Speaking', 'Writing', 'Vocabulary', 'Grammar']
-              shareProgress({
-                name: onb.name || 'Aluno',
-                streak: p.streak,
-                xp: p.xp,
-                toeflScore: score.total,
-                topSkill: skillNames[maxIdx],
-                topLevel: allLvls[maxIdx],
-                overallPct: Math.round((allLvls.reduce((a, b) => a + b, 0) / 300) * 100),
-              })
-            }}
-            style={{ marginTop: '16px', background: 'none', border: '1px solid #D4E8C4', borderRadius: '20px', padding: '10px 24px', cursor: 'pointer', fontSize: '0.8rem', fontWeight: 700, color: '#6B9A4B', fontFamily: 'inherit' }}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '12px' }}>
+            <button onClick={() => router.push('/')} className="jolingo-btn-outline tap-feedback" style={{ fontFamily: 'inherit' }}>
+              Voltar
+            </button>
+            <button onClick={() => window.location.reload()} className="jolingo-btn tap-feedback" style={{ fontFamily: 'inherit' }}>
+              {passed ? 'Próximo Nível' : 'Tentar de Novo'}
+            </button>
+          </div>
+
+          {passed && (
+            <button
+              onClick={() => {
+                const p = getProgress()
+                const onb = getOnboarding()
+                const score = estimateTOEFLScore(p)
+                const allLvls = [p.reading_level, p.listening_level, p.speaking_level, p.writing_level, p.vocabulary_level, p.grammar_level]
+                const maxIdx = allLvls.indexOf(Math.max(...allLvls))
+                const skillNames = ['Reading', 'Listening', 'Speaking', 'Writing', 'Vocabulary', 'Grammar']
+                shareProgress({
+                  name: onb.name || 'Aluno',
+                  streak: p.streak,
+                  xp: p.xp,
+                  toeflScore: score.total,
+                  topSkill: skillNames[maxIdx],
+                  topLevel: allLvls[maxIdx],
+                  overallPct: Math.round((allLvls.reduce((a, b) => a + b, 0) / 300) * 100),
+                })
+              }}
+              className="jolingo-badge tap-feedback"
+              style={{ cursor: 'pointer', border: 'none', fontFamily: 'inherit', margin: '0 auto', display: 'inline-flex' }}
           >
             📤 Compartilhar nos Stories
           </button>
@@ -766,17 +762,14 @@ export default function LessonPage() {
 
       {/* Explanation */}
       {showResult && ex.explanation_pt && (
-        <div className="bg-white rounded-xl p-4 mb-4 border border-[#E8E8E8]">
-          <p className="text-sm text-[#666]">{ex.explanation_pt}</p>
+        <div className="jolingo-card info" style={{ marginBottom: '12px', padding: '14px' }}>
+          <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>{ex.explanation_pt}</p>
         </div>
       )}
 
       {/* Next button */}
       {showResult && (
-        <button
-          onClick={handleNext}
-          className="w-full bg-[#8CB369] hover:bg-[#6B9A4B] text-[#1A1A1A] font-semibold py-3 px-6 rounded-xl transition-colors"
-        >
+        <button onClick={handleNext} className="jolingo-btn tap-feedback" style={{ fontFamily: 'inherit' }}>
           {currentExercise < exercises.length - 1 ? 'Próximo' : 'Finalizar'}
         </button>
       )}
