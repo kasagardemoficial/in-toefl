@@ -11,19 +11,19 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "In-TOEFL — Do Zero ao TOEFL",
+  title: "U-Fluent — Do Zero à Aprovação no TOEFL",
   description: "O app que leva do zero absoluto em inglês até passar no TOEFL. Para universitários brasileiros. 100% gratuito.",
   manifest: "/manifest.json",
   openGraph: {
-    title: "In-TOEFL — Do Zero ao TOEFL",
+    title: "U-Fluent — Do Zero à Aprovação no TOEFL",
     description: "3.000+ exercícios + 963 questões TOEFL. Teste adaptativo. Método Kumon. Em português. De graça.",
     type: "website",
-    siteName: "In-TOEFL",
+    siteName: "U-Fluent",
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "In-TOEFL",
+    title: "U-Fluent",
   },
   icons: {
     apple: "/apple-touch-icon.png",

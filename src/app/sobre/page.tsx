@@ -8,7 +8,7 @@ export default function SobrePage() {
       {/* Hero */}
       <div style={{ textAlign: 'center', padding: '48px 24px 32px' }}>
         <img src="/mascot/main.png" alt="Mascot" style={{ width: '120px', height: '120px', objectFit: 'contain', margin: '0 auto 8px' }} />
-        <h1 style={{ fontSize: '2rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>In-TOEFL</h1>
+        <h1 style={{ fontSize: '2rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>U-Fluent</h1>
         <p style={{ fontSize: '1.1rem', color: '#1A1A1A', fontWeight: 700, marginBottom: '8px' }}>Do Zero ao TOEFL</p>
         <p style={{ color: '#999', maxWidth: '340px', margin: '0 auto 24px', lineHeight: 1.6, fontSize: '0.85rem' }}>
           Aprenda inglês do zero e passe no TOEFL. 100% em português. 100% gratuito.
@@ -35,13 +35,13 @@ export default function SobrePage() {
 
       {/* Comparison */}
       <div style={{ padding: '0 24px', maxWidth: '500px', margin: '0 auto 32px' }}>
-        <h2 style={{ fontSize: '1.2rem', fontWeight: 800, textAlign: 'center', marginBottom: '16px' }}>Por que escolher o In-TOEFL?</h2>
+        <h2 style={{ fontSize: '1.2rem', fontWeight: 800, textAlign: 'center', marginBottom: '16px' }}>Por que escolher o U-Fluent?</h2>
         <div style={{ borderRadius: '16px', overflow: 'hidden', border: '2px solid #E8E8E8', borderBottom: '4px solid #E8E8E8' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.75rem' }}>
             <thead>
               <tr style={{ background: '#F0F7EA' }}>
                 <th style={{ padding: '10px 8px', textAlign: 'left', fontWeight: 700, color: '#6B9A4B' }}>Recurso</th>
-                <th style={{ padding: '10px 8px', textAlign: 'center', fontWeight: 800, color: '#8CB369' }}>In-TOEFL</th>
+                <th style={{ padding: '10px 8px', textAlign: 'center', fontWeight: 800, color: '#8CB369' }}>U-Fluent</th>
                 <th style={{ padding: '10px 8px', textAlign: 'center', color: '#999' }}>Duolingo</th>
                 <th style={{ padding: '10px 8px', textAlign: 'center', color: '#999' }}>Magoosh</th>
               </tr>
@@ -143,7 +143,7 @@ export default function SobrePage() {
         <p style={{ fontSize: '0.65rem', color: '#999', margin: '0 0 4px' }}>
           TOEFL® é marca registrada do ETS. Este app não é afiliado ao ETS.
         </p>
-        <p style={{ fontSize: '0.6rem', color: '#CCC', margin: 0 }}>© 2026 In-TOEFL. Todos os direitos reservados.</p>
+        <p style={{ fontSize: '0.6rem', color: '#CCC', margin: 0 }}>© 2026 U-Fluent. Todos os direitos reservados.</p>
       </div>
     </div>
   )

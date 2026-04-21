@@ -1,4 +1,4 @@
-// Badge system for In-TOEFL
+// Badge system for U-Fluent
 const BADGES_KEY = 'intoefl_badges'
 
 export interface Badge {

@@ -33,7 +33,7 @@ export async function generateShareImage(data: {
   ctx.fillStyle = '#8CB369'
   ctx.font = 'bold 64px Nunito, sans-serif'
   ctx.textAlign = 'center'
-  ctx.fillText('In-TOEFL', 540, 200)
+  ctx.fillText('U-Fluent', 540, 200)
 
   ctx.fillStyle = '#999999'
   ctx.font = '32px Nunito, sans-serif'
@@ -115,7 +115,7 @@ export async function generateShareImage(data: {
   roundRect(ctx, 240, 1440, 600, 80, 40)
   ctx.fillStyle = '#FFFFFF'
   ctx.font = 'bold 32px Nunito, sans-serif'
-  ctx.fillText('Baixe grátis: In-TOEFL', 540, 1492)
+  ctx.fillText('Baixe grátis: U-Fluent', 540, 1492)
 
   // Footer
   ctx.fillStyle = '#CCCCCC'
@@ -140,8 +140,8 @@ export async function shareProgress(data: Parameters<typeof generateShareImage>[
   // Try native share (mobile)
   if (navigator.share && navigator.canShare({ files: [file] })) {
     await navigator.share({
-      title: 'Meu progresso no In-TOEFL',
-      text: `Estou com nota TOEFL estimada de ${data.toeflScore}/120! 🚀 Aprenda inglês do zero: In-TOEFL`,
+      title: 'Meu progresso no U-Fluent',
+      text: `Estou com nota TOEFL estimada de ${data.toeflScore}/120! 🚀 Aprenda inglês do zero: U-Fluent`,
       files: [file],
     })
   } else {

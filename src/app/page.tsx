@@ -59,7 +59,7 @@ export default function Home() {
 
   if (!progress) return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-      <img src="/mascot/main.png" alt="In-TOEFL" style={{ width: '80px', height: '80px', objectFit: 'contain' }} className="streak-fire" />
+      <img src="/mascot/main.png" alt="U-Fluent" style={{ width: '80px', height: '80px', objectFit: 'contain' }} className="streak-fire" />
     </div>
   )
 
@@ -73,8 +73,8 @@ export default function Home() {
       </div>
 
       <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-        <img src="/mascot/main.png" alt="In-TOEFL" style={{ width: '100px', height: '100px', objectFit: 'contain', margin: '0 auto 8px' }} />
-        <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>Bem-vindo ao In-TOEFL!</h1>
+        <img src="/mascot/main.png" alt="U-Fluent" style={{ width: '100px', height: '100px', objectFit: 'contain', margin: '0 auto 8px' }} />
+        <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#8CB369', marginBottom: '4px' }}>Bem-vindo ao U-Fluent!</h1>
         <p style={{ color: '#999', fontSize: '0.85rem' }}>O que você quer fazer primeiro?</p>
       </div>
 

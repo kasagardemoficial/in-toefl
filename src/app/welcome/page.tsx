@@ -52,7 +52,7 @@ export default function WelcomePage() {
         {/* Mascot — big, emotional */}
         <img
           src="/mascot/main.png"
-          alt="In-TOEFL Mascot"
+          alt="U-Fluent Mascot"
           className="confetti-burst"
           style={{ width: '200px', height: '200px', objectFit: 'contain', marginBottom: '16px' }}
         />

@@ -1,4 +1,4 @@
-// Push notification system for In-TOEFL
+// Push notification system for U-Fluent
 const NOTIFICATION_KEY = 'intoefl_notification_settings'
 
 export interface NotificationSettings {

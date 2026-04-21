@@ -103,7 +103,7 @@ export default function SettingsPage() {
         <button onClick={() => router.push('/sobre')} className="jolingo-option tap-feedback" style={{ width: '100%', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '1.2rem' }}>ℹ️</span>
           <div>
-            <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Sobre o In-TOEFL</p>
+            <p style={{ fontWeight: 700, fontSize: '0.85rem', margin: 0 }}>Sobre o U-Fluent</p>
             <p style={{ fontSize: '0.65rem', color: '#999', margin: 0 }}>Versão 1.0 · 100% gratuito</p>
           </div>
         </button>
